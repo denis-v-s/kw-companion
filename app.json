@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "kw-companion",
+    "description": "This project is really great.",
+    "slug": "kw-companion",
+    "privacy": "public",
+    "sdkVersion": "29.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/app_icon.png",
+    "splash": {
+      "image": "./assets/app_splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0b0418"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.haosmark.kwcompanion"
+    }
+  }
+}
