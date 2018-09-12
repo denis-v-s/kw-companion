@@ -13,8 +13,8 @@ class PlayerList extends React.Component {
 
   render() {
     return (
-      <View>
-        <List style={{ marginTop: 20 }}>
+      <View style={{marginTop: -10}}>
+        <List>
           <FlatList
             data={this.props.playerList}
             renderItem={this.renderItem}

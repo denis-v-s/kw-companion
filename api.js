@@ -46,7 +46,8 @@ const parsePlayers = (user) => {
     name,
     room: '',
     roomPlayerCount: 0,
-    status: IN_LOBBY
+    status: IN_LOBBY,
+    visible: true // used for player list filtering
   }
 }
 

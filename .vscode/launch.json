@@ -14,8 +14,8 @@
       "sourceMaps": true,
       "outDir": "${workspaceRoot}/.vscode/.react",
       "skipFiles": [
-        "/node_modules/",
-        "debuggerWorker.js"
+        "<node_internals>/**/*.js",
+        "C:/Users/Denis/Documents/Projects/kw-companion/node_modules/**/*.js"
       ]
     },
     {
