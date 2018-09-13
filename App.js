@@ -6,11 +6,35 @@ import store from './redux/store';
 
 import AppNavigator from './AppNavigator';
 
+import { StyleProvider } from 'native-base';
+import getTheme from './native-base-theme/components';
+import nodTheme from './native-base-theme/variables/nodTheme';
+
+import Expo from 'expo'
+
 export default class App extends React.Component {
+
+  state = {
+    loading: true
+  }
+
+  async componentWillMount() {
+    await Expo.Font.loadAsync({
+      'Roboto': require('native-base/Fonts/Roboto.ttf'),
+      'Roboto_medium': require('native-base/Fonts/Roboto_medium.ttf'),
+    });
+    this.setState({ loading: false });
+  }
+  
   render() {
+    if (this.state.loading === true) {
+      return <Expo.AppLoading />
+    }
     return (
       <Provider store={store}>
-        <AppNavigator style={styles.container} />
+        <StyleProvider style={getTheme(nodTheme)}>
+          <AppNavigator style={styles.container} />
+        </StyleProvider>
       </Provider>
     );
   }
