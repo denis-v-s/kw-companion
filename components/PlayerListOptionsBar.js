@@ -4,16 +4,17 @@ import {
   StyleSheet
 } from "react-native";
 import { Button, Segment, Text } from 'native-base'
-import { COLORS, IN_GAME, IN_ROOM, IN_LOBBY } from '../constants'
+import { IN_GAME, IN_ROOM, IN_LOBBY } from '../constants'
 
 class PlayerListOptionsBar extends Component {
   state = {
-    activeSwitch: null,
-    isAllActive: true,
-    isInLobbyActive: false,
-    isInRoomActive: false,
-    isInGameActive: false
+    activeSwitch: null
   }
+
+  componentDidMount() {
+    this.setState({ activeSwitch: this.props.activeSwitch })
+  }
+
   filterPlayerList = (filterType, playerList) => {
     this.setState({ activeSwitch: filterType })
     this.props.handleFiltering(filterType, playerList)
@@ -26,7 +27,7 @@ class PlayerListOptionsBar extends Component {
       <View style={styles.container}>
         <Segment style={{ backgroundColor: 'transparent', marginLeft: 15 }}>
 
-          <Button first active={activeSwitch === null}
+          <Button first active={activeSwitch == null}
             onPress={() => this.filterPlayerList(null, playerList)}>
             <Text style={styles.buttonText}>
               ALL

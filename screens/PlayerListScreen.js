@@ -113,6 +113,7 @@ class PlayerListScreen extends React.Component {
         {
           this.state.showOptionsBar &&
           <PlayerListOptionsBar
+            activeSwitch={this.props.activeFilter}
             handleFiltering={this.props.filterPlayers}
             playerList={this.props.playerList} />
         }
