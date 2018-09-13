@@ -15,11 +15,10 @@ import { connect } from 'react-redux'
 class PlayerListScreen extends React.Component {
   static navigationOptions = ({ navigation }) => {
     const optionsIcon = (
-      <TouchableOpacity onPress={() => navigation.getParam('toggleOptionsBar')()}>
+      <TouchableOpacity onPress={() => navigation.getParam('toggleOptionsBar')()} style={{ paddingHorizontal: 20 }}>
         <Ionicons
           name='md-more'
-          size={25}
-          style={{ marginRight: 20 }} />
+          size={25} />
       </TouchableOpacity>
     )
 
@@ -30,7 +29,7 @@ class PlayerListScreen extends React.Component {
   }
 
   state = {
-    showOptionsBar: false
+    showOptionsBar: true
   }
 
   toggleOptionsBar = () => {
@@ -39,12 +38,12 @@ class PlayerListScreen extends React.Component {
     })
   }
 
-  async componentDidMount() {
+  async componentWillMount() {
     await this.fetchPlayersAsync();
   }
 
   componentWillUpdate(prevProps) {
-    if (prevProps.playerListFilterType !== this.props.playerListFilterType) {
+    if (prevProps.activeFilter !== this.props.activeFilter) {
       if (this.props.playerList.length !== undefined) {
         this.getVisiblePlayers()
       }
@@ -61,15 +60,16 @@ class PlayerListScreen extends React.Component {
   // navigation header element
   // TODO: better title message showing counts for each focused filter
   headerButton = () => (
-      <NavigationHeaderTitle
-        handleDataRequest={this.fetchPlayersAsync}
-        titleMessage={ (this.props.fetchingData) 
+    <NavigationHeaderTitle
+      handleDataRequest={this.fetchPlayersAsync}
+      titleMessage={(this.props.fetchingData)
         ? 'fetching list of players'
-        : `${this.props.playerList.length} online` } />
-    )
+        : `${this.props.playerList.length} online`} />
+  )
 
   fetchPlayersAsync = async () => {
-    await this.props.fetchPlayerListAsync();
+    await this.props.fetchPlayerListAsync(this.props.activeFilter);
+    this.props.filterPlayers(this.props.activeFilter, this.props.playerList)
     this.getVisiblePlayers()
     this.setNavigationParams()
   }
@@ -129,7 +129,7 @@ const mapStateToProps = state => {
   return {
     fetchingData: state.player.fetchingData,
     playerList: state.player.playerList,
-    playerListFilterType: state.player.playerListFilterType,
+    activeFilter: state.player.activeFilter,
   }
 };
 

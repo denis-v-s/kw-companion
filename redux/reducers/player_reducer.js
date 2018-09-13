@@ -5,8 +5,7 @@ const INITIAL_STATE = {
   playerList: {},
   activeGames: {},
   stagingRooms: {},
-  playerListFilterType: null,
-  showPlayerScreenOptionsBar: false
+  activeFitler: null
 };
 
 const playerReducer = (state = INITIAL_STATE, action) => {
@@ -20,9 +19,8 @@ const playerReducer = (state = INITIAL_STATE, action) => {
 
     // the a complete list of players
     case actionTypes.FETCH_PLAYERS: {
-      const playerList = Object.values(action.payload)
-
-      return { playerList, fetchingData: false }
+      const playerList = Object.values(action.playerList)
+      return { playerList, fetchingData: false, activeFilter: action.activeFilter }
     }
 
     // PLAYER LIST FILTERS
@@ -37,14 +35,8 @@ const playerReducer = (state = INITIAL_STATE, action) => {
 
       return {
         playerList: action.playerList,
-        playerListFilterType: action.filterType,
+        activeFilter: action.filterType,
         fetchingData: false
-      }
-    }
-
-    case actionTypes.TOGGLE_PLAYER_SCREEN_OPTIONS: {
-      return {
-        showPlayerScreenOptionsBar: true
       }
     }
 
