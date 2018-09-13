@@ -1,84 +1,56 @@
 import React, { Component } from "react";
 import {
   View,
-  Text,
   StyleSheet
 } from "react-native";
-import { Button, Segment } from 'native-base'
+import { Button, Segment, Text } from 'native-base'
 import { COLORS, IN_GAME, IN_ROOM, IN_LOBBY } from '../constants'
 
 class PlayerListOptionsBar extends Component {
   state = {
+    activeSwitch: null,
     isAllActive: true,
     isInLobbyActive: false,
     isInRoomActive: false,
     isInGameActive: false
   }
   filterPlayerList = (filterType, playerList) => {
-    let switches = {
-      isAllActive: false,
-      isInLobbyActive: false,
-      isInRoomActive: false,
-      isInGameActive: false
-    }
-
-    switch (filterType) {
-      case null: {
-        switches.isAllActive = true
-        break
-      }
-      case IN_LOBBY: {
-        switches.isInLobbyActive = true
-        break
-      }
-      case IN_ROOM: {
-        switches.isInRoomActive = true
-        break
-      }
-      case IN_GAME: {
-        switches.isInGameActive = true
-        break
-      }
-    }
-
-    this.setState({ ...switches })
+    this.setState({ activeSwitch: filterType })
     this.props.handleFiltering(filterType, playerList)
   }
 
   render() {
     let playerList = this.props.playerList
-    const switches = this.state
+    let activeSwitch = this.state.activeSwitch
     return (
       <View style={styles.container}>
         <Segment style={{ backgroundColor: 'transparent', marginLeft: 15 }}>
 
-          <Button first active={switches.isAllActive}
-            onPress={() => this.filterPlayerList(null, playerList)}
-            style={(this.state.isAllActive) ? styles.activeButton : styles.inactiveButton}>
-            <Text style={(this.state.isAllActive) ? styles.activeButtonText : styles.inactiveButtonText}>
-              All
+          <Button first active={activeSwitch === null}
+            onPress={() => this.filterPlayerList(null, playerList)}>
+            <Text style={styles.buttonText}>
+              ALL
             </Text>
           </Button>
 
-          <Button active={switches.isInLobbyActive}
-            onPress={() => this.filterPlayerList(IN_LOBBY, playerList)}
-            style={(this.state.isInLobbyActive) ? styles.activeButton : styles.inactiveButton}>
-            <Text style={(this.state.isInLobbyActive) ? styles.activeButtonText : styles.inactiveButtonText}>
-              in lobby
+          <Button active={activeSwitch === IN_LOBBY}
+            onPress={() => this.filterPlayerList(IN_LOBBY, playerList)}>
+            <Text style={styles.buttonText}>
+              IN LOBBY
             </Text>
           </Button>
-          <Button active={switches.isInRoomActive}
-            onPress={() => this.filterPlayerList(IN_ROOM, playerList)}
-            style={(this.state.isInRoomActive) ? styles.activeButton : styles.inactiveButton}>
-            <Text style={(this.state.isInRoomActive) ? styles.activeButtonText : styles.inactiveButtonText}>
-              in room
+
+          <Button active={activeSwitch === IN_ROOM}
+            onPress={() => this.filterPlayerList(IN_ROOM, playerList)}>
+            <Text style={styles.buttonText}>
+              IN ROOM
             </Text>
           </Button>
-          <Button last active={switches.isInGameActive}
-            onPress={() => this.filterPlayerList(IN_GAME, playerList)}
-            style={(this.state.isInGameActive) ? styles.activeButton : styles.inactiveButton}>
-            <Text style={(this.state.isInGameActive) ? styles.activeButtonText : styles.inactiveButtonText}>
-              in game
+
+          <Button last active={activeSwitch === IN_GAME}
+            onPress={() => this.filterPlayerList(IN_GAME, playerList)}>
+            <Text style={styles.buttonText}>
+              IN GAME
             </Text>
           </Button>
 
@@ -94,20 +66,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     marginTop: 10
   },
-  activeButton: {
-    backgroundColor: COLORS.primary,
-    borderColor: COLORS.primary,
-    padding: 15
-  },
-  inactiveButton: {
-    backgroundColor: 'transparent',
-    borderColor: '#ccc',
-    padding: 15
-  },
-  activeButtonText: {
-    color: 'white'
-  },
-  inactiveButtonText: {
-    color: global.inactiveTextColor
+  buttonText: {
+    paddingHorizontal: 15
   }
 });
