@@ -62,7 +62,7 @@ const TabNavigator = createMaterialTopTabNavigator({
     }
   }
 }, {
-    initialRouteName: 'StagingGamesTab',
+    initialRouteName: 'PlayersTab',
     tabBarPosition: 'bottom',
     swipeEnabled: true,
     tabBarOptions: {
