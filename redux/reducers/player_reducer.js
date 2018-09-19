@@ -1,11 +1,14 @@
 import * as actionTypes from '../actions/types';
+import { WebBrowser } from 'expo';
 
 const INITIAL_STATE = {
   fetchingData: false,
   playerList: {},
   activeGames: {},
   stagingRooms: {},
-  activeFitler: null
+  activeFitler: null,
+  showPlayerModal: false,
+  showPlayerListOptionsBar: false
 };
 
 const playerReducer = (state = INITIAL_STATE, action) => {
@@ -32,7 +35,6 @@ const playerReducer = (state = INITIAL_STATE, action) => {
             : player.visible = false
         }
       )
-
       return {
         playerList: action.playerList,
         activeFilter: action.filterType,
