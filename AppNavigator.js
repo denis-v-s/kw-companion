@@ -3,7 +3,9 @@ import {
   createStackNavigator,
   createSwitchNavigator,
   createMaterialTopTabNavigator,
+  createDrawerNavigator
 } from 'react-navigation';
+import { TouchableOpacity } from 'react-native'
 
 import { ACTIVE_MATCH, STAGING_ROOM } from './constants'
 
@@ -16,13 +18,35 @@ import { FontAwesome, MaterialCommunityIcons } from '@expo/vector-icons'
 // import Ionicons from './node_modules/@expo/vector-icons/fonts/Ionicons.ttf';
 
 const PlayerNavigator = createStackNavigator({
-  PlayerListScreen
+  PlayerListScreen: {
+    screen: PlayerListScreen,
+    navigationOptions: ({ navigation }) => ({
+      headerLeft: (
+        <TouchableOpacity
+          onPress={() => navigation.toggleDrawer()}
+          style={{ paddingHorizontal: 10 }}>
+          <MaterialCommunityIcons name='menu' size={25} />
+        </TouchableOpacity>
+      )
+    })
+  }
 }, {
     headerLayoutPreset: 'center'
   });
 
 const StagingGamesNavigator = createStackNavigator({
-  RoomListScreen,
+  RoomListScreen: {
+    screen: RoomListScreen,
+    navigationOptions: ({ navigation }) => ({
+      headerLeft: (
+        <TouchableOpacity
+          onPress={() => navigation.toggleDrawer()}
+          style={{ paddingHorizontal: 10 }}>
+          <MaterialCommunityIcons name='menu' size={25} />
+        </TouchableOpacity>
+      )
+    })
+  }
 }, {
     initialRouteParams: {
       roomType: STAGING_ROOM
@@ -31,7 +55,18 @@ const StagingGamesNavigator = createStackNavigator({
   });
 
 const GamesInProgressNavigator = createStackNavigator({
-  RoomListScreen,
+  RoomListScreen: {
+    screen: RoomListScreen,
+    navigationOptions: ({ navigation }) => ({
+      headerLeft: (
+        <TouchableOpacity
+          onPress={() => navigation.toggleDrawer()}
+          style={{ paddingHorizontal: 10 }}>
+          <MaterialCommunityIcons name='menu' size={25} />
+        </TouchableOpacity>
+      )
+    })
+  }
 }, {
     initialRouteParams: {
       roomType: ACTIVE_MATCH
@@ -84,6 +119,6 @@ const TabNavigator = createMaterialTopTabNavigator({
   });
 
 // main navigator that houses sub-navigators
-export default createSwitchNavigator({
-  TabNavigator,
+export default createDrawerNavigator({
+  Home: TabNavigator,
 });
