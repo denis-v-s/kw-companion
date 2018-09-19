@@ -38,6 +38,10 @@ class RoomListScreen extends React.Component {
     this.fetchRoomsAsync(this.props.navigation.getParam('roomType'))
   }
 
+  componentWillMount() {
+    
+  }
+
   fetchRoomsAsync = async(roomType) => {
     await this.props.fetchRoomsAsync(roomType)
     this.roomList = Object.values(this.props.roomList)
