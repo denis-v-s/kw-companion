@@ -4,7 +4,7 @@
   // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
-    
+
     {
       "name": "Debug in Exponent",
       "program": "${workspaceRoot}/.vscode/launchReactNative.js",
@@ -15,7 +15,8 @@
       "outDir": "${workspaceRoot}/.vscode/.react",
       "skipFiles": [
         "<node_internals>/**/*.js",
-        "C:/Users/Denis/Documents/Projects/kw-companion/node_modules/**/*.js"
+        "${workspaceFolder}/.vscode/**/*.js",
+        "${workspaceFolder}/node_modules/**/*.js"
       ]
     },
     {
