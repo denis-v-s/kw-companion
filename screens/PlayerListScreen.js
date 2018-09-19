@@ -1,16 +1,18 @@
 import React from 'react'
 import { View, Text, TouchableOpacity } from 'react-native'
 import PlayerList from '../components/PlayerList'
+import PlayerPressModal from '../components/Modals/PlayerPressModal'
 import { fetchPlayerListAsync, filterPlayers } from '../redux/actions/player_actions';
+import { togglePLOptionsBar } from '../redux/actions/app_actions';
 
-import NavigationHeaderTitle from '../components/NavigationHeaderTitle'
-import PlayerListOptionsBar from '../components/PlayerListOptionsBar'
+import NavigationHeaderTitle from '../components/NavigationHeaderTitle';
+import PlayerListOptionsBar from '../components/PlayerListOptionsBar';
 
-import { IN_GAME, IN_ROOM, IN_LOBBY } from '../constants'
+import { IN_GAME, IN_ROOM, IN_LOBBY } from '../constants';
 
-import { Ionicons } from '@expo/vector-icons'
+import { Ionicons } from '@expo/vector-icons';
 
-import { connect } from 'react-redux'
+import { connect } from 'react-redux';
 
 class PlayerListScreen extends React.Component {
   static navigationOptions = ({ navigation }) => {
@@ -29,7 +31,7 @@ class PlayerListScreen extends React.Component {
   }
 
   state = {
-    showOptionsBar: true
+    showOptionsBar: true,
   }
 
   toggleOptionsBar = () => {
@@ -53,7 +55,7 @@ class PlayerListScreen extends React.Component {
   setNavigationParams = () => {
     this.props.navigation.setParams({
       headerButton: this.headerButton,
-      toggleOptionsBar: this.toggleOptionsBar
+      toggleOptionsBar: this.props.togglePLOptionsBar
     })
   }
 
@@ -110,8 +112,9 @@ class PlayerListScreen extends React.Component {
   render() {
     return (
       <View>
+        <PlayerPressModal />
         {
-          this.state.showOptionsBar &&
+          this.props.showOptionsBar &&
           <PlayerListOptionsBar
             activeSwitch={this.props.activeFilter}
             handleFiltering={this.props.filterPlayers}
@@ -131,7 +134,13 @@ const mapStateToProps = state => {
     fetchingData: state.player.fetchingData,
     playerList: state.player.playerList,
     activeFilter: state.player.activeFilter,
+    showPlayerModal: state.app.showPlayerModal,
+    showOptionsBar: state.app.showPlayerListOptionsBar
   }
 };
 
-export default connect(mapStateToProps, { fetchPlayerListAsync, filterPlayers })(PlayerListScreen)
+export default connect(mapStateToProps, {
+  fetchPlayerListAsync,
+  filterPlayers,
+  togglePLOptionsBar
+})(PlayerListScreen)
