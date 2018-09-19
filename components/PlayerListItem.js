@@ -1,14 +1,12 @@
 import React from 'react';
 import { ListItem } from 'react-native-elements';
 import { IN_GAME, IN_ROOM, IN_LOBBY } from '../constants';
-import { WebBrowser } from 'expo'
+import { togglePLSelectedItemModal } from '../redux/actions/app_actions'
+
+import { connect } from 'react-redux';
 
 class PlayerListItem extends React.Component {
   playerStatus = '';
-
-  handleProfileView = async () => {
-    await WebBrowser.openBrowserAsync('http://www.shatabrick.com/cco/kw/index.php?g=kw&a=sp&id=' + this.props.id)
-  }
 
   render() {
     switch (this.props.status) {
@@ -30,10 +28,15 @@ class PlayerListItem extends React.Component {
         key={this.props.id}
         title={this.props.name}
         subtitle={this.playerStatus}
-        onPress={this.handleProfileView}
+        onPress={() => this.props.togglePLSelectedItemModal(this.props.id, this.props.name)}
       />
     );
   }
 }
 
-export default PlayerListItem;
+const mapStateToProps = state => {
+  return {
+    showPlayerModal: state.player.showPlayerModal
+  }
+}
+export default connect(mapStateToProps, { togglePLSelectedItemModal })(PlayerListItem);
