@@ -7,7 +7,12 @@ export const IN_ROOM = 'IN_ROOM'
 export const ACTIVE_MATCH = 'ACTIVE_MATCH'
 export const STAGING_ROOM = 'STAGING_ROOM'
 
-export const COLORS = {
-  primary: '#a41034',
-  secondary: '#705ac4',
+export const THEME = {
+  background: {
+    primary: '#a41034',
+    secondary: '#705ac4',
+  },
+  text: {
+    active: 'white'
+  }
 }
