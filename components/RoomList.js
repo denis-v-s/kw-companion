@@ -7,15 +7,15 @@ class RoomList extends React.Component {
     await this.props.handleDataRequest(this.props.roomType)
   }
 
-  renderItem = ({ item }) => ( <RoomListItem {...item} />);
+  renderItem = ({ item }) => ( <RoomListItem {...item} onCardPress={this.props.onCardPress} />);
 
   render() {
     return (
       <View>
-        <FlatList 
-          data={this.props.roomList} 
-          renderItem={this.renderItem} 
-          keyExtractor={item => item.id.toString()} 
+        <FlatList
+          data={this.props.roomList}
+          renderItem={this.renderItem}
+          keyExtractor={item => item.id.toString()}
           refreshing={this.props.fetchingData}
           refreshControl={<RefreshControl refreshing={this.props.fetchingData} />}
           onRefresh={() => this.onRefresh()}
