@@ -4,7 +4,8 @@ const INITIAL_STATE = {
   showPlayerModal: false,
   showPlayerListOptionsBar: false,
   selectedPlayerName: null,
-  selectedPlayerId: null
+  selectedPlayerId: null,
+  selectedRoomId: null
 };
 
 const appReducer = (state = INITIAL_STATE, action) => {
@@ -28,6 +29,13 @@ const appReducer = (state = INITIAL_STATE, action) => {
     case actionTypes.VIEW_SHATABRICK: {
       return {
         ...state
+      }
+    }
+
+    case actionTypes.SELECT_ROOM: {
+      return {
+        ...state,
+        selectedRoomId: action.roomId
       }
     }
 

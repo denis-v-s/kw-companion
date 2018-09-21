@@ -22,3 +22,8 @@ export const openShatabrick = (playerId) => async dispatch => {
   await WebBrowser.openBrowserAsync('http://www.shatabrick.com/cco/kw/index.php?g=kw&a=sp&id=' + playerId);
   return dispatch({ type: actionTypes.VIEW_SHATABRICK });
 }
+
+// navigate to room details
+export const showRoomDetail = (roomId = null) => dispatch => {
+  return dispatch({ type: actionTypes.SELECT_ROOM, roomId })
+}
