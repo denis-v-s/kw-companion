@@ -1,21 +1,14 @@
 import React from 'react';
-import {
-  createStackNavigator,
-  createSwitchNavigator,
-  createMaterialTopTabNavigator,
-  createDrawerNavigator
-} from 'react-navigation';
-import { TouchableOpacity } from 'react-native'
+import { createStackNavigator, createMaterialTopTabNavigator, createDrawerNavigator } from 'react-navigation';
+import { TouchableOpacity } from 'react-native';
 
-import { ACTIVE_MATCH, STAGING_ROOM } from './constants'
+import { ACTIVE_MATCH, STAGING_ROOM } from './constants';
 
 import RoomListScreen from './screens/RoomListScreen';
 import PlayerListScreen from './screens/PlayerListScreen';
+import RoomDetailScreen from './screens/RoomDetailScreen';
 
 import { FontAwesome, MaterialCommunityIcons } from '@expo/vector-icons'
-// import FontAwesome from './node_modules/@expo/vector-icons/fonts/FontAwesome.ttf';
-// import MaterialCommunityIcons from './node_modules/@expo/vector-icons/fonts/MaterialCommunityIcons.ttf';
-// import Ionicons from './node_modules/@expo/vector-icons/fonts/Ionicons.ttf';
 
 const PlayerNavigator = createStackNavigator({
   PlayerListScreen: {
@@ -46,6 +39,9 @@ const StagingGamesNavigator = createStackNavigator({
         </TouchableOpacity>
       )
     })
+  },
+  RoomDetailScreen: {
+    screen: RoomDetailScreen
   }
 }, {
     initialRouteParams: {
@@ -66,6 +62,9 @@ const GamesInProgressNavigator = createStackNavigator({
         </TouchableOpacity>
       )
     })
+  },
+  RoomDetailScreen: {
+    screen: RoomDetailScreen
   }
 }, {
     initialRouteParams: {
@@ -97,7 +96,7 @@ const TabNavigator = createMaterialTopTabNavigator({
     }
   }
 }, {
-    initialRouteName: 'PlayersTab',
+    initialRouteName: 'StagingGamesTab',
     tabBarPosition: 'bottom',
     swipeEnabled: true,
     tabBarOptions: {
