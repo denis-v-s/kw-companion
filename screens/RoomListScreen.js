@@ -35,32 +35,37 @@ class RoomListScreen extends React.Component {
   roomList = []
 
   async componentDidMount() {
-    this.fetchRoomsAsync(this.props.navigation.getParam('roomType'))
+    this.fetchRoomsAsync(this.props.navigation.getParam('roomType'));
   }
 
   componentWillMount() {
-    
+
   }
 
   fetchRoomsAsync = async(roomType) => {
     await this.props.fetchRoomsAsync(roomType)
     this.roomList = Object.values(this.props.roomList)
-    
-    this.props.navigation.setParams({ 
+
+    this.props.navigation.setParams({
       roomCount: this.roomList.length,
       fetchingData: this.props.fetchingData,
       fetchRoomsAsync: this.fetchRoomsAsync
     })
   }
 
+  navigateToRoomDetail = (selectedRoomId) => {
+    this.props.navigation.navigate('RoomDetailScreen',  { selectedRoomId });
+  }
+
   render() {
     return (
       <View>
-        <RoomList 
-          roomList={this.roomList} 
-          fetchingData={this.props.fetchingData} 
-          roomType={this.props.navigation.getParam('roomType')} 
-          handleDataRequest={this.fetchRoomsAsync} 
+        <RoomList
+          roomList={this.roomList}
+          fetchingData={this.props.fetchingData}
+          roomType={this.props.navigation.getParam('roomType')}
+          onCardPress={this.navigateToRoomDetail}
+          handleDataRequest={this.fetchRoomsAsync}
         />
       </View>
     )
@@ -69,7 +74,8 @@ class RoomListScreen extends React.Component {
 
 const mapStateToProps = state => ({
   fetchingData: state.room.fetchingData,
-  roomList: state.room.roomList
+  roomList: state.room.roomList,
+  selectedRoomId: state.app.selectedRoomId
 })
 
 export default connect(mapStateToProps, { fetchRoomsAsync })(RoomListScreen)
