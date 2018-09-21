@@ -2,3 +2,5 @@ node_modules/**/*
 .expo/*
 npm-debug.*
 .vscode/*
+a/.expo/packager-info.json
+a/.expo/settings.json
