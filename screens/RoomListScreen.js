@@ -1,8 +1,8 @@
 import React from 'react'
 import { View, RefreshControl } from 'react-native'
 import RoomList from '../components/RoomList'
-import { fetchRoomsAsync } from '../redux/actions/room_actions'
-import { STAGING_ROOM } from '../constants'
+import { fetchRoomsAsync, getRoomDataByRoomId } from '../redux/actions/room_actions'
+import { STAGING_ROOM, ACTIVE_MATCH } from '../constants'
 
 import NavigationHeaderTitle from '../components/NavigationHeaderTitle'
 
@@ -31,30 +31,36 @@ class RoomListScreen extends React.Component {
     }
   }
 
-  // array of room objects
-  roomList = []
-
-  async componentDidMount() {
-    this.fetchRoomsAsync(this.props.navigation.getParam('roomType'));
+  async componentWillMount() {
+    this.fetchRoomsAsync();
   }
+  // componentDidMount() {
+  //   this.refreshingSubscription = this.props.navigation.addListener('willFocus', () => {
+  //     this.refreshing = this.props.fetchingData;
+  //   });
+  // }
+  // componentWillUnmount() {
+  //   this.refreshingSubscription.remove();
+  // }
 
-  componentWillMount() {
+  fetchRoomsAsync = async () => {
+    await this.props.fetchRoomsAsync();
 
-  }
-
-  fetchRoomsAsync = async(roomType) => {
-    await this.props.fetchRoomsAsync(roomType)
-    this.roomList = Object.values(this.props.roomList)
+    let roomType = this.props.navigation.getParam('roomType');
+    this.roomList = (roomType === ACTIVE_MATCH)
+      ? Object.values(this.props.activeGames)
+      : Object.values(this.props.stagingRooms);
 
     this.props.navigation.setParams({
       roomCount: this.roomList.length,
       fetchingData: this.props.fetchingData,
       fetchRoomsAsync: this.fetchRoomsAsync
-    })
+    });
   }
 
-  navigateToRoomDetail = (selectedRoomId) => {
-    this.props.navigation.navigate('RoomDetailScreen',  { selectedRoomId });
+  navigateToRoomDetail = () => {
+    //this.props.getRoomDataByRoomId(this.props.selectedRoomId);
+    this.props.navigation.navigate('RoomDetailScreen');
   }
 
   render() {
@@ -62,7 +68,6 @@ class RoomListScreen extends React.Component {
       <View>
         <RoomList
           roomList={this.roomList}
-          fetchingData={this.props.fetchingData}
           roomType={this.props.navigation.getParam('roomType')}
           onCardPress={this.navigateToRoomDetail}
           handleDataRequest={this.fetchRoomsAsync}
@@ -74,8 +79,9 @@ class RoomListScreen extends React.Component {
 
 const mapStateToProps = state => ({
   fetchingData: state.room.fetchingData,
-  roomList: state.room.roomList,
+  activeGames: state.room.activeGames,
+  stagingRooms: state.room.stagingRooms,
   selectedRoomId: state.app.selectedRoomId
 })
 
-export default connect(mapStateToProps, { fetchRoomsAsync })(RoomListScreen)
+export default connect(mapStateToProps, { fetchRoomsAsync, getRoomDataByRoomId })(RoomListScreen)
