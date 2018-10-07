@@ -3,11 +3,13 @@ export const mapData = {
     map: 'alpine valleys',
     players: 4,
     thumbnail: 'https://i.imgur.com/8Q39rlJ.png',
+    R13: true
   },
   'arid remains': {
     map: 'arid remains',
     players: 4,
     thumbnail: 'https://i.imgur.com/49vRS0w.png',
+    R13: true
   },
   'armageddon mountains': {
     map: 'armageddon mountains',
@@ -28,16 +30,21 @@ export const mapData = {
     map: 'atacama eight',
     players: 8,
     thumbnail: 'https://i.imgur.com/W62UVB1.png',
+    spikes: 8,
+    R13: true
   },
   'atacama road': {
     map: 'atacama road',
     players: 2,
     thumbnail: 'https://i.imgur.com/27EpfXT.png',
+    spikes: 4,
+    R13: true
   },
   'backwater brawl': {
     map: 'backwater brawl',
     players: 4,
     thumbnail: 'https://i.imgur.com/tvOVV6Z.png',
+    R13: true
   },
   badlands: {
     map: 'badlands',
@@ -63,6 +70,7 @@ export const mapData = {
     map: 'battlebase beaverton',
     players: 2,
     thumbnail: 'https://i.imgur.com/rAi7siv.png',
+    R13: true
   },
   'blacks big battle': {
     map: 'blacks big battle',
@@ -83,6 +91,7 @@ export const mapData = {
     map: 'bordertown beatdown',
     players: 8,
     thumbnail: 'https://i.imgur.com/TfxUqMs.png',
+    R13: true
   },
   'coastline chaos': {
     map: 'coastline chaos',
@@ -93,11 +102,13 @@ export const mapData = {
     map: 'crater of carnage',
     players: 4,
     thumbnail: 'https://i.imgur.com/AmjuX3G.png',
+    R13: true
   },
   'crosstown conflict': {
     map: 'crosstown conflict',
     players: 4,
     thumbnail: 'https://i.imgur.com/eBuTlxE.png',
+    R13: true
   },
   'dark waters': {
     map: 'dark waters',
@@ -123,16 +134,20 @@ export const mapData = {
     map: 'desolation',
     players: 4,
     thumbnail: 'https://i.imgur.com/7ldoYDV.png',
+    R13: true
   },
   'dockside devastation': {
     map: 'dockside devastation',
     players: 4,
     thumbnail: 'https://i.imgur.com/jRYjRDi.png',
+    R13: true
   },
   'downtown dustbowl': {
     map: 'downtown dustbowl',
     players: 4,
     thumbnail: 'https://i.imgur.com/LDrqESK.png',
+    spikes: 0,
+    R13: true
   },
   'eastern promises': {
     map: 'eastern promises',
@@ -148,11 +163,13 @@ export const mapData = {
     map: 'end of the line',
     players: 4,
     thumbnail: 'https://i.imgur.com/bo4NeDf.png',
+    R13: true
   },
   'extraction plateau': {
     map: 'extraction plateau',
     players: 2,
     thumbnail: 'https://i.imgur.com/vZxsX4B.png',
+    R13: true
   },
   'forest arena': {
     map: 'forest arena',
@@ -163,11 +180,14 @@ export const mapData = {
     map: 'forgotten dunes',
     players: 4,
     thumbnail: 'https://i.imgur.com/88oxSzN.png',
+    spikes: 4
   },
   'forgotten forest': {
     map: 'forgotten forest',
     players: 4,
     thumbnail: 'https://i.imgur.com/r1UpSgY.png',
+    spikes: 4,
+    R13: true
   },
   'frontier fracas': {
     map: 'frontier fracas',
@@ -183,11 +203,13 @@ export const mapData = {
     map: 'golden hour',
     players: 2,
     thumbnail: 'https://i.imgur.com/3QZAWfF.png',
+    R13: true
   },
   'grasslands landgrab': {
     map: 'grasslands landgrab',
     players: 4,
     thumbnail: 'https://i.imgur.com/Ai4qhOc.png',
+    R13: true
   },
   'ground zero': {
     map: 'ground zero',
@@ -198,11 +220,13 @@ export const mapData = {
     map: 'heaven and hell',
     players: 4,
     thumbnail: 'https://i.imgur.com/oAwP9lR.png',
+    R13: true
   },
   'het platteland': {
     map: 'het platteland',
     players: 2,
     thumbnail: 'https://i.imgur.com/rxvaLdR.png',
+    R13: true
   },
   'hurricane lands': {
     map: 'hurricane lands',
@@ -213,6 +237,8 @@ export const mapData = {
     map: 'ice arena',
     players: 4,
     thumbnail: 'https://i.imgur.com/WMogagI.png',
+    spikes: 4,
+    R13: true
   },
   'infested coastline': {
     map: 'infested coastline',
@@ -243,31 +269,39 @@ export const mapData = {
     map: 'murderers row',
     players: 4,
     thumbnail: 'https://i.imgur.com/Dr1n6No.png',
+    R13: true
   },
   'nod gardens': {
     map: 'nod gardens',
     players: 8,
     thumbnail: 'https://i.imgur.com/icfQchh.png',
+    spikes: 12
   },
   'oasis onslaught': {
     map: 'oasis onslaught',
     players: 4,
     thumbnail: 'https://i.imgur.com/9Gkb9FC.png',
+    R13: true
   },
   'pipeline nightmares': {
     map: 'pipeline nightmares',
     players: 2,
     thumbnail: 'https://i.imgur.com/YlUiIjx.png',
+    spikes: 2
   },
   'pipeline problems': {
     map: 'pipeline problems',
     players: 2,
     thumbnail: 'https://i.imgur.com/17OV1XY.png',
+    spikes: 2,
+    R13: true
   },
   'redzone rampage': {
     map: 'redzone rampage',
     players: 4,
     thumbnail: 'https://i.imgur.com/fWybfGB.png',
+    spikes: 0,
+    R13: true
   },
   'riverside rubmle': {
     map: 'riverside rubmle',
@@ -298,16 +332,20 @@ export const mapData = {
     map: 'sick city',
     players: 2,
     thumbnail: 'https://i.imgur.com/SlcPf3O.png',
+    R13: true
   },
   'six shooter showdown': {
     map: 'six shooter showdown',
     players: 6,
     thumbnail: 'https://i.imgur.com/ExzjuDG.png',
+    spikes: 0
   },
   'small town usa': {
     map: 'small town usa',
     players: 2,
     thumbnail: 'https://i.imgur.com/BPghbOU.png',
+    spikes: 4,
+    R13: true
   },
   'smashed decision': {
     map: 'smashed decision',
@@ -323,6 +361,7 @@ export const mapData = {
     map: 'smashed town usa',
     players: 2,
     thumbnail: 'https://i.imgur.com/C1ZYivX.png',
+    spikes: 4
   },
   'split decision': {
     map: 'split decision',
@@ -333,6 +372,7 @@ export const mapData = {
     map: 'suburban arena',
     players: 4,
     thumbnail: 'https://i.imgur.com/xDiShB0.png',
+    R13: true
   },
   'suburban slaughterhouse': {
     map: 'suburban slaughterhouse',
@@ -343,11 +383,14 @@ export const mapData = {
     map: 'the bfme',
     players: 4,
     thumbnail: 'https://i.imgur.com/WvTkQ1Y.png',
+    R13: true
   },
   'the rocktagon': {
     map: 'the rocktagon',
     players: 8,
     thumbnail: 'https://i.imgur.com/3pH437M.png',
+    spikes: 8,
+    R13: true
   },
   'tiber river valley': {
     map: 'tiber river valley',
@@ -358,26 +401,33 @@ export const mapData = {
     map: 'tiberian dunes',
     players: 8,
     thumbnail: 'https://i.imgur.com/jYbHTwJ.png',
+    spikes: 12
   },
   'tiberian forest': {
     map: 'tiberian forest',
     players: 4,
     thumbnail: 'https://i.imgur.com/rwyHbtE.png',
+    spikes: 4,
+    R13: true
   },
   'tiberian gardens viii': {
     map: 'tiberian gardens viii',
     players: 8,
     thumbnail: 'https://i.imgur.com/Rwa88EX.png',
+    spikes: 0,
+    R13: true
   },
   'tiberium resistance': {
     map: 'tiberium resistance',
     players: 6,
     thumbnail: 'https://i.imgur.com/m4yYAgi.png',
+    spikes: 12
   },
   'tiberium rift': {
     map: 'tiberium rift',
     players: 2,
     thumbnail: 'https://i.imgur.com/GC217jd.png',
+    R13: true
   },
   'tiberium wasteland': {
     map: 'tiberium wasteland',
@@ -408,6 +458,8 @@ export const mapData = {
     map: 'tournament arena',
     players: 2,
     thumbnail: 'https://i.imgur.com/S6t425O.png',
+    spikes: 2,
+    R13: true
   },
   'tournament badlands': {
     map: 'tournament badlands',
@@ -423,11 +475,14 @@ export const mapData = {
     map: 'tournament crater',
     players: 2,
     thumbnail: 'https://i.imgur.com/apZLcJQ.png',
+    R13: true
   },
   'tournament decision': {
     map: 'tournament decision',
     players: 2,
     thumbnail: 'https://i.imgur.com/JvoQOGo.png',
+    spikes: 4,
+    R13: true
   },
   'tournament desert redux': {
     map: 'tournament desert redux',
@@ -438,36 +493,46 @@ export const mapData = {
     map: 'tournament dustbowl',
     players: 2,
     thumbnail: 'https://i.imgur.com/iMGNE9G.png',
+    spikes: 2,
+    R13: true
   },
   'tournament galaxy': {
     map: 'tournament galaxy',
     players: 2,
     thumbnail: 'https://i.imgur.com/i83UsRO.png',
+    spikes: 2,
+    R13: true
   },
   'tournament highlands': {
     map: 'tournament highlands',
     players: 2,
     thumbnail: 'https://i.imgur.com/ndOt4WU.png',
+    R13: true
   },
   'tournament odyssey': {
     map: 'tournament odyssey',
     players: 2,
     thumbnail: 'https://i.imgur.com/34EUSoB.png',
+    R13: true
   },
   'tournament reef': {
     map: 'tournament reef',
     players: 2,
     thumbnail: 'https://i.imgur.com/mVmm3gT.png',
+    R13: true
   },
   'tournament rift': {
     map: 'tournament rift',
     players: 2,
     thumbnail: 'https://i.imgur.com/CRKJS4Y.png',
+    spikes: 4,
+    R13: true
   },
   'tournament shaft': {
     map: 'tournament shaft',
     players: 4,
     thumbnail: 'https://i.imgur.com/rcUap1s.png',
+    R13: true
   },
   'tournament stadium': {
     map: 'tournament stadium',
@@ -478,11 +543,14 @@ export const mapData = {
     map: 'tournament tower',
     players: 2,
     thumbnail: 'https://i.imgur.com/MnK8U0b.png',
+    spikes: 2,
+    R13: true
   },
   'tournament towerless': {
     map: 'tournament towerless',
     players: 2,
     thumbnail: 'https://i.imgur.com/3QjOzdi.png',
+    spikes: 2
   },
   'tournament undergrounds': {
     map: 'tournament undergrounds',
@@ -508,11 +576,13 @@ export const mapData = {
     map: 'twisted arena',
     players: 2,
     thumbnail: 'https://i.imgur.com/YF22kup.png',
+    spikes: 2
   },
   'twisted rift': {
     map: 'twisted rift',
     players: 2,
     thumbnail: 'https://i.imgur.com/n1rsANJ.png',
+    spikes: 2
   },
   'unfair advantage': {
     map: 'unfair advantage',
@@ -523,6 +593,8 @@ export const mapData = {
     map: 'unsound investment',
     players: 4,
     thumbnail: 'https://i.imgur.com/icVk6Jo.png',
+    spikes: 6,
+    R13: true
   },
   'urban blight': {
     map: 'urban blight',
@@ -548,75 +620,95 @@ export const mapData = {
     map: 'volcano valleys',
     players: 4,
     thumbnail: 'https://i.imgur.com/DFApCSx.png',
+    R13: true
   },
   'wasteland circles': {
     map: 'wasteland circles',
     players: 4,
     thumbnail: 'https://i.imgur.com/c1AB91n.png',
+    spikes: 4
   },
   'wasteland dam': {
     map: 'wasteland dam',
     players: 4,
     thumbnail: 'https://i.imgur.com/Uwd1eHa.png',
+    spikes: 6
   },
   'winter meltdown': {
     map: 'winter meltdown',
     players: 2,
     thumbnail: 'https://i.imgur.com/j16w0PD.png',
+    spikes: 4
   },
   wrecktropolis: {
     map: 'wrecktropolis',
     players: 4,
     thumbnail: 'https://i.imgur.com/i9weja5.png',
+    spikes: 0,
+    R13: true
   },
   'tiberium gardens iii': {
     map: 'tiberium gardens iii',
     players: 5,
     thumbnail: 'https://i.imgur.com/eiFGUVo.png',
+    spikes: 0
   },
   'tournament la': {
     map: 'tournament la',
     players: 2,
-    thumbnail: 'https://i.imgur.com/CJrVcxn.png'
+    thumbnail: 'https://i.imgur.com/CJrVcxn.png',
+    R13: true
   },
   'slippery slope': {
     map: 'slippery slope',
     players: 2,
-    thumbnail: 'https://i.imgur.com/P18YK5V.png'
+    thumbnail: 'https://i.imgur.com/P18YK5V.png',
+    R13: true
   },
   'troops of triumph': {
     map: 'Troops of Triumph',
     players: 2,
-    thumbnail: 'https://i.imgur.com/cCbU4W1.png'
+    thumbnail: 'https://i.imgur.com/cCbU4W1.png',
+    R13: true
   },
   'tiki turmoil': {
     map: 'tiki turmoil',
     players: 2,
-    thumbnail: 'https://i.imgur.com/W7OZUJ0.png'
+    thumbnail: 'https://i.imgur.com/W7OZUJ0.png',
+    R13: true
   },
   'alpine conflict': {
     map: 'alpine conflict',
     players: 8,
-    thumbnail: 'https://i.imgur.com/zKo9gvD.png'
+    thumbnail: 'https://i.imgur.com/zKo9gvD.png',
+    spikes: 8,
+    R13: true
   },
   'frozen dunes': {
     map: 'frozen dunes',
     players: 8,
-    thumbnail: 'https://i.imgur.com/MMRDkZj.png'
+    thumbnail: 'https://i.imgur.com/MMRDkZj.png',
+    spikes: 12,
+    R13: true
   },
   'arctic eight': {
     map: 'arctic eight',
     players: 8,
-    thumbnail: 'https://i.imgur.com/uwsacv4.png'
+    thumbnail: 'https://i.imgur.com/uwsacv4.png',
+    spikes: 8,
+    R13: true
   },
   'arctic six': {
     map: 'arctic six',
-    players: 8,
-    thumbnail: 'https://i.imgur.com/8mXCIQ7.png'
+    players: 6,
+    thumbnail: 'https://i.imgur.com/8mXCIQ7.png',
+    spikes: 10,
+    R13: true
   },
   'tournament apocalypse': {
     map: 'tournament apocalypse',
     players: 2,
-    thumbnail: 'https://i.imgur.com/t4NjD8i.png'
+    thumbnail: 'https://i.imgur.com/t4NjD8i.png',
+    R13: true
   }
 };
