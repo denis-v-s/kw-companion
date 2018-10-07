@@ -3,9 +3,9 @@ import * as actionTypes from '../actions/types';
 const INITIAL_STATE = {
   showPlayerModal: false,
   showPlayerListOptionsBar: false,
-  selectedPlayerName: null,
   selectedPlayerId: null,
-  selectedRoomId: null
+  selectedRoomId: null,
+  showViewRoomButton: true
 };
 
 const appReducer = (state = INITIAL_STATE, action) => {
@@ -15,7 +15,7 @@ const appReducer = (state = INITIAL_STATE, action) => {
         ...state,
         showPlayerModal: !state.showPlayerModal,
         selectedPlayerId: action.selectedPlayerId,
-        selectedPlayerName: action.selectedPlayerName
+        showViewRoomButton: action.showViewRoomButton
       };
     }
 
@@ -32,10 +32,17 @@ const appReducer = (state = INITIAL_STATE, action) => {
       }
     }
 
-    case actionTypes.SELECT_ROOM: {
+    case 'SELECT_ROOM': {
       return {
         ...state,
         selectedRoomId: action.roomId
+      }
+    }
+
+    case 'SELECT_PLAYER': {
+      return {
+        ...state,
+        selectedPlayerId: action.playerId
       }
     }
 
