@@ -1,30 +1,53 @@
-import { FETCH_ROOMS, REQUEST_DATA } from '../actions/types'
+import * as actionTypes from '../actions/types';
 
 const INITIAL_STATE = {
   fetchingData: false,
-  playerList: {},
   activeGames: {},
-  stagingRooms: {}
+  stagingRooms: {},
+  roomData: null
 };
 
 const roomReducer = (state = INITIAL_STATE, action) => {
-  //state = INITIAL_STATE
-
   switch(action.type) {
-    case REQUEST_DATA: {
+    case actionTypes.REQUESTING_ROOM_DATA: {
       return {...state, fetchingData: true}
     }
-    case FETCH_ROOMS: {
-      //console.log('sending false')
-      //return {...state, roomList: action.payload, fetchingData: false}
-      return {roomList: action.payload, fetchingData: false}
+
+    case actionTypes.FETCH_ROOMS: {
+      return {
+        ...state,
+        activeGames: action.activeGames,
+        stagingRooms: action.stagingRooms,
+        fetchingData: false
+      }
+    }
+
+    case actionTypes.GET_ROOM_DATA_BY_PLAYER_ID: {
+      const roomList = Object.values(state.stagingRooms).concat(Object.values(state.activeGames));
+      const roomData = roomList.find(room =>
+        room.players.find(player => player.id === action.playerId)
+      );
+
+      return {
+        ...state,
+        roomData
+      };
+    }
+
+    case actionTypes.GET_ROOM_DATA_BY_ROOM_ID: {
+      const roomList = Object.values(state.stagingRooms).concat(Object.values(state.activeGames));
+      const roomData = roomList.find(room => room.id === action.roomId);
+      return {
+        ...state,
+        roomData
+      };
     }
 
     default: {
-      return state
+      return state;
     }
   }
 
 }
 
-export default roomReducer
+export default roomReducer;
