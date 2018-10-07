@@ -2,8 +2,8 @@ import * as actionTypes from './types'
 import { fetchDataAsync } from '../../api'
 
 export const fetchPlayerListAsync = (activeFilter = null) => async dispatch => {
-  dispatch({ type: actionTypes.REQUEST_DATA })
-  const data = await fetchDataAsync()
+  dispatch({ type: actionTypes.REQUESTING_PLAYER_DATA })
+  const data = await fetchDataAsync();
 
   try {
     dispatch({
@@ -16,6 +16,6 @@ export const fetchPlayerListAsync = (activeFilter = null) => async dispatch => {
   }
 }
 
-export const filterPlayers = (filterType, playerList) => async dispatch => {
-  return dispatch({ type: actionTypes.FILTER_PLAYERS, playerList, filterType})
+export const filterPlayers = (filterType) => async dispatch => {
+  return dispatch({ type: actionTypes.FILTER_PLAYERS, filterType})
 }
