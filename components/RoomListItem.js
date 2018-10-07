@@ -1,33 +1,28 @@
 import React from 'react';
 import { View, Text, Image, StyleSheet, TouchableHighlight } from 'react-native';
 import { Card, Badge } from 'react-native-elements';
-import { mapData } from '../mapData';
+import { getMapThumbnail } from '../utility';
+import { selectRoom } from '../redux/actions/app_actions';
+import { getRoomDataByRoomId } from '../redux/actions/room_actions';
+
+import { connect } from 'react-redux';
 
 class RoomListItem extends React.Component {
-  getMapThumbnail = () => {
-    // remove any trace of 1.02+ from the map's name
-    let cleanName = this.props.map.replace(/1.02\+\s+(.)*/, '')
-    // remove ' from the map's name
-    cleanName = cleanName.replace('\'', '')
-    // remove NoPoker
-    cleanName = cleanName.replace('NoPoker', '')
-    cleanName = cleanName.trim().toLowerCase()
-    //console.log(cleanName)
-    if (mapData[cleanName] !== undefined) {
-      return mapData[cleanName].thumbnail
-    }
-    else {
-      return
-    }
-  }
+  thumbnail = getMapThumbnail(this.props.map);
 
   isOpenRoom = () => {
     return (this.props.totalSlots - this.props.claimedSlots > 0)
   }
 
+  handleCardPress = () => {
+    this.props.selectRoom(this.props.id);
+    this.props.getRoomDataByRoomId(this.props.id);
+    this.props.onCardPress();
+  }
+
   render() {
     return (
-      <TouchableHighlight onPress={() => this.props.onCardPress(this.props.id)}>
+      <TouchableHighlight onPress={() => this.handleCardPress()}>
         <Card>
           {/* card header */}
           <View style={{ marginBottom: 10, paddingBottom: 5, borderBottomWidth: 1, borderColor: '#ccc', flex: 1 }}>
@@ -47,13 +42,20 @@ class RoomListItem extends React.Component {
           {/* card body */}
           <View style={{ flexDirection: 'row', height: 100 }}>
             <View style={{ width: '33%' }}>
-              <Image source={{ uri: this.getMapThumbnail() }} style={{ width: 100, height: 100 }} />
+              <Image
+                source={{ uri: this.thumbnail }}
+                //resizeMode='cover'
+                style={{
+                  width: 100, height: 100,
+                  borderWidth: 1, borderRadius: 3, borderColor: '#ddd'
+                }}
+              />
             </View>
 
             <View style={{ alignItems: 'flex-start' }} flexWrap='wrap'>
               {
                 this.props.players.map((player, i) => {
-                  return <Text style={{ marginBottom: 5, paddingLeft: 10, fontSize: 12 }} key={i}>{player}</Text>
+                  return <Text style={{ marginBottom: 5, paddingLeft: 10, fontSize: 12 }} key={i}>{player.name}</Text>
                 })
               }
             </View>
@@ -73,4 +75,13 @@ const styles = StyleSheet.create({
   }
 })
 
-export default RoomListItem
+const mapStateToProps = state => ({
+  //selectRoom: state.app.selectRoom,
+  //selectedRoomId: state.app.selectedRoomId
+  roomData: state.room.roomData
+})
+
+export default connect(mapStateToProps, {
+  selectRoom,
+  getRoomDataByRoomId
+})(RoomListItem);
