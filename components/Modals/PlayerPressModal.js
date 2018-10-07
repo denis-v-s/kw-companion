@@ -17,20 +17,29 @@ import { connect } from 'react-redux';
 class PlayerPressModal extends Component {
 
   handleNavigateToShata = () => {
-    this.props.togglePLSelectedItemModal()
-    this.props.openShatabrick(this.props.selectedPlayerId)
+    this.props.togglePLSelectedItemModal(null, false);
+    this.props.openShatabrick(this.props.selectedPlayerId);
+  }
+
+  handleRoomNavigation = () => {
+    this.props.togglePLSelectedItemModal(showViewRoomButton = this.props.showViewRoomButton);
+    this.props.onRoomNavigationPress();
+  }
+
+  togglePLSelectedItemModal = () => {
+    this.props.togglePLSelectedItemModal(null, false)
   }
 
   render() {
     return (
       <Modal
         isVisible={this.props.showPlayerModal}
-        onBackdropPress={() => this.props.togglePLSelectedItemModal()}
+        onBackdropPress={() => this.togglePLSelectedItemModal()}
         style={{ flex: 1, justifyContent: 'flex-end', alignItems: 'center' }}>
 
         <View style={styles.modalContainer}>
           <View style={styles.closeButton}>
-            <TouchableOpacity onPress={() => this.props.togglePLSelectedItemModal()}>
+            <TouchableOpacity onPress={() =>this.togglePLSelectedItemModal()}>
               <MaterialCommunityIcons name='window-close' size={24} />
             </TouchableOpacity>
           </View>
@@ -42,11 +51,15 @@ class PlayerPressModal extends Component {
               backgroundColor={THEME.background.primary}
               borderRadius={5}
             />
-            <Button
-              title={'View room'}
-              backgroundColor={THEME.background.primary}
-              borderRadius={5}
-            />
+
+            { // hide view room button if popup is triggered from within a room
+              this.props.showViewRoomButton && <Button
+                title={'View room'}
+                backgroundColor={THEME.background.primary}
+                borderRadius={5}
+                onPress={() => this.handleRoomNavigation()}
+              />
+            }
           </View>
         </View>
 
@@ -72,8 +85,8 @@ const styles = StyleSheet.create({
 const mapStateToProps = state => {
   return {
     showPlayerModal: state.app.showPlayerModal,
-    selectedPlayerId: state.app.selectedPlayerId,
-    selectedPlayerName: state.app.selectedPlayerName
+    showViewRoomButton: state.app.showViewRoomButton,
+    selectedPlayerId: state.app.selectedPlayerId
   }
 }
 export default connect(mapStateToProps, {
