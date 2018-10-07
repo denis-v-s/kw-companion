@@ -1,14 +1,15 @@
 import React from 'react'
-import { View, Text, TouchableOpacity } from 'react-native'
+import { View, TouchableOpacity } from 'react-native'
 import PlayerList from '../components/PlayerList'
 import PlayerPressModal from '../components/Modals/PlayerPressModal'
 import { fetchPlayerListAsync, filterPlayers } from '../redux/actions/player_actions';
 import { togglePLOptionsBar } from '../redux/actions/app_actions';
+import { getRoomDataByPlayerId } from '../redux/actions/room_actions';
+
+import { IN_LOBBY, IN_GAME, IN_ROOM } from '../constants';
 
 import NavigationHeaderTitle from '../components/NavigationHeaderTitle';
 import PlayerListOptionsBar from '../components/PlayerListOptionsBar';
-
-import { IN_GAME, IN_ROOM, IN_LOBBY } from '../constants';
 
 import { Ionicons } from '@expo/vector-icons';
 
@@ -30,27 +31,17 @@ class PlayerListScreen extends React.Component {
     }
   }
 
-  state = {
-    showOptionsBar: true,
-  }
-
-  toggleOptionsBar = () => {
-    this.setState({
-      showOptionsBar: !this.state.showOptionsBar
-    })
-  }
-
   async componentWillMount() {
     await this.fetchPlayersAsync();
   }
-
-  componentWillUpdate(prevProps) {
-    if (prevProps.activeFilter !== this.props.activeFilter) {
-      if (this.props.playerList.length !== undefined) {
-        this.getVisiblePlayers()
-      }
-    }
-  }
+  // componentDidMount() {
+  //   this.refreshingSubscription = this.props.navigation.addListener('willFocus', () => {
+  //     this.refreshing = this.props.fetchingData;
+  //   });
+  // }
+  // componentWillUnmount() {
+  //   this.refreshingSubscription.remove();
+  // }
 
   setNavigationParams = () => {
     this.props.navigation.setParams({
@@ -61,86 +52,74 @@ class PlayerListScreen extends React.Component {
 
   // navigation header element
   // TODO: better title message showing counts for each focused filter
-  headerButton = () => (
-    <NavigationHeaderTitle
+  headerButton = () => {
+    let titleMessage;
+    switch (this.props.activeFilter) {
+      case null: {
+        titleMessage = `${this.props.playerList.length} online`;
+        break;
+      }
+      case IN_LOBBY: {
+        titleMessage = `${this.props.playerList.length} in lobby`;
+        break;
+      }
+      case IN_ROOM: {
+        titleMessage = `${this.props.playerList.length} in room`;
+        break;
+      }
+      case IN_GAME: {
+        titleMessage = `${this.props.playerList.length} in game`;
+        break;
+      }
+    }
+
+    return (<NavigationHeaderTitle
       handleDataRequest={this.fetchPlayersAsync}
-      titleMessage={(this.props.fetchingData)
-        ? 'fetching list of players'
-        : `${this.props.playerList.length} online`} />
-  )
+      titleMessage={titleMessage}
+    // titleMessage={
+    //   (this.props.fetchingData)
+    //     ? 'fetching list of players'
+    //     : `${this.props.playerList.length} online`
+    // }
+    />);
+  };
 
   fetchPlayersAsync = async () => {
     await this.props.fetchPlayerListAsync(this.props.activeFilter);
-    this.props.filterPlayers(this.props.activeFilter, this.props.playerList)
-    this.getVisiblePlayers()
-    this.setNavigationParams()
+    this.setNavigationParams();
   }
 
-  visiblePlayers = []
-  getVisiblePlayers = () => {
-    this.visiblePlayers = this.props.playerList.filter(player => player.visible === true)
+  navigateToRoomDetail = () => {
+    this.props.getRoomDataByPlayerId(this.props.selectedPlayerId);
+    this.props.navigation.navigate('RoomDetailScreen');
   }
-
-  // headerTitle = ''
-  // getHeaderTitle = () => {
-  //   let titleMessage
-  //   if (this.props.fetchingData) {
-  //     titleMessage = 'fetching list of players'
-  //   } else {
-  //     switch(this.props.playerListFilterType) {
-  //       case null: {
-  //         titleMessage = `${this.props.playerList.length} online`
-  //         break
-  //       }
-  //       case IN_LOBBY: {
-  //         titleMessage = `${this.playerList.length} in lobby`
-  //         break
-  //       }
-  //       case IN_ROOM: {
-  //         titleMessage = `${this.playerList.length} in room`
-  //         break
-  //       }
-  //       case IN_GAME: {
-  //         titleMessage = `${this.playerList.length} in game`
-  //         break
-  //       }
-  //     }
-  //   }
-  //   this.headerTitle = titleMessage
-  // }
 
   render() {
     return (
       <View>
-        <PlayerPressModal />
+        <PlayerPressModal onRoomNavigationPress={this.navigateToRoomDetail} />
         {
-          this.props.showOptionsBar &&
-          <PlayerListOptionsBar
-            activeSwitch={this.props.activeFilter}
-            handleFiltering={this.props.filterPlayers}
-            playerList={this.props.playerList} />
+          //this.props.showOptionsBar && <PlayerListOptionsBar />
+          <PlayerListOptionsBar />
         }
-        <PlayerList
-          playerList={this.visiblePlayers}
-          fetchingData={this.props.fetchingData}
-          handleDataRequest={this.fetchPlayersAsync} />
+        <PlayerList handleDataRequest={this.fetchPlayersAsync}
+        />
       </View>
     )
   }
 }
 
-const mapStateToProps = state => {
-  return {
-    fetchingData: state.player.fetchingData,
-    playerList: state.player.playerList,
-    activeFilter: state.player.activeFilter,
-    showPlayerModal: state.app.showPlayerModal,
-    showOptionsBar: state.app.showPlayerListOptionsBar
-  }
-};
+const mapStateToProps = state => ({
+  fetchingData: state.player.fetchingData,
+  playerList: state.player.filteredPlayerList,
+  activeFilter: state.player.activeFilter,
+  showOptionsBar: state.app.showPlayerListOptionsBar,
+  selectedPlayerId: state.app.selectedPlayerId
+});
 
 export default connect(mapStateToProps, {
   fetchPlayerListAsync,
   filterPlayers,
-  togglePLOptionsBar
+  togglePLOptionsBar,
+  getRoomDataByPlayerId
 })(PlayerListScreen)
