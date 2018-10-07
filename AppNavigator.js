@@ -1,5 +1,5 @@
 import React from 'react';
-import { createStackNavigator, createMaterialTopTabNavigator, createDrawerNavigator } from 'react-navigation';
+import { createStackNavigator, createMaterialTopTabNavigator, createDrawerNavigator, createSwitchNavigator } from 'react-navigation';
 import { TouchableOpacity } from 'react-native';
 
 import { ACTIVE_MATCH, STAGING_ROOM } from './constants';
@@ -7,8 +7,27 @@ import { ACTIVE_MATCH, STAGING_ROOM } from './constants';
 import RoomListScreen from './screens/RoomListScreen';
 import PlayerListScreen from './screens/PlayerListScreen';
 import RoomDetailScreen from './screens/RoomDetailScreen';
+import RandomMapPickerScreen from './screens/RandomMapPickerScreen';
 
-import { FontAwesome, MaterialCommunityIcons } from '@expo/vector-icons'
+import { FontAwesome, MaterialCommunityIcons, Octicons } from '@expo/vector-icons';
+
+const RandomMapPickerNavigator = createStackNavigator({
+  RandomMapPickerScreen: {
+    screen: RandomMapPickerScreen,
+    navigationOptions: ({ navigation }) => ({
+      headerLeft: (
+        <TouchableOpacity
+          onPress={() => navigation.toggleDrawer()}
+          style={{ paddingHorizontal: 10 }}>
+          <MaterialCommunityIcons name='menu' size={25} />
+        </TouchableOpacity>
+      ),
+      title: 'Random Map Picker'
+    })
+  }
+}, {
+  headerLayoutPreset: 'center'
+})
 
 const PlayerNavigator = createStackNavigator({
   PlayerListScreen: {
@@ -117,7 +136,27 @@ const TabNavigator = createMaterialTopTabNavigator({
     }
   });
 
+  // have to wrap tabs into stack navigator, otherwise app throws an error
+const HomeStackNavigator = createStackNavigator({
+  TabNavigator,
+}, {
+  headerMode: 'none'
+});
+
 // main navigator that houses sub-navigators
 export default createDrawerNavigator({
-  Home: TabNavigator,
+  Home: {
+    screen: HomeStackNavigator,
+    navigationOptions: {
+      title: 'Home',
+      drawerIcon: <Octicons name='globe' size={25} />
+    }
+  },
+  RandomMapPickerNavigator: {
+    screen: RandomMapPickerNavigator,
+    navigationOptions: {
+      title: 'Map Selector',
+      drawerIcon: <FontAwesome name='th' size={25} />
+    }
+  }
 });
