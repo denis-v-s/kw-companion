@@ -1,44 +1,41 @@
 import * as actionTypes from '../actions/types';
-import { WebBrowser } from 'expo';
 
 const INITIAL_STATE = {
   fetchingData: false,
   playerList: {},
-  activeGames: {},
-  stagingRooms: {},
+  filteredPlayerList: {},
   activeFitler: null,
-  showPlayerModal: false,
-  showPlayerListOptionsBar: false
 };
 
 const playerReducer = (state = INITIAL_STATE, action) => {
-  //state = INITIAL_STATE
-
   switch (action.type) {
     // helps identify when the data is being transmitted by the server
-    case actionTypes.REQUEST_DATA: {
+    case actionTypes.REQUESTING_PLAYER_DATA: {
       return { ...state, fetchingData: true }
     }
 
     // the a complete list of players
     case actionTypes.FETCH_PLAYERS: {
-      const playerList = Object.values(action.playerList)
-      return { playerList, fetchingData: false, activeFilter: action.activeFilter }
+      const playerList = Object.values(action.playerList);
+      let filteredPlayerList = filterPlayers(action.activeFilter, playerList);
+
+      return {
+        ...state,
+        playerList,
+        filteredPlayerList,
+        fetchingData: false,
+        activeFilter: action.activeFilter
+      };
     }
 
     // PLAYER LIST FILTERS
     case actionTypes.FILTER_PLAYERS: {
-      action.playerList.map(
-        player => {
-          (player.status === action.filterType || action.filterType === null)
-            ? player.visible = true
-            : player.visible = false
-        }
-      )
+      let filteredPlayerList = filterPlayers(action.filterType, state.playerList);
+
       return {
-        playerList: action.playerList,
+        ...state,
+        filteredPlayerList,
         activeFilter: action.filterType,
-        fetchingData: false
       }
     }
 
@@ -47,5 +44,16 @@ const playerReducer = (state = INITIAL_STATE, action) => {
     }
   }
 };
+
+const filterPlayers = (filterType, playerList) => {
+  let filteredPlayerList;
+  if (filterType != null) {
+    filteredPlayerList = playerList.filter(player => (player.status === filterType));
+  } else {
+    filteredPlayerList = playerList;
+  }
+
+  return filteredPlayerList;
+}
 
 export default playerReducer;
