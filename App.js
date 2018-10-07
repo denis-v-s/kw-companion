@@ -5,11 +5,6 @@ import { Provider } from 'react-redux';
 import store from './redux/store';
 
 import AppNavigator from './AppNavigator';
-
-import { StyleProvider } from 'native-base';
-import getTheme from './native-base-theme/components';
-import nodTheme from './native-base-theme/variables/nodTheme';
-
 import Expo from 'expo'
 
 export default class App extends React.Component {
@@ -19,22 +14,16 @@ export default class App extends React.Component {
   }
 
   async componentWillMount() {
-    await Expo.Font.loadAsync({
-      'Roboto': require('native-base/Fonts/Roboto.ttf'),
-      'Roboto_medium': require('native-base/Fonts/Roboto_medium.ttf'),
-    });
     this.setState({ loading: false });
   }
-  
+
   render() {
     if (this.state.loading === true) {
       return <Expo.AppLoading />
     }
     return (
       <Provider store={store}>
-        <StyleProvider style={getTheme(nodTheme)}>
-          <AppNavigator style={styles.container} />
-        </StyleProvider>
+        <AppNavigator style={styles.container} />
       </Provider>
     );
   }
