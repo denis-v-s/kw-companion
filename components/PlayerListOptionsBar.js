@@ -1,73 +1,125 @@
 import React, { Component } from "react";
-import {
-  View,
-  StyleSheet
-} from "react-native";
-import { Button, Segment, Text } from 'native-base'
-import { IN_GAME, IN_ROOM, IN_LOBBY } from '../constants'
+import { View, StyleSheet, Animated } from "react-native";
+import { ButtonGroup } from 'react-native-elements';
+import { IN_GAME, IN_ROOM, IN_LOBBY, THEME } from '../constants';
+
+import { filterPlayers } from '../redux/actions/player_actions';
+import { connect } from 'react-redux';
 
 class PlayerListOptionsBar extends Component {
   state = {
-    activeSwitch: null
+    selectedIndex: 0
   }
 
-  componentDidMount() {
-    this.setState({ activeSwitch: this.props.activeSwitch })
+
+  componentWillMount() {
+    this.animatedMargin = new Animated.Value(-10);
+    this.animatedMargin2 = new Animated.Value(0);
   }
 
-  filterPlayerList = (filterType, playerList) => {
-    this.setState({ activeSwitch: filterType })
-    this.props.handleFiltering(filterType, playerList)
+  componentWillUpdate(prevProps) {
+    if (this.props.optionsBarVisibile !== prevProps.optionsBarVisibile) {
+      let selectedIndex;
+      switch (this.props.activeSwitch) {
+        case null: {
+          selectedIndex = 0;
+          break;
+        }
+        case IN_LOBBY: {
+          selectedIndex = 1;
+          break;
+        }
+        case IN_ROOM: {
+          selectedIndex = 2;
+          break;
+        }
+        case IN_GAME: {
+          selectedIndex = 3;
+          break;
+        }
+      }
+      this.setState({ selectedIndex });
+
+      let startMargin1 = -10;
+      let startMargin2 = -200;
+      let endMargin1 = 50;
+      let endMargin2 = 0;
+
+      // reverse animation if options bar is about to be hidden
+      if (this.props.optionsBarVisibile) {
+        startMargin1 = 50;
+        startMargin2 = 0;
+        endMargin1 = -10;
+        endMargin2 = -200;
+      }
+
+      this.animatedMargin = new Animated.Value(startMargin1);
+      this.animatedMargin2 = new Animated.Value(startMargin2);
+      Animated.parallel([
+        Animated.spring(this.animatedMargin, {
+          toValue: endMargin1,
+          duration: 250
+        }),
+        Animated.spring(this.animatedMargin2, {
+          toValue: endMargin2,
+          duration: 250
+        })
+      ]).start();
+    }
+  }
+
+  handleFiltering = (selectedIndex) => {
+    this.setState({ selectedIndex });
+
+    switch (selectedIndex) {
+      case 0: {
+        this.props.filterPlayers(null);
+        break;
+      }
+      case 1: {
+        this.props.filterPlayers(IN_LOBBY)
+        break;
+      }
+      case 2: {
+        this.props.filterPlayers(IN_ROOM);
+        break;
+      }
+      case 3: {
+        this.props.filterPlayers(IN_GAME);
+        break;
+      }
+    }
   }
 
   render() {
-    let playerList = this.props.playerList
-    let activeSwitch = this.state.activeSwitch
+    const buttons = ['ALL', 'IN LOBBY', 'IN ROOM', 'IN GAME'];
     return (
-      <View style={styles.container}>
-        <Segment style={{ backgroundColor: 'transparent', marginLeft: 15 }}>
-
-          <Button first active={activeSwitch == null}
-            onPress={() => this.filterPlayerList(null, playerList)}>
-            <Text style={styles.buttonText}>
-              ALL
-            </Text>
-          </Button>
-
-          <Button active={activeSwitch === IN_LOBBY}
-            onPress={() => this.filterPlayerList(IN_LOBBY, playerList)}>
-            <Text style={styles.buttonText}>
-              IN LOBBY
-            </Text>
-          </Button>
-
-          <Button active={activeSwitch === IN_ROOM}
-            onPress={() => this.filterPlayerList(IN_ROOM, playerList)}>
-            <Text style={styles.buttonText}>
-              IN ROOM
-            </Text>
-          </Button>
-
-          <Button last active={activeSwitch === IN_GAME}
-            onPress={() => this.filterPlayerList(IN_GAME, playerList)}>
-            <Text style={styles.buttonText}>
-              IN GAME
-            </Text>
-          </Button>
-
-        </Segment>
-      </View>
+      //this.props.optionsBarVisibile &&
+      <Animated.View style={[styles.container, { marginBottom: this.animatedMargin }]} >
+        <Animated.View style={{ marginTop: this.animatedMargin2 }}>
+          <ButtonGroup
+            buttons={buttons}
+            selectedIndex={this.state.selectedIndex}
+            onPress={this.handleFiltering}
+            selectedButtonStyle={{ backgroundColor: THEME.background.primary }}
+            selectedTextStyle={{ color: THEME.text.active }}
+          />
+        </Animated.View>
+      </Animated.View>
     );
   }
 }
-export default PlayerListOptionsBar;
+
+const mapStateToProps = state => ({
+  activeSwitch: state.player.activeFilter,
+  optionsBarVisibile: state.app.showPlayerListOptionsBar
+})
+
+export default connect(mapStateToProps, { filterPlayers })(PlayerListOptionsBar);
 
 const styles = StyleSheet.create({
   container: {
-    flexDirection: 'row',
-    marginTop: 10
-  },
-  buttonText: {
-    paddingHorizontal: 15
+    marginTop: 10,
+    flex: 1
   }
 });
