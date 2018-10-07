@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "kw-companion",
-    "description": "This project is really great.",
+    "description": "Client app for CNCOnline",
     "slug": "kw-companion",
     "privacy": "public",
     "sdkVersion": "30.0.0",
@@ -9,14 +9,15 @@
       "ios",
       "android"
     ],
-    "version": "0.1.0",
+    "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/app_icon.png",
     "splash": {
       "image": "./assets/app_splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#0b0418"
+      "resizeMode": "cover",
+      "backgroundColor": "#010101"
     },
+    "primaryColor": "#591717",
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -24,10 +25,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false
     },
     "android": {
-      "package": "com.haosmark.kwcompanion"
+      "package": "com.haosmark.kwcompanion",
+      "versionCode": 1,
+      "permissions": []
     }
   }
 }
