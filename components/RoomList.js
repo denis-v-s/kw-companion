@@ -1,6 +1,8 @@
-import React from 'react'
-import { View, FlatList, RefreshControl } from 'react-native'
-import RoomListItem from './RoomListItem'
+import React from 'react';
+import { View, FlatList, RefreshControl } from 'react-native';
+import RoomListItem from './RoomListItem';
+
+import { connect } from 'react-redux';
 
 class RoomList extends React.Component {
   onRefresh = async() => {
@@ -25,4 +27,8 @@ class RoomList extends React.Component {
   }
 }
 
-export default RoomList
+const mapStateToProps = state => ({
+  fetchingData: state.room.fetchingData,
+});
+
+export default connect (mapStateToProps)(RoomList);
