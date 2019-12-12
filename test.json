@@ -1,0 +1,128 @@
+{
+  "Rifleman Squad": {
+    "Category": "Infantry",
+    "Unit": "Rifleman Squad",
+    "Cost": 300,
+    "Time": "0:03"
+  },
+  "Missile Squad": {
+    "Category": "Infantry",
+    "Unit": "Missile Squad",
+    "Cost": 400,
+    "Time": "0:04"
+  },
+  "Engineer": {
+    "Category": "Infantry",
+    "Unit": "Engineer",
+    "Cost": 500,
+    "Time": "0:05"
+  },
+  "Sniper Team": {
+    "Category": "Infantry",
+    "Unit": "Sniper Team",
+    "Cost": 1000,
+    "Time": "0:10"
+  },
+  "Grenadier Squad": {
+    "Category": "Infantry",
+    "Unit": "Grenadier Squad",
+    "Cost": 800,
+    "Time": "0:08"
+  },
+  "Zone Trooper": {
+    "Category": "Infantry",
+    "Unit": "Zone Trooper",
+    "Cost": 1300,
+    "Time": "0:13"
+  },
+  "Commando": {
+    "Category": "Infantry",
+    "Unit": "Commando",
+    "Cost": 2000,
+    "Time": "0:20"
+  },
+  "Pitbull": {
+    "Category": "Vehicle",
+    "Unit": "Pitbull",
+    "Cost": 700,
+    "Time": "0:07"
+  },
+  "Predator Tank": {
+    "Category": "Vehicle",
+    "Unit": "Predator Tank",
+    "Cost": 1100,
+    "Time": "0:11"
+  },
+  "APC": {
+    "Category": "Vehicle",
+    "Unit": "APC",
+    "Cost": 700,
+    "Time": "0:07"
+  },
+  "Harvester": {
+    "Category": "Vehicle",
+    "Unit": "Harvester",
+    "Cost": 1600,
+    "Time": "0:16"
+  }, 
+  "MCV": {
+    "Category": "Vehicle",
+    "Unit": "MCV",
+    "Cost": 3500,
+    "Time": "0:35"
+  }, 
+  "Shatterer": {
+    "Category": "Vehicle",
+    "Unit": "Shatterer",
+    "Cost": 1500,
+    "Time": "0:15"
+  }, 
+  "Slingshot": {
+    "Category": "Vehicle",
+    "Unit": "Slingshot",
+    "Cost": 1000,
+    "Time": "0:10"
+  }, 
+  "Rig": {
+    "Category": "Vehicle",
+    "Unit": "Rig",
+    "Cost": 2000,
+    "Time": "0:20"
+  }, 
+  "Mammoth Tank": {
+    "Category": "Vehicle",
+    "Unit": "Mammoth Tank",
+    "Cost": 2500,
+    "Time": "0:25"
+  }, 
+  "Juggernaut": {
+    "Category": "Vehicle",
+    "Unit": "Juggernaut",
+    "Cost": 2200,
+    "Time": "0:22"
+  }, 
+  "MARV": {
+    "Category": "Vehicle",
+    "Unit": "MARV",
+    "Cost": 5000,
+    "Time": "0:50"
+  }, 
+  "Orca": {
+    "Category": "Air",
+    "Unit": "Orca",
+    "Cost": 1100,
+    "Time": "0:11"
+  }, 
+  "Hammerhead": {
+    "Category": "Air",
+    "Unit": "Hammerhead",
+    "Cost": 1500,
+    "Time": "0:15"
+  }, 
+  "Firehawk": {
+    "Category": "Air",
+    "Unit": "Firehawk",
+    "Cost": 1500,
+    "Time": "0:15"
+  }
+}
