@@ -1,128 +1,1651 @@
 {
-  "Rifleman Squad": {
-    "Category": "Infantry",
-    "Unit": "Rifleman Squad",
-    "Cost": 300,
-    "Time": "0:03"
-  },
-  "Missile Squad": {
-    "Category": "Infantry",
-    "Unit": "Missile Squad",
-    "Cost": 400,
-    "Time": "0:04"
-  },
-  "Engineer": {
-    "Category": "Infantry",
-    "Unit": "Engineer",
-    "Cost": 500,
-    "Time": "0:05"
-  },
-  "Sniper Team": {
-    "Category": "Infantry",
-    "Unit": "Sniper Team",
-    "Cost": 1000,
-    "Time": "0:10"
-  },
-  "Grenadier Squad": {
-    "Category": "Infantry",
-    "Unit": "Grenadier Squad",
-    "Cost": 800,
-    "Time": "0:08"
-  },
-  "Zone Trooper": {
-    "Category": "Infantry",
-    "Unit": "Zone Trooper",
-    "Cost": 1300,
-    "Time": "0:13"
-  },
-  "Commando": {
-    "Category": "Infantry",
-    "Unit": "Commando",
-    "Cost": 2000,
-    "Time": "0:20"
-  },
-  "Pitbull": {
-    "Category": "Vehicle",
-    "Unit": "Pitbull",
-    "Cost": 700,
-    "Time": "0:07"
-  },
-  "Predator Tank": {
-    "Category": "Vehicle",
-    "Unit": "Predator Tank",
-    "Cost": 1100,
-    "Time": "0:11"
-  },
-  "APC": {
-    "Category": "Vehicle",
-    "Unit": "APC",
-    "Cost": 700,
-    "Time": "0:07"
-  },
-  "Harvester": {
-    "Category": "Vehicle",
-    "Unit": "Harvester",
-    "Cost": 1600,
-    "Time": "0:16"
-  }, 
-  "MCV": {
-    "Category": "Vehicle",
-    "Unit": "MCV",
-    "Cost": 3500,
-    "Time": "0:35"
-  }, 
-  "Shatterer": {
-    "Category": "Vehicle",
-    "Unit": "Shatterer",
-    "Cost": 1500,
-    "Time": "0:15"
-  }, 
-  "Slingshot": {
-    "Category": "Vehicle",
-    "Unit": "Slingshot",
-    "Cost": 1000,
-    "Time": "0:10"
-  }, 
-  "Rig": {
-    "Category": "Vehicle",
-    "Unit": "Rig",
-    "Cost": 2000,
-    "Time": "0:20"
-  }, 
-  "Mammoth Tank": {
-    "Category": "Vehicle",
-    "Unit": "Mammoth Tank",
-    "Cost": 2500,
-    "Time": "0:25"
-  }, 
-  "Juggernaut": {
-    "Category": "Vehicle",
-    "Unit": "Juggernaut",
-    "Cost": 2200,
-    "Time": "0:22"
-  }, 
-  "MARV": {
-    "Category": "Vehicle",
-    "Unit": "MARV",
-    "Cost": 5000,
-    "Time": "0:50"
-  }, 
-  "Orca": {
-    "Category": "Air",
-    "Unit": "Orca",
-    "Cost": 1100,
-    "Time": "0:11"
-  }, 
-  "Hammerhead": {
-    "Category": "Air",
-    "Unit": "Hammerhead",
-    "Cost": 1500,
-    "Time": "0:15"
-  }, 
-  "Firehawk": {
-    "Category": "Air",
-    "Unit": "Firehawk",
-    "Cost": 1500,
-    "Time": "0:15"
+  units: {
+    {
+      "faction": "GDI",
+      "category": "structure",
+      "name": "Crane",
+      "cost": "1500",
+      "time": "00:15",
+      "power": "-10",
+      "sell_value": "750"
+    },
+    {
+      "faction": "GDI",
+      "category": "structure",
+      "name": "Power Plant",
+      "cost": "700",
+      "time": "00:7",
+      "power": "20",
+      "sell_value": "350"
+    },
+    {
+      "faction": "GDI",
+      "category": "structure",
+      "name": "Refinery",
+      "cost": "3000",
+      "time": "00:30",
+      "power": "-15",
+      "sell_value": "500"
+    },
+    {
+      "faction": "GDI",
+      "category": "structure",
+      "name": "Barracks",
+      "cost": "500",
+      "time": "00:5",
+      "power": "-5",
+      "sell_value": "250"
+    },
+    {
+      "faction": "GDI",
+      "category": "structure",
+      "name": "War Factory",
+      "cost": "2000",
+      "time": "00:20",
+      "power": "-7",
+      "sell_value": "1000"
+    },
+    {
+      "faction": "GDI",
+      "category": "structure",
+      "name": "Command Post",
+      "cost": "1500",
+      "time": "00:15",
+      "power": "-9",
+      "sell_value": "750"
+    },
+    {
+      "faction": "GDI",
+      "category": "structure",
+      "name": "Air Field",
+      "cost": "1000",
+      "time": "00:10",
+      "power": "-8",
+      "sell_value": "500"
+    },
+    {
+      "faction": "GDI",
+      "category": "structure",
+      "name": "Support Airfield",
+      "cost": "500",
+      "time": "00:5",
+      "power": "-5",
+      "sell_value": "250"
+    },
+    {
+      "faction": "GDI",
+      "category": "structure",
+      "name": "Armory",
+      "cost": "1000",
+      "time": "00:10",
+      "power": "-7",
+      "sell_value": ""
+    },
+    {
+      "faction": "GDI",
+      "category": "structure",
+      "name": "Tech Center",
+      "cost": "4000",
+      "time": "00:40",
+      "power": "-12",
+      "sell_value": "2000"
+    },
+    {
+      "faction": "GDI",
+      "category": "structure",
+      "name": "Space Command Uplink",
+      "cost": "3000",
+      "time": "00:41",
+      "power": "-15",
+      "sell_value": "1500"
+    },
+    {
+      "faction": "GDI",
+      "category": "structure",
+      "name": "Reclamator Hub",
+      "cost": "3000",
+      "time": "00:41",
+      "power": "-10",
+      "sell_value": "1500"
+    },
+    {
+      "faction": "GDI",
+      "category": "structure",
+      "name": "MCV",
+      "cost": "",
+      "time": "00:0",
+      "power": "10",
+      "sell_value": "1750"
+    },
+    {
+      "faction": "ST",
+      "category": "structure",
+      "name": "Crane",
+      "cost": "1500",
+      "time": "00:15",
+      "power": "-10",
+      "sell_value": "750"
+    },
+    {
+      "faction": "ST",
+      "category": "structure",
+      "name": "Power Plant",
+      "cost": "700",
+      "time": "00:7",
+      "power": "20",
+      "sell_value": "350"
+    },
+    {
+      "faction": "ST",
+      "category": "structure",
+      "name": "Advanced Turbines",
+      "cost": "300",
+      "time": "00:5",
+      "power": "20",
+      "sell_value": ""
+    },
+    {
+      "faction": "ST",
+      "category": "structure",
+      "name": "Refinery",
+      "cost": "3000",
+      "time": "00:30",
+      "power": "-15",
+      "sell_value": "500"
+    },
+    {
+      "faction": "ST",
+      "category": "structure",
+      "name": "Barracks",
+      "cost": "500",
+      "time": "00:5",
+      "power": "-5",
+      "sell_value": "250"
+    },
+    {
+      "faction": "ST",
+      "category": "structure",
+      "name": "War Factory",
+      "cost": "2000",
+      "time": "00:20",
+      "power": "-7",
+      "sell_value": "1000"
+    },
+    {
+      "faction": "ST",
+      "category": "structure",
+      "name": "Command Post",
+      "cost": "1500",
+      "time": "00:15",
+      "power": "-9",
+      "sell_value": "750"
+    },
+    {
+      "faction": "ST",
+      "category": "structure",
+      "name": "Air Field",
+      "cost": "1000",
+      "time": "00:10",
+      "power": "-8",
+      "sell_value": "500"
+    },
+    {
+      "faction": "ST",
+      "category": "structure",
+      "name": "Support Airfield",
+      "cost": "500",
+      "time": "00:5",
+      "power": "-5",
+      "sell_value": "250"
+    },
+    {
+      "faction": "ST",
+      "category": "structure",
+      "name": "Armory",
+      "cost": "",
+      "time": "00:0",
+      "power": "",
+      "sell_value": ""
+    },
+    {
+      "faction": "ST",
+      "category": "structure",
+      "name": "Tech Center",
+      "cost": "4000",
+      "time": "00:40",
+      "power": "-12",
+      "sell_value": "2000"
+    },
+    {
+      "faction": "ST",
+      "category": "structure",
+      "name": "Space Command Uplink",
+      "cost": "3000",
+      "time": "00:30",
+      "power": "-15",
+      "sell_value": "1500"
+    },
+    {
+      "faction": "ST",
+      "category": "structure",
+      "name": "Reclamator Hub",
+      "cost": "3000",
+      "time": "00:30",
+      "power": "-10",
+      "sell_value": "1500"
+    },
+    {
+      "faction": "ST",
+      "category": "structure",
+      "name": "MCV",
+      "cost": "",
+      "time": "00:0",
+      "power": "10",
+      "sell_value": "1750"
+    },
+    {
+      "faction": "Zocom",
+      "category": "structure",
+      "name": "Crane",
+      "cost": "1500",
+      "time": "00:15",
+      "power": "-10",
+      "sell_value": "750"
+    },
+    {
+      "faction": "Zocom",
+      "category": "structure",
+      "name": "Power Plant",
+      "cost": "700",
+      "time": "00:7",
+      "power": "20",
+      "sell_value": "350"
+    },
+    {
+      "faction": "Zocom",
+      "category": "structure",
+      "name": "Advanced Turbines",
+      "cost": "300",
+      "time": "00:5",
+      "power": "20",
+      "sell_value": ""
+    },
+    {
+      "faction": "Zocom",
+      "category": "structure",
+      "name": "Refinery",
+      "cost": "3000",
+      "time": "00:30",
+      "power": "-15",
+      "sell_value": "500"
+    },
+    {
+      "faction": "Zocom",
+      "category": "structure",
+      "name": "Barracks",
+      "cost": "500",
+      "time": "00:5",
+      "power": "-5",
+      "sell_value": "250"
+    },
+    {
+      "faction": "Zocom",
+      "category": "structure",
+      "name": "War Factory",
+      "cost": "2000",
+      "time": "00:20",
+      "power": "-7",
+      "sell_value": "1000"
+    },
+    {
+      "faction": "Zocom",
+      "category": "structure",
+      "name": "Command Post",
+      "cost": "1500",
+      "time": "00:15",
+      "power": "-9",
+      "sell_value": "750"
+    },
+    {
+      "faction": "Zocom",
+      "category": "structure",
+      "name": "Air Field",
+      "cost": "1000",
+      "time": "00:10",
+      "power": "-8",
+      "sell_value": "500"
+    },
+    {
+      "faction": "Zocom",
+      "category": "structure",
+      "name": "Support Airfield",
+      "cost": "500",
+      "time": "00:5",
+      "power": "-5",
+      "sell_value": "250"
+    },
+    {
+      "faction": "Zocom",
+      "category": "structure",
+      "name": "Armory",
+      "cost": "1000",
+      "time": "00:10",
+      "power": "-7",
+      "sell_value": ""
+    },
+    {
+      "faction": "Zocom",
+      "category": "structure",
+      "name": "Tech Center",
+      "cost": "4000",
+      "time": "00:40",
+      "power": "-12",
+      "sell_value": "2000"
+    },
+    {
+      "faction": "Zocom",
+      "category": "structure",
+      "name": "Space Command Uplink",
+      "cost": "3000",
+      "time": "00:30",
+      "power": "-15",
+      "sell_value": "1500"
+    },
+    {
+      "faction": "Zocom",
+      "category": "structure",
+      "name": "Reclamator Hub",
+      "cost": "3000",
+      "time": "00:30",
+      "power": "-10",
+      "sell_value": "1500"
+    },
+    {
+      "faction": "Zocom",
+      "category": "structure",
+      "name": "MCV",
+      "cost": "",
+      "time": "00:0",
+      "power": "10",
+      "sell_value": "1750"
+    },
+    {
+      "faction": "NOD",
+      "category": "structure",
+      "name": "Crane",
+      "cost": "1500",
+      "time": "00:15",
+      "power": "10",
+      "sell_value": "750"
+    },
+    {
+      "faction": "NOD",
+      "category": "structure",
+      "name": "Power Plant",
+      "cost": "500",
+      "time": "00:5",
+      "power": "15",
+      "sell_value": "250"
+    },
+    {
+      "faction": "NOD",
+      "category": "structure",
+      "name": "Advanced Turbines",
+      "cost": "500",
+      "time": "00:5",
+      "power": "30",
+      "sell_value": "250"
+    },
+    {
+      "faction": "NOD",
+      "category": "structure",
+      "name": "Refinery",
+      "cost": "3000",
+      "time": "00:30",
+      "power": "15",
+      "sell_value": "500"
+    },
+    {
+      "faction": "NOD",
+      "category": "structure",
+      "name": "Hand of Nod",
+      "cost": "500",
+      "time": "00:5",
+      "power": "5",
+      "sell_value": "250"
+    },
+    {
+      "faction": "NOD",
+      "category": "structure",
+      "name": "War Factory",
+      "cost": "2000",
+      "time": "00:20",
+      "power": "5",
+      "sell_value": "1000"
+    },
+    {
+      "faction": "NOD",
+      "category": "structure",
+      "name": "Operations Center",
+      "cost": "1500",
+      "time": "00:15",
+      "power": "10",
+      "sell_value": "750"
+    },
+    {
+      "faction": "NOD",
+      "category": "structure",
+      "name": "Air Tower",
+      "cost": "1000",
+      "time": "00:10",
+      "power": "5",
+      "sell_value": "500"
+    },
+    {
+      "faction": "NOD",
+      "category": "structure",
+      "name": "Secret Shrine",
+      "cost": "1500",
+      "time": "00:15",
+      "power": "8",
+      "sell_value": "750"
+    },
+    {
+      "faction": "NOD",
+      "category": "structure",
+      "name": "Tech Lab",
+      "cost": "4000",
+      "time": "00:40",
+      "power": "15",
+      "sell_value": "2000"
+    },
+    {
+      "faction": "NOD",
+      "category": "structure",
+      "name": "Tiberium Chemical Plant",
+      "cost": "3000",
+      "time": "00:30",
+      "power": "15",
+      "sell_value": "1500"
+    },
+    {
+      "faction": "NOD",
+      "category": "structure",
+      "name": "Redeemer Engineering Facility",
+      "cost": "3000",
+      "time": "00:30",
+      "power": "10",
+      "sell_value": "1500"
+    },
+    {
+      "faction": "NOD",
+      "category": "structure",
+      "name": "MCV",
+      "cost": "",
+      "time": "00:0",
+      "power": "",
+      "sell_value": "1750"
+    },
+    {
+      "faction": "MOK",
+      "category": "structure",
+      "name": "Crane",
+      "cost": "1500",
+      "time": "00:15",
+      "power": "10",
+      "sell_value": "750"
+    },
+    {
+      "faction": "MOK",
+      "category": "structure",
+      "name": "Power Plant",
+      "cost": "500",
+      "time": "00:5",
+      "power": "15",
+      "sell_value": "250"
+    },
+    {
+      "faction": "MOK",
+      "category": "structure",
+      "name": "Advanced Turbines",
+      "cost": "500",
+      "time": "00:5",
+      "power": "30",
+      "sell_value": "250"
+    },
+    {
+      "faction": "MOK",
+      "category": "structure",
+      "name": "Refinery",
+      "cost": "3000",
+      "time": "00:30",
+      "power": "15",
+      "sell_value": "500"
+    },
+    {
+      "faction": "MOK",
+      "category": "structure",
+      "name": "Hand of Nod",
+      "cost": "500",
+      "time": "00:5",
+      "power": "5",
+      "sell_value": "250"
+    },
+    {
+      "faction": "MOK",
+      "category": "structure",
+      "name": "War Factory",
+      "cost": "2000",
+      "time": "00:20",
+      "power": "5",
+      "sell_value": "1000"
+    },
+    {
+      "faction": "MOK",
+      "category": "structure",
+      "name": "Operations Center",
+      "cost": "1500",
+      "time": "00:15",
+      "power": "10",
+      "sell_value": "750"
+    },
+    {
+      "faction": "MOK",
+      "category": "structure",
+      "name": "Air Tower",
+      "cost": "1000",
+      "time": "00:10",
+      "power": "5",
+      "sell_value": "500"
+    },
+    {
+      "faction": "MOK",
+      "category": "structure",
+      "name": "Secret Shrine",
+      "cost": "1500",
+      "time": "00:15",
+      "power": "8",
+      "sell_value": "750"
+    },
+    {
+      "faction": "MOK",
+      "category": "structure",
+      "name": "Tech Lab",
+      "cost": "4000",
+      "time": "00:40",
+      "power": "15",
+      "sell_value": "2000"
+    },
+    {
+      "faction": "MOK",
+      "category": "structure",
+      "name": "Tiberium Chemical Plant",
+      "cost": "3000",
+      "time": "00:30",
+      "power": "15",
+      "sell_value": "1500"
+    },
+    {
+      "faction": "MOK",
+      "category": "structure",
+      "name": "Redeemer Engineering Facility",
+      "cost": "3000",
+      "time": "00:30",
+      "power": "10",
+      "sell_value": "1500"
+    },
+    {
+      "faction": "MOK",
+      "category": "structure",
+      "name": "MCV",
+      "cost": "",
+      "time": "00:0",
+      "power": "",
+      "sell_value": "1750"
+    },
+    {
+      "faction": "BH",
+      "category": "structure",
+      "name": "Crane",
+      "cost": "1500",
+      "time": "00:15",
+      "power": "10",
+      "sell_value": "750"
+    },
+    {
+      "faction": "BH",
+      "category": "structure",
+      "name": "Power Plant",
+      "cost": "500",
+      "time": "00:5",
+      "power": "15",
+      "sell_value": "250"
+    },
+    {
+      "faction": "BH",
+      "category": "structure",
+      "name": "Advanced Turbines",
+      "cost": "500",
+      "time": "00:5",
+      "power": "30",
+      "sell_value": "250"
+    },
+    {
+      "faction": "BH",
+      "category": "structure",
+      "name": "Refinery",
+      "cost": "3000",
+      "time": "00:30",
+      "power": "15",
+      "sell_value": "500"
+    },
+    {
+      "faction": "BH",
+      "category": "structure",
+      "name": "Hand of Nod",
+      "cost": "500",
+      "time": "00:5",
+      "power": "5",
+      "sell_value": "250"
+    },
+    {
+      "faction": "BH",
+      "category": "structure",
+      "name": "War Factory",
+      "cost": "2000",
+      "time": "00:20",
+      "power": "5",
+      "sell_value": "1000"
+    },
+    {
+      "faction": "BH",
+      "category": "structure",
+      "name": "Operations Center",
+      "cost": "1500",
+      "time": "00:15",
+      "power": "10",
+      "sell_value": "750"
+    },
+    {
+      "faction": "BH",
+      "category": "structure",
+      "name": "Air Tower",
+      "cost": "",
+      "time": "00:0",
+      "power": "",
+      "sell_value": ""
+    },
+    {
+      "faction": "BH",
+      "category": "structure",
+      "name": "Secret Shrine",
+      "cost": "1500",
+      "time": "00:15",
+      "power": "8",
+      "sell_value": "750"
+    },
+    {
+      "faction": "BH",
+      "category": "structure",
+      "name": "Tech Lab",
+      "cost": "4000",
+      "time": "00:40",
+      "power": "15",
+      "sell_value": "2000"
+    },
+    {
+      "faction": "BH",
+      "category": "structure",
+      "name": "Tiberium Chemical Plant",
+      "cost": "3000",
+      "time": "00:30",
+      "power": "15",
+      "sell_value": "1500"
+    },
+    {
+      "faction": "BH",
+      "category": "structure",
+      "name": "Redeemer Engineering Facility",
+      "cost": "3000",
+      "time": "00:30",
+      "power": "10",
+      "sell_value": "1500"
+    },
+    {
+      "faction": "BH",
+      "category": "structure",
+      "name": "MCV",
+      "cost": "",
+      "time": "00:0",
+      "power": "",
+      "sell_value": "1750"
+    },
+    {
+      "faction": "Scrin",
+      "category": "structure",
+      "name": "Crane",
+      "cost": "1500",
+      "time": "00:15",
+      "power": "10",
+      "sell_value": "750"
+    },
+    {
+      "faction": "Scrin",
+      "category": "structure",
+      "name": "Reactor",
+      "cost": "600",
+      "time": "00:6",
+      "power": "20",
+      "sell_value": "300"
+    },
+    {
+      "faction": "Scrin",
+      "category": "structure",
+      "name": "Fusion Core",
+      "cost": "400",
+      "time": "00:10",
+      "power": "20",
+      "sell_value": ""
+    },
+    {
+      "faction": "Scrin",
+      "category": "structure",
+      "name": "Refinery",
+      "cost": "3000",
+      "time": "00:30",
+      "power": "15",
+      "sell_value": "500"
+    },
+    {
+      "faction": "Scrin",
+      "category": "structure",
+      "name": "Barracks",
+      "cost": "600",
+      "time": "00:6",
+      "power": "5",
+      "sell_value": "300"
+    },
+    {
+      "faction": "Scrin",
+      "category": "structure",
+      "name": "Warp Sphere",
+      "cost": "2000",
+      "time": "00:20",
+      "power": "6",
+      "sell_value": "1000"
+    },
+    {
+      "faction": "Scrin",
+      "category": "structure",
+      "name": "Nerve Center",
+      "cost": "1500",
+      "time": "00:15",
+      "power": "8",
+      "sell_value": "750"
+    },
+    {
+      "faction": "Scrin",
+      "category": "structure",
+      "name": "Gravity Stabilizer",
+      "cost": "1000",
+      "time": "00:10",
+      "power": "7",
+      "sell_value": "500"
+    },
+    {
+      "faction": "Scrin",
+      "category": "structure",
+      "name": "Stasis Chamber",
+      "cost": "1200",
+      "time": "00:12",
+      "power": "8",
+      "sell_value": "600"
+    },
+    {
+      "faction": "Scrin",
+      "category": "structure",
+      "name": "Tech Center",
+      "cost": "4000",
+      "time": "00:40",
+      "power": "10",
+      "sell_value": "2000"
+    },
+    {
+      "faction": "Scrin",
+      "category": "structure",
+      "name": "Signal Transmitter",
+      "cost": "3000",
+      "time": "00:30",
+      "power": "10",
+      "sell_value": "1500"
+    },
+    {
+      "faction": "Scrin",
+      "category": "structure",
+      "name": "Warp Chasm",
+      "cost": "3000",
+      "time": "00:30",
+      "power": "10",
+      "sell_value": "1500"
+    },
+    {
+      "faction": "Scrin",
+      "category": "structure",
+      "name": "Drone Platform",
+      "cost": "",
+      "time": "00:0",
+      "power": "10",
+      "sell_value": "1750"
+    },
+    {
+      "faction": "R17",
+      "category": "structure",
+      "name": "Crane",
+      "cost": "1500",
+      "time": "00:15",
+      "power": "10",
+      "sell_value": "750"
+    },
+    {
+      "faction": "R17",
+      "category": "structure",
+      "name": "Reactor",
+      "cost": "600",
+      "time": "00:6",
+      "power": "20",
+      "sell_value": "300"
+    },
+    {
+      "faction": "R17",
+      "category": "structure",
+      "name": "Fusion Core",
+      "cost": "400",
+      "time": "00:10",
+      "power": "20",
+      "sell_value": ""
+    },
+    {
+      "faction": "R17",
+      "category": "structure",
+      "name": "Refinery",
+      "cost": "3000",
+      "time": "00:30",
+      "power": "15",
+      "sell_value": "500"
+    },
+    {
+      "faction": "R17",
+      "category": "structure",
+      "name": "Barracks",
+      "cost": "600",
+      "time": "00:6",
+      "power": "5",
+      "sell_value": "300"
+    },
+    {
+      "faction": "R17",
+      "category": "structure",
+      "name": "Warp Sphere",
+      "cost": "2000",
+      "time": "00:20",
+      "power": "6",
+      "sell_value": "1000"
+    },
+    {
+      "faction": "R17",
+      "category": "structure",
+      "name": "Nerve Center",
+      "cost": "1500",
+      "time": "00:15",
+      "power": "8",
+      "sell_value": "750"
+    },
+    {
+      "faction": "R17",
+      "category": "structure",
+      "name": "Gravity Stabilizer",
+      "cost": "1000",
+      "time": "00:10",
+      "power": "7",
+      "sell_value": "500"
+    },
+    {
+      "faction": "R17",
+      "category": "structure",
+      "name": "Stasis Chamber",
+      "cost": "1200",
+      "time": "00:12",
+      "power": "8",
+      "sell_value": "600"
+    },
+    {
+      "faction": "R17",
+      "category": "structure",
+      "name": "Tech Center",
+      "cost": "4000",
+      "time": "00:40",
+      "power": "10",
+      "sell_value": "2000"
+    },
+    {
+      "faction": "R17",
+      "category": "structure",
+      "name": "Signal Transmitter",
+      "cost": "3000",
+      "time": "00:30",
+      "power": "10",
+      "sell_value": "1500"
+    },
+    {
+      "faction": "R17",
+      "category": "structure",
+      "name": "Warp Chasm",
+      "cost": "3000",
+      "time": "00:30",
+      "power": "10",
+      "sell_value": "1500"
+    },
+    {
+      "faction": "R17",
+      "category": "structure",
+      "name": "Drone Platform",
+      "cost": "",
+      "time": "00:0",
+      "power": "10",
+      "sell_value": "1750"
+    },
+    {
+      "faction": "T59",
+      "category": "structure",
+      "name": "Crane",
+      "cost": "1500",
+      "time": "00:15",
+      "power": "10",
+      "sell_value": "750"
+    },
+    {
+      "faction": "T59",
+      "category": "structure",
+      "name": "Reactor",
+      "cost": "600",
+      "time": "00:6",
+      "power": "20",
+      "sell_value": "300"
+    },
+    {
+      "faction": "T59",
+      "category": "structure",
+      "name": "Fusion Core",
+      "cost": "400",
+      "time": "00:10",
+      "power": "20",
+      "sell_value": ""
+    },
+    {
+      "faction": "T59",
+      "category": "structure",
+      "name": "Refinery",
+      "cost": "3000",
+      "time": "00:30",
+      "power": "15",
+      "sell_value": "500"
+    },
+    {
+      "faction": "T59",
+      "category": "structure",
+      "name": "Barracks",
+      "cost": "600",
+      "time": "00:6",
+      "power": "5",
+      "sell_value": "300"
+    },
+    {
+      "faction": "T59",
+      "category": "structure",
+      "name": "Warp Sphere",
+      "cost": "2000",
+      "time": "00:20",
+      "power": "6",
+      "sell_value": "1000"
+    },
+    {
+      "faction": "T59",
+      "category": "structure",
+      "name": "Nerve Center",
+      "cost": "1500",
+      "time": "00:15",
+      "power": "8",
+      "sell_value": "750"
+    },
+    {
+      "faction": "T59",
+      "category": "structure",
+      "name": "Gravity Stabilizer",
+      "cost": "1000",
+      "time": "00:10",
+      "power": "7",
+      "sell_value": "500"
+    },
+    {
+      "faction": "T59",
+      "category": "structure",
+      "name": "Stasis Chamber",
+      "cost": "1200",
+      "time": "00:12",
+      "power": "8",
+      "sell_value": "600"
+    },
+    {
+      "faction": "T59",
+      "category": "structure",
+      "name": "Tech Center",
+      "cost": "4000",
+      "time": "00:40",
+      "power": "10",
+      "sell_value": "2000"
+    },
+    {
+      "faction": "T59",
+      "category": "structure",
+      "name": "Signal Transmitter",
+      "cost": "3000",
+      "time": "00:30",
+      "power": "10",
+      "sell_value": "1500"
+    },
+    {
+      "faction": "T59",
+      "category": "structure",
+      "name": "Warp Chasm",
+      "cost": "3000",
+      "time": "00:30",
+      "power": "10",
+      "sell_value": "1500"
+    },
+    {
+      "faction": "T59",
+      "category": "structure",
+      "name": "Drone Platform",
+      "cost": "",
+      "time": "00:0",
+      "power": "10",
+      "sell_value": "1750"
+    },
+    {
+      "faction": "GDI",
+      "category": "defense",
+      "name": "Watchtower",
+      "cost": "600",
+      "time": "00:6",
+      "power": "5",
+      "sell_value": ""
+    },
+    {
+      "faction": "GDI",
+      "category": "defense",
+      "name": "Guardian Cannon",
+      "cost": "1200",
+      "time": "00:12",
+      "power": "8",
+      "sell_value": ""
+    },
+    {
+      "faction": "GDI",
+      "category": "defense",
+      "name": "AA Battery",
+      "cost": "800",
+      "time": "00:8",
+      "power": "5",
+      "sell_value": ""
+    },
+    {
+      "faction": "GDI",
+      "category": "defense",
+      "name": "Tiberium Silo",
+      "cost": "100",
+      "time": "00:5",
+      "power": "",
+      "sell_value": ""
+    },
+    {
+      "faction": "GDI",
+      "category": "defense",
+      "name": "Sonic Emitter",
+      "cost": "2000",
+      "time": "00:20",
+      "power": "15",
+      "sell_value": ""
+    },
+    {
+      "faction": "GDI",
+      "category": "defense",
+      "name": "Ion Cannon",
+      "cost": "5000",
+      "time": "00:50",
+      "power": "20",
+      "sell_value": ""
+    },
+    {
+      "faction": "GDI",
+      "category": "defense",
+      "name": "Surveryor",
+      "cost": "1500",
+      "time": "00:15",
+      "power": "",
+      "sell_value": ""
+    },
+    {
+      "faction": "Zocom",
+      "category": "defense",
+      "name": "Watchtower",
+      "cost": "600",
+      "time": "00:6",
+      "power": "5",
+      "sell_value": ""
+    },
+    {
+      "faction": "Zocom",
+      "category": "defense",
+      "name": "Guardian Cannon",
+      "cost": "1200",
+      "time": "00:12",
+      "power": "8"
+    },
+    {
+      "faction": "Zocom",
+      "category": "defense",
+      "name": "AA Battery",
+      "cost": "800",
+      "time": "00:8",
+      "power": "5"
+    },
+    {
+      "faction": "Zocom",
+      "category": "defense",
+      "name": "Tiberium Silo",
+      "cost": "100",
+      "time": "00:5",
+      "power": ""
+    },
+    {
+      "faction": "Zocom",
+      "category": "defense",
+      "name": "Sonic Emitter",
+      "cost": "2000",
+      "time": "00:20",
+      "power": "15"
+    },
+    {
+      "faction": "Zocom",
+      "category": "defense",
+      "name": "Ion Cannon",
+      "cost": "5000",
+      "time": "00:50",
+      "power": "20"
+    },
+    {
+      "faction": "Zocom",
+      "category": "defense",
+      "name": "Surveryor",
+      "cost": "1500",
+      "time": "00:15",
+      "power": ""
+    },
+    {
+      "faction": "ST",
+      "category": "defense",
+      "name": "Watchtower",
+      "cost": "600",
+      "time": "00:6",
+      "power": "5"
+    },
+    {
+      "faction": "ST",
+      "category": "defense",
+      "name": "Guardian Cannon",
+      "cost": "1200",
+      "time": "00:12",
+      "power": "8"
+    },
+    {
+      "faction": "ST",
+      "category": "defense",
+      "name": "AA Battery",
+      "cost": "800",
+      "time": "00:8",
+      "power": "5"
+    },
+    {
+      "faction": "ST",
+      "category": "defense",
+      "name": "Tiberium Silo",
+      "cost": "100",
+      "time": "00:5",
+      "power": ""
+    },
+    {
+      "faction": "ST",
+      "category": "defense",
+      "name": "Ion Cannon",
+      "cost": "5000",
+      "time": "00:50",
+      "power": "20"
+    },
+    {
+      "faction": "ST",
+      "category": "defense",
+      "name": "Surveryor",
+      "cost": "1500",
+      "time": "00:15",
+      "power": ""
+    },
+    {
+      "faction": "NOD",
+      "category": "defense",
+      "name": "Shredder Turret",
+      "cost": "600",
+      "time": "00:6",
+      "power": "6"
+    },
+    {
+      "faction": "NOD",
+      "category": "defense",
+      "name": "Laser Turret",
+      "cost": "1200",
+      "time": "00:12",
+      "power": "10"
+    },
+    {
+      "faction": "NOD",
+      "category": "defense",
+      "name": "SAM Turret",
+      "cost": "800",
+      "time": "00:8",
+      "power": "6"
+    },
+    {
+      "faction": "NOD",
+      "category": "defense",
+      "name": "Tiberium Silo",
+      "cost": "100",
+      "time": "00:5",
+      "power": ""
+    },
+    {
+      "faction": "NOD",
+      "category": "defense",
+      "name": "Disruption Tower",
+      "cost": "1000",
+      "time": "00:10",
+      "power": "10"
+    },
+    {
+      "faction": "NOD",
+      "category": "defense",
+      "name": "Voice of Kane",
+      "cost": "1000",
+      "time": "00:10",
+      "power": "5"
+    },
+    {
+      "faction": "NOD",
+      "category": "defense",
+      "name": "Obelisk of Light",
+      "cost": "2000",
+      "time": "00:20",
+      "power": "15"
+    },
+    {
+      "faction": "NOD",
+      "category": "defense",
+      "name": "Temple of Nod",
+      "cost": "5000",
+      "time": "00:50",
+      "power": "20"
+    },
+    {
+      "faction": "NOD",
+      "category": "defense",
+      "name": "Air Support Tower",
+      "cost": "500",
+      "time": "00:5",
+      "power": "5"
+    },
+    {
+      "faction": "NOD",
+      "category": "defense",
+      "name": "Emissary",
+      "cost": "1500",
+      "time": "00:15",
+      "power": ""
+    },
+    {
+      "faction": "MOK",
+      "category": "defense",
+      "name": "Shredder Turret",
+      "cost": "600",
+      "time": "00:6",
+      "power": "6"
+    },
+    {
+      "faction": "MOK",
+      "category": "defense",
+      "name": "Laser Turret",
+      "cost": "1200",
+      "time": "00:12",
+      "power": "10"
+    },
+    {
+      "faction": "MOK",
+      "category": "defense",
+      "name": "SAM Turret",
+      "cost": "800",
+      "time": "00:8",
+      "power": "6"
+    },
+    {
+      "faction": "MOK",
+      "category": "defense",
+      "name": "Tiberium Silo",
+      "cost": "100",
+      "time": "00:5",
+      "power": ""
+    },
+    {
+      "faction": "MOK",
+      "category": "defense",
+      "name": "Disruption Tower",
+      "cost": "500",
+      "time": "00:10",
+      "power": "10"
+    },
+    {
+      "faction": "MOK",
+      "category": "defense",
+      "name": "Voice of Kane",
+      "cost": "1000",
+      "time": "00:10",
+      "power": "5"
+    },
+    {
+      "faction": "MOK",
+      "category": "defense",
+      "name": "Obelisk of Light",
+      "cost": "2000",
+      "time": "00:20",
+      "power": "15"
+    },
+    {
+      "faction": "MOK",
+      "category": "defense",
+      "name": "Temple of Nod",
+      "cost": "5000",
+      "time": "00:50",
+      "power": "20"
+    },
+    {
+      "faction": "MOK",
+      "category": "defense",
+      "name": "Air Support Tower",
+      "cost": "500",
+      "time": "00:5",
+      "power": "5"
+    },
+    {
+      "faction": "MOK",
+      "category": "defense",
+      "name": "Emissary",
+      "cost": "1500",
+      "time": "00:15",
+      "power": ""
+    },
+    {
+      "faction": "BH",
+      "category": "defense",
+      "name": "Shredder Turret",
+      "cost": "600",
+      "time": "00:6",
+      "power": "6"
+    },
+    {
+      "faction": "BH",
+      "category": "defense",
+      "name": "Laser Turret",
+      "cost": "1200",
+      "time": "00:12",
+      "power": "10"
+    },
+    {
+      "faction": "BH",
+      "category": "defense",
+      "name": "SAM Turret",
+      "cost": "800",
+      "time": "00:8",
+      "power": "6"
+    },
+    {
+      "faction": "BH",
+      "category": "defense",
+      "name": "Tiberium Silo",
+      "cost": "100",
+      "time": "00:5",
+      "power": ""
+    },
+    {
+      "faction": "BH",
+      "category": "defense",
+      "name": "Disruption Tower",
+      "cost": "",
+      "time": "00:0",
+      "power": ""
+    },
+    {
+      "faction": "BH",
+      "category": "defense",
+      "name": "Voice of Kane",
+      "cost": "1000",
+      "time": "00:10",
+      "power": "5"
+    },
+    {
+      "faction": "BH",
+      "category": "defense",
+      "name": "Obelisk of Light",
+      "cost": "2000",
+      "time": "00:20",
+      "power": "15"
+    },
+    {
+      "faction": "BH",
+      "category": "defense",
+      "name": "Temple of Nod",
+      "cost": "5000",
+      "time": "00:50",
+      "power": "20"
+    },
+    {
+      "faction": "BH",
+      "category": "defense",
+      "name": "Air Support Tower",
+      "cost": "",
+      "time": "00:0",
+      "power": ""
+    },
+    {
+      "faction": "BH",
+      "category": "defense",
+      "name": "Emissary",
+      "cost": "1500",
+      "time": "00:15",
+      "power": ""
+    },
+    {
+      "faction": "Scrin",
+      "category": "defense",
+      "name": "Buzzer Hive",
+      "cost": "600",
+      "time": "00:6",
+      "power": "7"
+    },
+    {
+      "faction": "Scrin",
+      "category": "defense",
+      "name": "Photon Cannon",
+      "cost": "1200",
+      "time": "00:12",
+      "power": "8"
+    },
+    {
+      "faction": "Scrin",
+      "category": "defense",
+      "name": "Plasma Missile Battery",
+      "cost": "800",
+      "time": "00:8",
+      "power": "7"
+    },
+    {
+      "faction": "Scrin",
+      "category": "defense",
+      "name": "Growth Accelerator",
+      "cost": "1500",
+      "time": "00:15",
+      "power": "5"
+    },
+    {
+      "faction": "Scrin",
+      "category": "defense",
+      "name": "Storm Column",
+      "cost": "3000",
+      "time": "00:30",
+      "power": "12"
+    },
+    {
+      "faction": "Scrin",
+      "category": "defense",
+      "name": "Rift Generator",
+      "cost": "5000",
+      "time": "00:50",
+      "power": "15"
+    },
+    {
+      "faction": "Scrin",
+      "category": "defense",
+      "name": "Explorer",
+      "cost": "1500",
+      "time": "00:15",
+      "power": ""
+    },
+    {
+      "faction": "R17",
+      "category": "defense",
+      "name": "Buzzer Hive",
+      "cost": "600",
+      "time": "00:6",
+      "power": "7"
+    },
+    {
+      "faction": "R17",
+      "category": "defense",
+      "name": "Photon Cannon",
+      "cost": "1200",
+      "time": "00:12",
+      "power": "8"
+    },
+    {
+      "faction": "R17",
+      "category": "defense",
+      "name": "Plasma Missile Battery",
+      "cost": "800",
+      "time": "00:8",
+      "power": "7"
+    },
+    {
+      "faction": "R17",
+      "category": "defense",
+      "name": "Growth Accelerator",
+      "cost": "1500",
+      "time": "00:15",
+      "power": "5"
+    },
+    {
+      "faction": "R17",
+      "category": "defense",
+      "name": "Storm Column",
+      "cost": "3000",
+      "time": "00:30",
+      "power": "12"
+    },
+    {
+      "faction": "R17",
+      "category": "defense",
+      "name": "Rift Generator",
+      "cost": "5000",
+      "time": "00:50",
+      "power": "15"
+    },
+    {
+      "faction": "R17",
+      "category": "defense",
+      "name": "Explorer",
+      "cost": "1500",
+      "time": "00:15",
+      "power": ""
+    },
+    {
+      "faction": "T59",
+      "category": "defense",
+      "name": "Buzzer Hive",
+      "cost": "600",
+      "time": "00:6",
+      "power": "7"
+    },
+    {
+      "faction": "T59",
+      "category": "defense",
+      "name": "Photon Cannon",
+      "cost": "1200",
+      "time": "00:12",
+      "power": "8"
+    },
+    {
+      "faction": "T59",
+      "category": "defense",
+      "name": "Plasma Missile Battery",
+      "cost": "800",
+      "time": "00:8",
+      "power": "7"
+    },
+    {
+      "faction": "T59",
+      "category": "defense",
+      "name": "Growth Accelerator",
+      "cost": "1500",
+      "time": "00:15",
+      "power": "5"
+    },
+    {
+      "faction": "T59",
+      "category": "defense",
+      "name": "Storm Column",
+      "cost": "3000",
+      "time": "00:30",
+      "power": "12"
+    },
+    {
+      "faction": "T59",
+      "category": "defense",
+      "name": "Rift Generator",
+      "cost": "5000",
+      "time": "00:50",
+      "power": "15"
+    },
+    {
+      "faction": "T59",
+      "category": "defense",
+      "name": "Explorer",
+      "cost": "1500",
+      "time": "00:15",
+      "power": ""
+    },
   }
 }
