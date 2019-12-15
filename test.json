@@ -1,5 +1,5 @@
 {
-  "units": {
+  "units": [
     {
       "faction": "GDI",
       "category": "structure",
@@ -1646,6 +1646,6 @@
       "cost": "1500",
       "time": "00:15",
       "power": ""
-    },
-  }
+    }
+  ]
 }
