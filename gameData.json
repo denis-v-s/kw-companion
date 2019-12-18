@@ -1,3023 +1,3472 @@
 {
-  "structures": [
-    {
-      "faction": "GDI",
-      "category": "structure",
-      "name": "Crane",
-      "cost": "1500",
-      "time": "0:15",
-      "power": "-10",
-      "sell_value": "750",
-      "sell_spawn": "-",
-      "screenshot": ""
-    },
-    {
-      "faction": "GDI",
-      "category": "structure",
-      "name": "Power Plant",
-      "cost": "700",
-      "time": "0:07",
-      "power": "20",
-      "sell_value": "350",
-      "sell_spawn": "Rifleman Squad",
-      "screenshot": ""
-    },
-    {
-      "faction": "GDI",
-      "category": "structure",
-      "name": "Refinery",
-      "cost": "3000",
-      "time": "0:30",
-      "power": "-15",
-      "sell_value": "500",
-      "sell_spawn": "Rifleman Squad",
-      "screenshot": ""
-    },
-    {
-      "faction": "GDI",
-      "category": "structure",
-      "name": "Barracks",
-      "cost": "500",
-      "time": "0:05",
-      "power": "-5",
-      "sell_value": "250",
-      "sell_spawn": "Rifleman Squad",
-      "screenshot": ""
-    },
-    {
-      "faction": "GDI",
-      "category": "structure",
-      "name": "War Factory",
-      "cost": "2000",
-      "time": "0:20",
-      "power": "-7",
-      "sell_value": "1000",
-      "sell_spawn": "Rifleman Squad",
-      "screenshot": ""
-    },
-    {
-      "faction": "GDI",
-      "category": "structure",
-      "name": "Command Post",
-      "cost": "1500",
-      "time": "0:15",
-      "power": "-9",
-      "sell_value": "750",
-      "sell_spawn": "Rifleman Squad",
-      "screenshot": ""
-    },
-    {
-      "faction": "GDI",
-      "category": "structure",
-      "name": "Air Field",
-      "cost": "1000",
-      "time": "0:10",
-      "power": "-8",
-      "sell_value": "500",
-      "sell_spawn": "Rifleman Squad",
-      "screenshot": ""
-    },
-    {
-      "faction": "GDI",
-      "category": "structure",
-      "name": "Support Airfield",
-      "cost": "500",
-      "time": "0:05",
-      "power": "-5",
-      "sell_value": "250",
-      "sell_spawn": "",
-      "screenshot": ""
-    },
-    {
-      "faction": "GDI",
-      "category": "structure",
-      "name": "Armory",
-      "cost": "1000",
-      "time": "0:10",
-      "power": "-7",
-      "sell_value": "500",
-      "sell_spawn": "Rifleman Squad",
-      "screenshot": ""
-    },
-    {
-      "faction": "GDI",
-      "category": "structure",
-      "name": "Tech Center",
-      "cost": "4000",
-      "time": "0:40",
-      "power": "-12",
-      "sell_value": "2000",
-      "sell_spawn": "",
-      "screenshot": ""
-    },
-    {
-      "faction": "GDI",
-      "category": "structure",
-      "name": "Space Command Uplink",
-      "cost": "3000",
-      "time": "0:41",
-      "power": "-15",
-      "sell_value": "1500",
-      "sell_spawn": "",
-      "screenshot": ""
-    },
-    {
-      "faction": "GDI",
-      "category": "structure",
-      "name": "Reclamator Hub",
-      "cost": "3000",
-      "time": "0:41",
-      "power": "-10",
-      "sell_value": "1500",
-      "sell_spawn": "",
-      "screenshot": ""
-    },
-    {
-      "faction": "GDI",
-      "category": "structure",
-      "name": "MCV",
-      "cost": "",
-      "time": "0:00",
-      "power": "10",
-      "sell_value": "1750",
-      "sell_spawn": "",
-      "screenshot": ""
-    },
-    {
-      "faction": "ST",
-      "category": "structure",
-      "name": "Crane",
-      "cost": "1500",
-      "time": "0:15",
-      "power": "-10",
-      "sell_value": "750",
-      "sell_spawn": "",
-      "screenshot": ""
-    },
-    {
-      "faction": "ST",
-      "category": "structure",
-      "name": "Power Plant",
-      "cost": "700",
-      "time": "0:07",
-      "power": "20",
-      "sell_value": "350",
-      "sell_spawn": "",
-      "screenshot": ""
-    },
-    {
-      "faction": "ST",
-      "category": "structure",
-      "name": "Advanced Turbines",
-      "cost": "300",
-      "time": "0:05",
-      "power": "20",
-      "sell_value": ""
-    },
-    {
-      "faction": "ST",
-      "category": "structure",
-      "name": "Refinery",
-      "cost": "3000",
-      "time": "0:30",
-      "power": "-15",
-      "sell_value": "500"
-    },
-    {
-      "faction": "ST",
-      "category": "structure",
-      "name": "Barracks",
-      "cost": "500",
-      "time": "0:05",
-      "power": "-5",
-      "sell_value": "250"
-    },
-    {
-      "faction": "ST",
-      "category": "structure",
-      "name": "War Factory",
-      "cost": "2000",
-      "time": "0:20",
-      "power": "-7",
-      "sell_value": "1000"
-    },
-    {
-      "faction": "ST",
-      "category": "structure",
-      "name": "Command Post",
-      "cost": "1500",
-      "time": "0:15",
-      "power": "-9",
-      "sell_value": "750"
-    },
-    {
-      "faction": "ST",
-      "category": "structure",
-      "name": "Air Field",
-      "cost": "1000",
-      "time": "0:10",
-      "power": "-8",
-      "sell_value": "500"
-    },
-    {
-      "faction": "ST",
-      "category": "structure",
-      "name": "Support Airfield",
-      "cost": "500",
-      "time": "0:05",
-      "power": "-5",
-      "sell_value": "250"
-    },
-    {
-      "faction": "ST",
-      "category": "structure",
-      "name": "Armory",
-      "cost": "",
-      "time": "0:00",
-      "power": "",
-      "sell_value": ""
-    },
-    {
-      "faction": "ST",
-      "category": "structure",
-      "name": "Tech Center",
-      "cost": "4000",
-      "time": "0:40",
-      "power": "-12",
-      "sell_value": "2000"
-    },
-    {
-      "faction": "ST",
-      "category": "structure",
-      "name": "Space Command Uplink",
-      "cost": "3000",
-      "time": "0:30",
-      "power": "-15",
-      "sell_value": "1500"
-    },
-    {
-      "faction": "ST",
-      "category": "structure",
-      "name": "Reclamator Hub",
-      "cost": "3000",
-      "time": "0:30",
-      "power": "-10",
-      "sell_value": "1500"
-    },
-    {
-      "faction": "ST",
-      "category": "structure",
-      "name": "MCV",
-      "cost": "",
-      "time": "0:00",
-      "power": "10",
-      "sell_value": "1750"
-    },
-    {
-      "faction": "Zocom",
-      "category": "structure",
-      "name": "Crane",
-      "cost": "1500",
-      "time": "0:15",
-      "power": "-10",
-      "sell_value": "750"
-    },
-    {
-      "faction": "Zocom",
-      "category": "structure",
-      "name": "Power Plant",
-      "cost": "700",
-      "time": "0:07",
-      "power": "20",
-      "sell_value": "350"
-    },
-    {
-      "faction": "Zocom",
-      "category": "structure",
-      "name": "Advanced Turbines",
-      "cost": "300",
-      "time": "0:05",
-      "power": "20",
-      "sell_value": ""
-    },
-    {
-      "faction": "Zocom",
-      "category": "structure",
-      "name": "Refinery",
-      "cost": "3000",
-      "time": "0:30",
-      "power": "-15",
-      "sell_value": "500"
-    },
-    {
-      "faction": "Zocom",
-      "category": "structure",
-      "name": "Barracks",
-      "cost": "500",
-      "time": "0:05",
-      "power": "-5",
-      "sell_value": "250",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "Zocom",
-      "category": "structure",
-      "name": "War Factory",
-      "cost": "2000",
-      "time": "0:20",
-      "power": "-7",
-      "sell_value": "1000",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "Zocom",
-      "category": "structure",
-      "name": "Command Post",
-      "cost": "1500",
-      "time": "0:15",
-      "power": "-9",
-      "sell_value": "750",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "Zocom",
-      "category": "structure",
-      "name": "Air Field",
-      "cost": "1000",
-      "time": "0:10",
-      "power": "-8",
-      "sell_value": "500",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "Zocom",
-      "category": "structure",
-      "name": "Support Airfield",
-      "cost": "500",
-      "time": "0:05",
-      "power": "-5",
-      "sell_value": "250",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "Zocom",
-      "category": "structure",
-      "name": "Armory",
-      "cost": "1000",
-      "time": "0:10",
-      "power": "-7",
-      "sell_value": "",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "Zocom",
-      "category": "structure",
-      "name": "Tech Center",
-      "cost": "4000",
-      "time": "0:40",
-      "power": "-12",
-      "sell_value": "2000",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "Zocom",
-      "category": "structure",
-      "name": "Space Command Uplink",
-      "cost": "3000",
-      "time": "0:30",
-      "power": "-15",
-      "sell_value": "1500",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "Zocom",
-      "category": "structure",
-      "name": "Reclamator Hub",
-      "cost": "3000",
-      "time": "0:30",
-      "power": "-10",
-      "sell_value": "1500",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "Zocom",
-      "category": "structure",
-      "name": "MCV",
-      "cost": "",
-      "time": "0:00",
-      "power": "10",
-      "sell_value": "1750",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "NOD",
-      "category": "structure",
-      "name": "Crane",
-      "cost": "1500",
-      "time": "0:15",
-      "power": "10",
-      "sell_value": "750",
-      "sell_spawn": "-"
-    },
-    {
-      "faction": "NOD",
-      "category": "structure",
-      "name": "Power Plant",
-      "cost": "500",
-      "time": "0:05",
-      "power": "15",
-      "sell_value": "250",
-      "sell_spawn": "Millitant Squad"
-    },
-    {
-      "faction": "NOD",
-      "category": "structure",
-      "name": "Advanced Turbines",
-      "cost": "500",
-      "time": "0:05",
-      "power": "30",
-      "sell_value": "250",
-      "sell_spawn": "-"
-    },
-    {
-      "faction": "NOD",
-      "category": "structure",
-      "name": "Refinery",
-      "cost": "3000",
-      "time": "0:30",
-      "power": "15",
-      "sell_value": "500",
-      "sell_spawn": "Millitant Squad"
-    },
-    {
-      "faction": "NOD",
-      "category": "structure",
-      "name": "Hand of Nod",
-      "cost": "500",
-      "time": "0:05",
-      "power": "5",
-      "sell_value": "250",
-      "sell_spawn": "Millitant Squad"
-    },
-    {
-      "faction": "NOD",
-      "category": "structure",
-      "name": "War Factory",
-      "cost": "2000",
-      "time": "0:20",
-      "power": "5",
-      "sell_value": "1000",
-      "sell_spawn": "Millitant Squad"
-    },
-    {
-      "faction": "NOD",
-      "category": "structure",
-      "name": "Operations Center",
-      "cost": "1500",
-      "time": "0:15",
-      "power": "10",
-      "sell_value": "750",
-      "sell_spawn": "Black Hand Squad"
-    },
-    {
-      "faction": "NOD",
-      "category": "structure",
-      "name": "Air Tower",
-      "cost": "1000",
-      "time": "0:10",
-      "power": "5",
-      "sell_value": "500",
-      "sell_spawn": "Millitant Squad"
-    },
-    {
-      "faction": "NOD",
-      "category": "structure",
-      "name": "Secret Shrine",
-      "cost": "1500",
-      "time": "0:15",
-      "power": "8",
-      "sell_value": "750",
-      "sell_spawn": "Millitant Squad"
-    },
-    {
-      "faction": "NOD",
-      "category": "structure",
-      "name": "Tech Lab",
-      "cost": "4000",
-      "time": "0:40",
-      "power": "15",
-      "sell_value": "2000",
-      "sell_spawn": "Black Hand Squad"
-    },
-    {
-      "faction": "NOD",
-      "category": "structure",
-      "name": "Tiberium Chemical Plant",
-      "cost": "3000",
-      "time": "0:30",
-      "power": "15",
-      "sell_value": "1500",
-      "sell_spawn": "Black Hand Squad"
-    },
-    {
-      "faction": "NOD",
-      "category": "structure",
-      "name": "Redeemer Engineering Facility",
-      "cost": "3000",
-      "time": "0:30",
-      "power": "10",
-      "sell_value": "1500",
-      "sell_spawn": "Black Hand Squad"
-    },
-    {
-      "faction": "NOD",
-      "category": "structure",
-      "name": "MCV",
-      "cost": "",
-      "time": "0:00",
-      "power": "",
-      "sell_value": "1750",
-      "sell_spawn": "Millitant Squad",
-      "screenshot": " Saboteur"
-    },
-    {
-      "faction": "MOK",
-      "category": "structure",
-      "name": "Crane",
-      "cost": "1500",
-      "time": "0:15",
-      "power": "10",
-      "sell_value": "750",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "MOK",
-      "category": "structure",
-      "name": "Power Plant",
-      "cost": "500",
-      "time": "0:05",
-      "power": "15",
-      "sell_value": "250",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "MOK",
-      "category": "structure",
-      "name": "Advanced Turbines",
-      "cost": "500",
-      "time": "0:05",
-      "power": "30",
-      "sell_value": "250",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "MOK",
-      "category": "structure",
-      "name": "Refinery",
-      "cost": "3000",
-      "time": "0:30",
-      "power": "15",
-      "sell_value": "500",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "MOK",
-      "category": "structure",
-      "name": "Hand of Nod",
-      "cost": "500",
-      "time": "0:05",
-      "power": "5",
-      "sell_value": "250",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "MOK",
-      "category": "structure",
-      "name": "War Factory",
-      "cost": "2000",
-      "time": "0:20",
-      "power": "5",
-      "sell_value": "1000",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "MOK",
-      "category": "structure",
-      "name": "Operations Center",
-      "cost": "1500",
-      "time": "0:15",
-      "power": "10",
-      "sell_value": "750",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "MOK",
-      "category": "structure",
-      "name": "Air Tower",
-      "cost": "1000",
-      "time": "0:10",
-      "power": "5",
-      "sell_value": "500",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "MOK",
-      "category": "structure",
-      "name": "Secret Shrine",
-      "cost": "1500",
-      "time": "0:15",
-      "power": "8",
-      "sell_value": "750",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "MOK",
-      "category": "structure",
-      "name": "Tech Lab",
-      "cost": "4000",
-      "time": "0:40",
-      "power": "15",
-      "sell_value": "2000"
-    },
-    {
-      "faction": "MOK",
-      "category": "structure",
-      "name": "Tiberium Chemical Plant",
-      "cost": "3000",
-      "time": "0:30",
-      "power": "15",
-      "sell_value": "1500"
-    },
-    {
-      "faction": "MOK",
-      "category": "structure",
-      "name": "Redeemer Engineering Facility",
-      "cost": "3000",
-      "time": "0:30",
-      "power": "10",
-      "sell_value": "1500"
-    },
-    {
-      "faction": "MOK",
-      "category": "structure",
-      "name": "MCV",
-      "cost": "",
-      "time": "0:00",
-      "power": "",
-      "sell_value": "1750"
-    },
-    {
-      "faction": "BH",
-      "category": "structure",
-      "name": "Crane",
-      "cost": "1500",
-      "time": "0:15",
-      "power": "10",
-      "sell_value": "750"
-    },
-    {
-      "faction": "BH",
-      "category": "structure",
-      "name": "Power Plant",
-      "cost": "500",
-      "time": "0:05",
-      "power": "15",
-      "sell_value": "250"
-    },
-    {
-      "faction": "BH",
-      "category": "structure",
-      "name": "Advanced Turbines",
-      "cost": "500",
-      "time": "0:05",
-      "power": "30",
-      "sell_value": "250"
-    },
-    {
-      "faction": "BH",
-      "category": "structure",
-      "name": "Refinery",
-      "cost": "3000",
-      "time": "0:30",
-      "power": "15",
-      "sell_value": "500"
-    },
-    {
-      "faction": "BH",
-      "category": "structure",
-      "name": "Hand of Nod",
-      "cost": "500",
-      "time": "0:05",
-      "power": "5",
-      "sell_value": "250"
-    },
-    {
-      "faction": "BH",
-      "category": "structure",
-      "name": "War Factory",
-      "cost": "2000",
-      "time": "0:20",
-      "power": "5",
-      "sell_value": "1000"
-    },
-    {
-      "faction": "BH",
-      "category": "structure",
-      "name": "Operations Center",
-      "cost": "1500",
-      "time": "0:15",
-      "power": "10",
-      "sell_value": "750"
-    },
-    {
-      "faction": "BH",
-      "category": "structure",
-      "name": "Air Tower",
-      "cost": "",
-      "time": "0:00",
-      "power": "",
-      "sell_value": ""
-    },
-    {
-      "faction": "BH",
-      "category": "structure",
-      "name": "Secret Shrine",
-      "cost": "1500",
-      "time": "0:15",
-      "power": "8",
-      "sell_value": "750"
-    },
-    {
-      "faction": "BH",
-      "category": "structure",
-      "name": "Tech Lab",
-      "cost": "4000",
-      "time": "0:40",
-      "power": "15",
-      "sell_value": "2000"
-    },
-    {
-      "faction": "BH",
-      "category": "structure",
-      "name": "Tiberium Chemical Plant",
-      "cost": "3000",
-      "time": "0:30",
-      "power": "15",
-      "sell_value": "1500"
-    },
-    {
-      "faction": "BH",
-      "category": "structure",
-      "name": "Redeemer Engineering Facility",
-      "cost": "3000",
-      "time": "0:30",
-      "power": "10",
-      "sell_value": "1500"
-    },
-    {
-      "faction": "BH",
-      "category": "structure",
-      "name": "MCV",
-      "cost": "",
-      "time": "0:00",
-      "power": "",
-      "sell_value": "1750"
-    },
-    {
-      "faction": "Scrin",
-      "category": "structure",
-      "name": "Crane",
-      "cost": "1500",
-      "time": "0:15",
-      "power": "10",
-      "sell_value": "750"
-    },
-    {
-      "faction": "Scrin",
-      "category": "structure",
-      "name": "Reactor",
-      "cost": "600",
-      "time": "0:06",
-      "power": "20",
-      "sell_value": "300"
-    },
-    {
-      "faction": "Scrin",
-      "category": "structure",
-      "name": "Fusion Core",
-      "cost": "400",
-      "time": "0:10",
-      "power": "20",
-      "sell_value": ""
-    },
-    {
-      "faction": "Scrin",
-      "category": "structure",
-      "name": "Refinery",
-      "cost": "3000",
-      "time": "0:30",
-      "power": "15",
-      "sell_value": "500"
-    },
-    {
-      "faction": "Scrin",
-      "category": "structure",
-      "name": "Barracks",
-      "cost": "600",
-      "time": "0:06",
-      "power": "5",
-      "sell_value": "300"
-    },
-    {
-      "faction": "Scrin",
-      "category": "structure",
-      "name": "Warp Sphere",
-      "cost": "2000",
-      "time": "0:20",
-      "power": "6",
-      "sell_value": "1000"
-    },
-    {
-      "faction": "Scrin",
-      "category": "structure",
-      "name": "Nerve Center",
-      "cost": "1500",
-      "time": "0:15",
-      "power": "8",
-      "sell_value": "750"
-    },
-    {
-      "faction": "Scrin",
-      "category": "structure",
-      "name": "Gravity Stabilizer",
-      "cost": "1000",
-      "time": "0:10",
-      "power": "7",
-      "sell_value": "500"
-    },
-    {
-      "faction": "Scrin",
-      "category": "structure",
-      "name": "Stasis Chamber",
-      "cost": "1200",
-      "time": "0:12",
-      "power": "8",
-      "sell_value": "600"
-    },
-    {
-      "faction": "Scrin",
-      "category": "structure",
-      "name": "Tech Center",
-      "cost": "4000",
-      "time": "0:40",
-      "power": "10",
-      "sell_value": "2000"
-    },
-    {
-      "faction": "Scrin",
-      "category": "structure",
-      "name": "Signal Transmitter",
-      "cost": "3000",
-      "time": "0:30",
-      "power": "10",
-      "sell_value": "1500"
-    },
-    {
-      "faction": "Scrin",
-      "category": "structure",
-      "name": "Warp Chasm",
-      "cost": "3000",
-      "time": "0:30",
-      "power": "10",
-      "sell_value": "1500"
-    },
-    {
-      "faction": "Scrin",
-      "category": "structure",
-      "name": "Drone Platform",
-      "cost": "",
-      "time": "0:00",
-      "power": "10",
-      "sell_value": "1750"
-    },
-    {
-      "faction": "R17",
-      "category": "structure",
-      "name": "Crane",
-      "cost": "1500",
-      "time": "0:15",
-      "power": "10",
-      "sell_value": "750"
-    },
-    {
-      "faction": "R17",
-      "category": "structure",
-      "name": "Reactor",
-      "cost": "600",
-      "time": "0:06",
-      "power": "20",
-      "sell_value": "300"
-    },
-    {
-      "faction": "R17",
-      "category": "structure",
-      "name": "Fusion Core",
-      "cost": "400",
-      "time": "0:10",
-      "power": "20",
-      "sell_value": ""
-    },
-    {
-      "faction": "R17",
-      "category": "structure",
-      "name": "Refinery",
-      "cost": "3000",
-      "time": "0:30",
-      "power": "15",
-      "sell_value": "500"
-    },
-    {
-      "faction": "R17",
-      "category": "structure",
-      "name": "Barracks",
-      "cost": "600",
-      "time": "0:06",
-      "power": "5",
-      "sell_value": "300"
-    },
-    {
-      "faction": "R17",
-      "category": "structure",
-      "name": "Warp Sphere",
-      "cost": "2000",
-      "time": "0:20",
-      "power": "6",
-      "sell_value": "1000"
-    },
-    {
-      "faction": "R17",
-      "category": "structure",
-      "name": "Nerve Center",
-      "cost": "1500",
-      "time": "0:15",
-      "power": "8",
-      "sell_value": "750"
-    },
-    {
-      "faction": "R17",
-      "category": "structure",
-      "name": "Gravity Stabilizer",
-      "cost": "1000",
-      "time": "0:10",
-      "power": "7",
-      "sell_value": "500"
-    },
-    {
-      "faction": "R17",
-      "category": "structure",
-      "name": "Stasis Chamber",
-      "cost": "1200",
-      "time": "0:12",
-      "power": "8",
-      "sell_value": "600"
-    },
-    {
-      "faction": "R17",
-      "category": "structure",
-      "name": "Tech Center",
-      "cost": "4000",
-      "time": "0:40",
-      "power": "10",
-      "sell_value": "2000"
-    },
-    {
-      "faction": "R17",
-      "category": "structure",
-      "name": "Signal Transmitter",
-      "cost": "3000",
-      "time": "0:30",
-      "power": "10",
-      "sell_value": "1500"
-    },
-    {
-      "faction": "R17",
-      "category": "structure",
-      "name": "Warp Chasm",
-      "cost": "3000",
-      "time": "0:30",
-      "power": "10",
-      "sell_value": "1500"
-    },
-    {
-      "faction": "R17",
-      "category": "structure",
-      "name": "Drone Platform",
-      "cost": "",
-      "time": "0:00",
-      "power": "10",
-      "sell_value": "1750"
-    },
-    {
-      "faction": "T59",
-      "category": "structure",
-      "name": "Crane",
-      "cost": "1500",
-      "time": "0:15",
-      "power": "10",
-      "sell_value": "750"
-    },
-    {
-      "faction": "T59",
-      "category": "structure",
-      "name": "Reactor",
-      "cost": "600",
-      "time": "0:06",
-      "power": "20",
-      "sell_value": "300"
-    },
-    {
-      "faction": "T59",
-      "category": "structure",
-      "name": "Fusion Core",
-      "cost": "400",
-      "time": "0:10",
-      "power": "20",
-      "sell_value": ""
-    },
-    {
-      "faction": "T59",
-      "category": "structure",
-      "name": "Refinery",
-      "cost": "3000",
-      "time": "0:30",
-      "power": "15",
-      "sell_value": "500"
-    },
-    {
-      "faction": "T59",
-      "category": "structure",
-      "name": "Barracks",
-      "cost": "600",
-      "time": "0:06",
-      "power": "5",
-      "sell_value": "300"
-    },
-    {
-      "faction": "T59",
-      "category": "structure",
-      "name": "Warp Sphere",
-      "cost": "2000",
-      "time": "0:20",
-      "power": "6",
-      "sell_value": "1000"
-    },
-    {
-      "faction": "T59",
-      "category": "structure",
-      "name": "Nerve Center",
-      "cost": "1500",
-      "time": "0:15",
-      "power": "8",
-      "sell_value": "750"
-    },
-    {
-      "faction": "T59",
-      "category": "structure",
-      "name": "Gravity Stabilizer",
-      "cost": "1000",
-      "time": "0:10",
-      "power": "7",
-      "sell_value": "500"
-    },
-    {
-      "faction": "T59",
-      "category": "structure",
-      "name": "Stasis Chamber",
-      "cost": "1200",
-      "time": "0:12",
-      "power": "8",
-      "sell_value": "600"
-    },
-    {
-      "faction": "T59",
-      "category": "structure",
-      "name": "Tech Center",
-      "cost": "4000",
-      "time": "0:40",
-      "power": "10",
-      "sell_value": "2000"
-    },
-    {
-      "faction": "T59",
-      "category": "structure",
-      "name": "Signal Transmitter",
-      "cost": "3000",
-      "time": "0:30",
-      "power": "10",
-      "sell_value": "1500"
-    },
-    {
-      "faction": "T59",
-      "category": "structure",
-      "name": "Warp Chasm",
-      "cost": "3000",
-      "time": "0:30",
-      "power": "10",
-      "sell_value": "1500"
-    },
-    {
-      "faction": "T59",
-      "category": "structure",
-      "name": "Drone Platform",
-      "cost": "",
-      "time": "0:00",
-      "power": "10",
-      "sell_value": "1750"
-    }
-  ],
-  "defense": [
-    {
-      "faction": "GDI",
-      "category": "defense",
-      "name": "Watchtower",
-      "cost": "600",
-      "time": "0:06",
-      "power": "5",
-      "sell_value": ""
-    },
-    {
-      "faction": "GDI",
-      "category": "defense",
-      "name": "Guardian Cannon",
-      "cost": "1200",
-      "time": "0:12",
-      "power": "8",
-      "sell_value": ""
-    },
-    {
-      "faction": "GDI",
-      "category": "defense",
-      "name": "AA Battery",
-      "cost": "800",
-      "time": "0:08",
-      "power": "5",
-      "sell_value": ""
-    },
-    {
-      "faction": "GDI",
-      "category": "defense",
-      "name": "Tiberium Silo",
-      "cost": "100",
-      "time": "0:05",
-      "power": "",
-      "sell_value": ""
-    },
-    {
-      "faction": "GDI",
-      "category": "defense",
-      "name": "Sonic Emitter",
-      "cost": "2000",
-      "time": "0:20",
-      "power": "15",
-      "sell_value": ""
-    },
-    {
-      "faction": "GDI",
-      "category": "defense",
-      "name": "Ion Cannon",
-      "cost": "5000",
-      "time": "0:50",
-      "power": "20",
-      "sell_value": ""
-    },
-    {
-      "faction": "GDI",
-      "category": "defense",
-      "name": "Surveryor",
-      "cost": "1500",
-      "time": "0:15",
-      "power": "",
-      "sell_value": ""
-    },
-    {
-      "faction": "Zocom",
-      "category": "defense",
-      "name": "Watchtower",
-      "cost": "600",
-      "time": "0:06",
-      "power": "5",
-      "sell_value": ""
-    },
-    {
-      "faction": "Zocom",
-      "category": "defense",
-      "name": "Guardian Cannon",
-      "cost": "1200",
-      "time": "0:12",
-      "power": "8",
-      "sell_value": "",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "Zocom",
-      "category": "defense",
-      "name": "AA Battery",
-      "cost": "800",
-      "time": "0:08",
-      "power": "5",
-      "sell_value": "",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "Zocom",
-      "category": "defense",
-      "name": "Tiberium Silo",
-      "cost": "100",
-      "time": "0:05",
-      "power": "",
-      "sell_value": "",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "Zocom",
-      "category": "defense",
-      "name": "Sonic Emitter",
-      "cost": "2000",
-      "time": "0:20",
-      "power": "15",
-      "sell_value": "",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "Zocom",
-      "category": "defense",
-      "name": "Ion Cannon",
-      "cost": "5000",
-      "time": "0:50",
-      "power": "20",
-      "sell_value": "",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "Zocom",
-      "category": "defense",
-      "name": "Surveryor",
-      "cost": "1500",
-      "time": "0:15",
-      "power": "",
-      "sell_value": "",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "ST",
-      "category": "defense",
-      "name": "Watchtower",
-      "cost": "600",
-      "time": "0:06",
-      "power": "5",
-      "sell_value": "",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "ST",
-      "category": "defense",
-      "name": "Guardian Cannon",
-      "cost": "1200",
-      "time": "0:12",
-      "power": "8",
-      "sell_value": "",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "ST",
-      "category": "defense",
-      "name": "AA Battery",
-      "cost": "800",
-      "time": "0:08",
-      "power": "5",
-      "sell_value": "",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "ST",
-      "category": "defense",
-      "name": "Tiberium Silo",
-      "cost": "100",
-      "time": "0:05",
-      "power": "",
-      "sell_value": "",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "ST",
-      "category": "defense",
-      "name": "Ion Cannon",
-      "cost": "5000",
-      "time": "0:50",
-      "power": "20",
-      "sell_value": "",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "ST",
-      "category": "defense",
-      "name": "Surveryor",
-      "cost": "1500",
-      "time": "0:15",
-      "power": "",
-      "sell_value": "",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "NOD",
-      "category": "defense",
-      "name": "Shredder Turret",
-      "cost": "600",
-      "time": "0:06",
-      "power": "6",
-      "sell_value": "",
-      "sell_spawn": "Millitant Squad"
-    },
-    {
-      "faction": "NOD",
-      "category": "defense",
-      "name": "Laser Turret",
-      "cost": "1200",
-      "time": "0:12",
-      "power": "10",
-      "sell_value": "",
-      "sell_spawn": "Millitant Squad"
-    },
-    {
-      "faction": "NOD",
-      "category": "defense",
-      "name": "SAM Turret",
-      "cost": "800",
-      "time": "0:08",
-      "power": "6",
-      "sell_value": "",
-      "sell_spawn": "Millitant Squad"
-    },
-    {
-      "faction": "NOD",
-      "category": "defense",
-      "name": "Tiberium Silo",
-      "cost": "100",
-      "time": "0:05",
-      "power": "",
-      "sell_value": "",
-      "sell_spawn": "-"
-    },
-    {
-      "faction": "NOD",
-      "category": "defense",
-      "name": "Disruption Tower",
-      "cost": "1000",
-      "time": "0:10",
-      "power": "10",
-      "sell_value": "",
-      "sell_spawn": "Millitant Squad"
-    },
-    {
-      "faction": "NOD",
-      "category": "defense",
-      "name": "Voice of Kane",
-      "cost": "1000",
-      "time": "0:10",
-      "power": "5",
-      "sell_value": "",
-      "sell_spawn": "Millitant Squad"
-    },
-    {
-      "faction": "NOD",
-      "category": "defense",
-      "name": "Obelisk of Light",
-      "cost": "2000",
-      "time": "0:20",
-      "power": "15",
-      "sell_value": "",
-      "sell_spawn": "Millitant Squad"
-    },
-    {
-      "faction": "NOD",
-      "category": "defense",
-      "name": "Temple of Nod",
-      "cost": "5000",
-      "time": "0:50",
-      "power": "20",
-      "sell_value": "",
-      "sell_spawn": "Black Hand Squad"
-    },
-    {
-      "faction": "NOD",
-      "category": "defense",
-      "name": "Air Support Tower",
-      "cost": "500",
-      "time": "0:05",
-      "power": "5",
-      "sell_value": "",
-      "sell_spawn": "-"
-    },
-    {
-      "faction": "NOD",
-      "category": "defense",
-      "name": "Emissary",
-      "cost": "1500",
-      "time": "0:15",
-      "power": "",
-      "sell_value": "",
-      "sell_spawn": "Millitant Squad"
-    },
-    {
-      "faction": "MOK",
-      "category": "defense",
-      "name": "Shredder Turret",
-      "cost": "600",
-      "time": "0:06",
-      "power": "6",
-      "sell_value": "",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "MOK",
-      "category": "defense",
-      "name": "Laser Turret",
-      "cost": "1200",
-      "time": "0:12",
-      "power": "10",
-      "sell_value": "",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "MOK",
-      "category": "defense",
-      "name": "SAM Turret",
-      "cost": "800",
-      "time": "0:08",
-      "power": "6",
-      "sell_value": "",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "MOK",
-      "category": "defense",
-      "name": "Tiberium Silo",
-      "cost": "100",
-      "time": "0:05",
-      "power": "",
-      "sell_value": "",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "MOK",
-      "category": "defense",
-      "name": "Disruption Tower",
-      "cost": "500",
-      "time": "0:10",
-      "power": "10",
-      "sell_value": "",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "MOK",
-      "category": "defense",
-      "name": "Voice of Kane",
-      "cost": "1000",
-      "time": "0:10",
-      "power": "5",
-      "sell_value": "",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "MOK",
-      "category": "defense",
-      "name": "Obelisk of Light",
-      "cost": "2000",
-      "time": "0:20",
-      "power": "15",
-      "sell_value": "",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "MOK",
-      "category": "defense",
-      "name": "Temple of Nod",
-      "cost": "5000",
-      "time": "0:50",
-      "power": "20",
-      "sell_value": "",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "MOK",
-      "category": "defense",
-      "name": "Air Support Tower",
-      "cost": "500",
-      "time": "0:05",
-      "power": "5",
-      "sell_value": "",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "MOK",
-      "category": "defense",
-      "name": "Emissary",
-      "cost": "1500",
-      "time": "0:15",
-      "power": "",
-      "sell_value": "",
-      "sell_spawn": ""
-    },
-    {
-      "faction": "BH",
-      "category": "defense",
-      "name": "Shredder Turret",
-      "cost": "600",
-      "time": "0:06",
-      "power": "6"
-    },
-    {
-      "faction": "BH",
-      "category": "defense",
-      "name": "Laser Turret",
-      "cost": "1200",
-      "time": "0:12",
-      "power": "10"
-    },
-    {
-      "faction": "BH",
-      "category": "defense",
-      "name": "SAM Turret",
-      "cost": "800",
-      "time": "0:08",
-      "power": "6"
-    },
-    {
-      "faction": "BH",
-      "category": "defense",
-      "name": "Tiberium Silo",
-      "cost": "100",
-      "time": "0:05",
-      "power": ""
-    },
-    {
-      "faction": "BH",
-      "category": "defense",
-      "name": "Disruption Tower",
-      "cost": "",
-      "time": "0:00",
-      "power": ""
-    },
-    {
-      "faction": "BH",
-      "category": "defense",
-      "name": "Voice of Kane",
-      "cost": "1000",
-      "time": "0:10",
-      "power": "5"
-    },
-    {
-      "faction": "BH",
-      "category": "defense",
-      "name": "Obelisk of Light",
-      "cost": "2000",
-      "time": "0:20",
-      "power": "15"
-    },
-    {
-      "faction": "BH",
-      "category": "defense",
-      "name": "Temple of Nod",
-      "cost": "5000",
-      "time": "0:50",
-      "power": "20"
-    },
-    {
-      "faction": "BH",
-      "category": "defense",
-      "name": "Air Support Tower",
-      "cost": "",
-      "time": "0:00",
-      "power": ""
-    },
-    {
-      "faction": "BH",
-      "category": "defense",
-      "name": "Emissary",
-      "cost": "1500",
-      "time": "0:15",
-      "power": ""
-    },
-    {
-      "faction": "Scrin",
-      "category": "defense",
-      "name": "Buzzer Hive",
-      "cost": "600",
-      "time": "0:06",
-      "power": "7"
-    },
-    {
-      "faction": "Scrin",
-      "category": "defense",
-      "name": "Photon Cannon",
-      "cost": "1200",
-      "time": "0:12",
-      "power": "8"
-    },
-    {
-      "faction": "Scrin",
-      "category": "defense",
-      "name": "Plasma Missile Battery",
-      "cost": "800",
-      "time": "0:08",
-      "power": "7"
-    },
-    {
-      "faction": "Scrin",
-      "category": "defense",
-      "name": "Growth Accelerator",
-      "cost": "1500",
-      "time": "0:15",
-      "power": "5"
-    },
-    {
-      "faction": "Scrin",
-      "category": "defense",
-      "name": "Storm Column",
-      "cost": "3000",
-      "time": "0:30",
-      "power": "12"
-    },
-    {
-      "faction": "Scrin",
-      "category": "defense",
-      "name": "Rift Generator",
-      "cost": "5000",
-      "time": "0:50",
-      "power": "15"
-    },
-    {
-      "faction": "Scrin",
-      "category": "defense",
-      "name": "Explorer",
-      "cost": "1500",
-      "time": "0:15",
-      "power": ""
-    },
-    {
-      "faction": "R17",
-      "category": "defense",
-      "name": "Buzzer Hive",
-      "cost": "600",
-      "time": "0:06",
-      "power": "7"
-    },
-    {
-      "faction": "R17",
-      "category": "defense",
-      "name": "Photon Cannon",
-      "cost": "1200",
-      "time": "0:12",
-      "power": "8"
-    },
-    {
-      "faction": "R17",
-      "category": "defense",
-      "name": "Plasma Missile Battery",
-      "cost": "800",
-      "time": "0:08",
-      "power": "7"
-    },
-    {
-      "faction": "R17",
-      "category": "defense",
-      "name": "Growth Accelerator",
-      "cost": "1500",
-      "time": "0:15",
-      "power": "5"
-    },
-    {
-      "faction": "R17",
-      "category": "defense",
-      "name": "Storm Column",
-      "cost": "3000",
-      "time": "0:30",
-      "power": "12"
-    },
-    {
-      "faction": "R17",
-      "category": "defense",
-      "name": "Rift Generator",
-      "cost": "5000",
-      "time": "0:50",
-      "power": "15"
-    },
-    {
-      "faction": "R17",
-      "category": "defense",
-      "name": "Explorer",
-      "cost": "1500",
-      "time": "0:15",
-      "power": ""
-    },
-    {
-      "faction": "T59",
-      "category": "defense",
-      "name": "Buzzer Hive",
-      "cost": "600",
-      "time": "0:06",
-      "power": "7"
-    },
-    {
-      "faction": "T59",
-      "category": "defense",
-      "name": "Photon Cannon",
-      "cost": "1200",
-      "time": "0:12",
-      "power": "8"
-    },
-    {
-      "faction": "T59",
-      "category": "defense",
-      "name": "Plasma Missile Battery",
-      "cost": "800",
-      "time": "0:08",
-      "power": "7"
-    },
-    {
-      "faction": "T59",
-      "category": "defense",
-      "name": "Growth Accelerator",
-      "cost": "1500",
-      "time": "0:15",
-      "power": "5"
-    },
-    {
-      "faction": "T59",
-      "category": "defense",
-      "name": "Storm Column",
-      "cost": "3000",
-      "time": "0:30",
-      "power": "12"
-    },
-    {
-      "faction": "T59",
-      "category": "defense",
-      "name": "Rift Generator",
-      "cost": "5000",
-      "time": "0:50",
-      "power": "15"
-    },
-    {
-      "faction": "T59",
-      "category": "defense",
-      "name": "Explorer",
-      "cost": "1500",
-      "time": "0:15",
-      "power": ""
-    }
-  ],
-
-  "units": [
-    {
-      "faction": "GDI",
-      "category": "unit",
-      "name": "Rifleman Squad",
-      "cost": "300",
-      "time": "0:03",
-      "power": ""
-    },
-    {
-      "faction": "GDI",
-      "category": "unit",
-      "name": "Missile Squad",
-      "cost": "400",
-      "time": "0:04"
-    },
-    {
-      "faction": "GDI",
-      "category": "unit",
-      "name": "Engineer",
-      "cost": "500",
-      "time": "0:05"
-    },
-    {
-      "faction": "GDI",
-      "category": "unit",
-      "name": "Sniper Team",
-      "cost": "1000",
-      "time": "0:10"
-    },
-    {
-      "faction": "GDI",
-      "category": "unit",
-      "name": "Grenadier Squad",
-      "cost": "800",
-      "time": "0:08"
-    },
-    {
-      "faction": "GDI",
-      "category": "unit",
-      "name": "Zone Trooper",
-      "cost": "1300",
-      "time": "0:13"
-    },
-    {
-      "faction": "GDI",
-      "category": "unit",
-      "name": "Commando",
-      "cost": "2000",
-      "time": "0:20"
-    },
-    {
-      "faction": "GDI",
-      "category": "unit",
-      "name": "Pitbull",
-      "cost": "700",
-      "time": "0:07"
-    },
-    {
-      "faction": "GDI",
-      "category": "unit",
-      "name": "Predator Tank",
-      "cost": "1100",
-      "time": "0:11"
-    },
-    {
-      "faction": "GDI",
-      "category": "unit",
-      "name": "APC",
-      "cost": "700",
-      "time": "0:07"
-    },
-    {
-      "faction": "GDI",
-      "category": "unit",
-      "name": "Harvester",
-      "cost": "1600",
-      "time": "0:16"
-    },
-    {
-      "faction": "GDI",
-      "category": "unit",
-      "name": "MCV",
-      "cost": "3500",
-      "time": "0:35"
-    },
-    {
-      "faction": "GDI",
-      "category": "unit",
-      "name": "Shatterer",
-      "cost": "1500",
-      "time": "0:15"
-    },
-    {
-      "faction": "GDI",
-      "category": "unit",
-      "name": "Slingshot",
-      "cost": "1000",
-      "time": "0:10"
-    },
-    {
-      "faction": "GDI",
-      "category": "unit",
-      "name": "Rig",
-      "cost": "2000",
-      "time": "0:20"
-    },
-    {
-      "faction": "GDI",
-      "category": "unit",
-      "name": "Mammoth Tank",
-      "cost": "2500",
-      "time": "0:25"
-    },
-    {
-      "faction": "GDI",
-      "category": "unit",
-      "name": "Juggernaut",
-      "cost": "2200",
-      "time": "0:22"
-    },
-    {
-      "faction": "GDI",
-      "category": "unit",
-      "name": "MARV",
-      "cost": "5000",
-      "time": "0:50"
-    },
-    {
-      "faction": "GDI",
-      "category": "unit",
-      "name": "Orca",
-      "cost": "1100",
-      "time": "0:11"
-    },
-    {
-      "faction": "GDI",
-      "category": "unit",
-      "name": "Hammerhead",
-      "cost": "1500",
-      "time": "0:15"
-    },
-    {
-      "faction": "GDI",
-      "category": "unit",
-      "name": "Firehawk",
-      "cost": "1500",
-      "time": "0:15"
-    },
-    {
-      "faction": "ST",
-      "category": "unit",
-      "name": "Rifleman Squad",
-      "cost": "300",
-      "time": "0:03"
-    },
-    {
-      "faction": "ST",
-      "category": "unit",
-      "name": "Missile Squad",
-      "cost": "400",
-      "time": "0:04"
-    },
-    {
-      "faction": "ST",
-      "category": "unit",
-      "name": "Engineer",
-      "cost": "500",
-      "time": "0:05"
-    },
-    {
-      "faction": "ST",
-      "category": "unit",
-      "name": "Grenadier Squad",
-      "cost": "800",
-      "time": "0:08"
-    },
-    {
-      "faction": "ST",
-      "category": "unit",
-      "name": "Pitbull",
-      "cost": "700",
-      "time": "0:07"
-    },
-    {
-      "faction": "ST",
-      "category": "unit",
-      "name": "Titan",
-      "cost": "1300",
-      "time": "0:13"
-    },
-    {
-      "faction": "ST",
-      "category": "unit",
-      "name": "MRT",
-      "cost": "700",
-      "time": "0:07"
-    },
-    {
-      "faction": "ST",
-      "category": "unit",
-      "name": "Harvester",
-      "cost": "1600",
-      "time": "0:16"
-    },
-    {
-      "faction": "ST",
-      "category": "unit",
-      "name": "MCV",
-      "cost": "3500",
-      "time": "0:35"
-    },
-    {
-      "faction": "ST",
-      "category": "unit",
-      "name": "Wolverine",
-      "cost": "900",
-      "time": "0:09"
-    },
-    {
-      "faction": "ST",
-      "category": "unit",
-      "name": "Slingshot",
-      "cost": "1000",
-      "time": "0:10"
-    },
-    {
-      "faction": "ST",
-      "category": "unit",
-      "name": "Rig",
-      "cost": "2000",
-      "time": "0:20"
-    },
-    {
-      "faction": "ST",
-      "category": "unit",
-      "name": "Mammoth Tank",
-      "cost": "2500",
-      "time": "0:25"
-    },
-    {
-      "faction": "ST",
-      "category": "unit",
-      "name": "Behemoth",
-      "cost": "2200",
-      "time": "0:22"
-    },
-    {
-      "faction": "ST",
-      "category": "unit",
-      "name": "MARV",
-      "cost": "5000",
-      "time": "0:50"
-    },
-    {
-      "faction": "ST",
-      "category": "unit",
-      "name": "Orca",
-      "cost": "1100",
-      "time": "0:11"
-    },
-    {
-      "faction": "ST",
-      "category": "unit",
-      "name": "Hammerhead",
-      "cost": "1500",
-      "time": "0:15"
-    },
-    {
-      "faction": "ST",
-      "category": "unit",
-      "name": "Firehawk",
-      "cost": "1500",
-      "time": "0:15"
-    },
-    {
-      "faction": "Zocom",
-      "category": "unit",
-      "name": "Rifleman Squad",
-      "cost": "300",
-      "time": "0:03"
-    },
-    {
-      "faction": "Zocom",
-      "category": "unit",
-      "name": "Missile Squad",
-      "cost": "400",
-      "time": "0:04"
-    },
-    {
-      "faction": "Zocom",
-      "category": "unit",
-      "name": "Engineer",
-      "cost": "500",
-      "time": "0:05"
-    },
-    {
-      "faction": "Zocom",
-      "category": "unit",
-      "name": "Sniper Team",
-      "cost": "1000",
-      "time": "0:10"
-    },
-    {
-      "faction": "Zocom",
-      "category": "unit",
-      "name": "Grenadier Squad",
-      "cost": "800",
-      "time": "0:08"
-    },
-    {
-      "faction": "Zocom",
-      "category": "unit",
-      "name": "Zone Raider",
-      "cost": "1300",
-      "time": "0:13"
-    },
-    {
-      "faction": "Zocom",
-      "category": "unit",
-      "name": "Commando",
-      "cost": "2000",
-      "time": "0:20"
-    },
-    {
-      "faction": "Zocom",
-      "category": "unit",
-      "name": "Pitbull",
-      "cost": "700",
-      "time": "0:07"
-    },
-    {
-      "faction": "Zocom",
-      "category": "unit",
-      "name": "Predator Tank",
-      "cost": "1100",
-      "time": "0:11"
-    },
-    {
-      "faction": "Zocom",
-      "category": "unit",
-      "name": "APC",
-      "cost": "700",
-      "time": "0:07"
-    },
-    {
-      "faction": "Zocom",
-      "category": "unit",
-      "name": "Harvester",
-      "cost": "1600",
-      "time": "0:16"
-    },
-    {
-      "faction": "Zocom",
-      "category": "unit",
-      "name": "MCV",
-      "cost": "3500",
-      "time": "0:35"
-    },
-    {
-      "faction": "Zocom",
-      "category": "unit",
-      "name": "Shatterer",
-      "cost": "1600",
-      "time": "0:16"
-    },
-    {
-      "faction": "Zocom",
-      "category": "unit",
-      "name": "Slingshot",
-      "cost": "1000",
-      "time": "0:10"
-    },
-    {
-      "faction": "Zocom",
-      "category": "unit",
-      "name": "Rig",
-      "cost": "2000",
-      "time": "0:20"
-    },
-    {
-      "faction": "Zocom",
-      "category": "unit",
-      "name": "Mammoth Tank",
-      "cost": "2500",
-      "time": "0:25"
-    },
-    {
-      "faction": "Zocom",
-      "category": "unit",
-      "name": "MARV",
-      "cost": "5000",
-      "time": "0:50"
-    },
-    {
-      "faction": "Zocom",
-      "category": "unit",
-      "name": "Zocom Orca",
-      "cost": "1500",
-      "time": "0:15"
-    },
-    {
-      "faction": "Zocom",
-      "category": "unit",
-      "name": "Hammerhead",
-      "cost": "1500",
-      "time": "0:15"
-    },
-    {
-      "faction": "Zocom",
-      "category": "unit",
-      "name": "Firehawk",
-      "cost": "1500",
-      "time": "0:15"
-    },
-    {
-      "faction": "NOD",
-      "category": "unit",
-      "name": "Militant Squad",
-      "cost": "200",
-      "time": "0:02"
-    },
-    {
-      "faction": "NOD",
-      "category": "unit",
-      "name": "Militant Rocket Squad",
-      "cost": "400",
-      "time": "0:04"
-    },
-    {
-      "faction": "NOD",
-      "category": "unit",
-      "name": "Saboteur",
-      "cost": "500",
-      "time": "0:05"
-    },
-    {
-      "faction": "NOD",
-      "category": "unit",
-      "name": "Fanatics",
-      "cost": "700",
-      "time": "0:07"
-    },
-    {
-      "faction": "NOD",
-      "category": "unit",
-      "name": "Black Hand",
-      "cost": "900",
-      "time": "0:09"
-    },
-    {
-      "faction": "NOD",
-      "category": "unit",
-      "name": "Shadow Team",
-      "cost": "800",
-      "time": "0:08"
-    },
-    {
-      "faction": "NOD",
-      "category": "unit",
-      "name": "Commando",
-      "cost": "2000",
-      "time": "0:20"
-    },
-    {
-      "faction": "NOD",
-      "category": "unit",
-      "name": "Attack Bike",
-      "cost": "600",
-      "time": "0:06"
-    },
-    {
-      "faction": "NOD",
-      "category": "unit",
-      "name": "Raider Buggy",
-      "cost": "500",
-      "time": "0:05"
-    },
-    {
-      "faction": "NOD",
-      "category": "unit",
-      "name": "Scorpion Tank",
-      "cost": "800",
-      "time": "0:08"
-    },
-    {
-      "faction": "NOD",
-      "category": "unit",
-      "name": "Harvester",
-      "cost": "1600",
-      "time": "0:16"
-    },
-    {
-      "faction": "NOD",
-      "category": "unit",
-      "name": "MCV",
-      "cost": "3500",
-      "time": "0:35"
-    },
-    {
-      "faction": "NOD",
-      "category": "unit",
-      "name": "Flame Tank",
-      "cost": "1200",
-      "time": "0:12"
-    },
-    {
-      "faction": "NOD",
-      "category": "unit",
-      "name": "Reckonner",
-      "cost": "900",
-      "time": "0:09"
-    },
-    {
-      "faction": "NOD",
-      "category": "unit",
-      "name": "Beam Cannon",
-      "cost": "1000",
-      "time": "0:10"
-    },
-    {
-      "faction": "NOD",
-      "category": "unit",
-      "name": "Stealth Tank",
-      "cost": "1800",
-      "time": "0:18"
-    },
-    {
-      "faction": "NOD",
-      "category": "unit",
-      "name": "Specter",
-      "cost": "1500",
-      "time": "0:15"
-    },
-    {
-      "faction": "NOD",
-      "category": "unit",
-      "name": "Avatar",
-      "cost": "2200",
-      "time": "0:22"
-    },
-    {
-      "faction": "NOD",
-      "category": "unit",
-      "name": "Redeemer",
-      "cost": "5000",
-      "time": "0:50"
-    },
-    {
-      "faction": "NOD",
-      "category": "unit",
-      "name": "Venom",
-      "cost": "900",
-      "time": "0:09"
-    },
-    {
-      "faction": "NOD",
-      "category": "unit",
-      "name": "Vertigo Bomber",
-      "cost": "1800",
-      "time": "0:18"
-    },
-    {
-      "faction": "MOK",
-      "category": "unit",
-      "name": "The Awakened",
-      "cost": "500",
-      "time": "0:05"
-    },
-    {
-      "faction": "MOK",
-      "category": "unit",
-      "name": "Militant Rocket Squad",
-      "cost": "400",
-      "time": "0:04"
-    },
-    {
-      "faction": "MOK",
-      "category": "unit",
-      "name": "Saboteur",
-      "cost": "500",
-      "time": "0:05"
-    },
-    {
-      "faction": "MOK",
-      "category": "unit",
-      "name": "Fanatics",
-      "cost": "700",
-      "time": "0:07"
-    },
-    {
-      "faction": "MOK",
-      "category": "unit",
-      "name": "Tiberium Trooper",
-      "cost": "900",
-      "time": "0:09"
-    },
-    {
-      "faction": "MOK",
-      "category": "unit",
-      "name": "Shadow Team",
-      "cost": "800",
-      "time": "0:08"
-    },
-    {
-      "faction": "MOK",
-      "category": "unit",
-      "name": "Commando",
-      "cost": "2000",
-      "time": "0:20"
-    },
-    {
-      "faction": "MOK",
-      "category": "unit",
-      "name": "The Enlightened",
-      "cost": "1200",
-      "time": "0:12"
-    },
-    {
-      "faction": "MOK",
-      "category": "unit",
-      "name": "Attack Bike",
-      "cost": "600",
-      "time": "0:06"
-    },
-    {
-      "faction": "MOK",
-      "category": "unit",
-      "name": "Raider Buggy",
-      "cost": "500",
-      "time": "0:05"
-    },
-    {
-      "faction": "MOK",
-      "category": "unit",
-      "name": "Scorpion Tank",
-      "cost": "800",
-      "time": "0:08"
-    },
-    {
-      "faction": "MOK",
-      "category": "unit",
-      "name": "Harvester",
-      "cost": "1600",
-      "time": "0:16"
-    },
-    {
-      "faction": "MOK",
-      "category": "unit",
-      "name": "MCV",
-      "cost": "3500",
-      "time": "0:35"
-    },
-    {
-      "faction": "MOK",
-      "category": "unit",
-      "name": "Flame Tank",
-      "cost": "1200",
-      "time": "0:12"
-    },
-    {
-      "faction": "MOK",
-      "category": "unit",
-      "name": "Reckonner",
-      "cost": "900",
-      "time": "0:09"
-    },
-    {
-      "faction": "MOK",
-      "category": "unit",
-      "name": "Beam Cannon",
-      "cost": "1000",
-      "time": "0:10"
-    },
-    {
-      "faction": "MOK",
-      "category": "unit",
-      "name": "Stealth Tank",
-      "cost": "1800",
-      "time": "0:18"
-    },
-    {
-      "faction": "MOK",
-      "category": "unit",
-      "name": "Specter",
-      "cost": "1500",
-      "time": "0:15"
-    },
-    {
-      "faction": "MOK",
-      "category": "unit",
-      "name": "Avatar",
-      "cost": "2200",
-      "time": "0:22"
-    },
-    {
-      "faction": "MOK",
-      "category": "unit",
-      "name": "Redeemer",
-      "cost": "5000",
-      "time": "0:50"
-    },
-    {
-      "faction": "MOK",
-      "category": "unit",
-      "name": "Venom",
-      "cost": "900",
-      "time": "0:09"
-    },
-    {
-      "faction": "MOK",
-      "category": "unit",
-      "name": "Vertigo Bomber",
-      "cost": "1800",
-      "time": "0:18"
-    },
-    {
-      "faction": "BH",
-      "category": "unit",
-      "name": "Confessor Cabal",
-      "cost": "400",
-      "time": "0:04"
-    },
-    {
-      "faction": "BH",
-      "category": "unit",
-      "name": "Militant Rocket Squad",
-      "cost": "400",
-      "time": "0:04"
-    },
-    {
-      "faction": "BH",
-      "category": "unit",
-      "name": "Saboteur",
-      "cost": "500",
-      "time": "0:05"
-    },
-    {
-      "faction": "BH",
-      "category": "unit",
-      "name": "Fanatics",
-      "cost": "700",
-      "time": "0:07"
-    },
-    {
-      "faction": "BH",
-      "category": "unit",
-      "name": "Black Hand",
-      "cost": "900",
-      "time": "0:09"
-    },
-    {
-      "faction": "BH",
-      "category": "unit",
-      "name": "Shadow Team",
-      "cost": "",
-      "time": "0:00"
-    },
-    {
-      "faction": "BH",
-      "category": "unit",
-      "name": "Commando",
-      "cost": "2000",
-      "time": "0:20"
-    },
-    {
-      "faction": "BH",
-      "category": "unit",
-      "name": "Attack Bike",
-      "cost": "600",
-      "time": "0:06"
-    },
-    {
-      "faction": "BH",
-      "category": "unit",
-      "name": "Raider Buggy",
-      "cost": "500",
-      "time": "0:05"
-    },
-    {
-      "faction": "BH",
-      "category": "unit",
-      "name": "Scorpion Tank",
-      "cost": "800",
-      "time": "0:08"
-    },
-    {
-      "faction": "BH",
-      "category": "unit",
-      "name": "Harvester",
-      "cost": "1600",
-      "time": "0:16"
-    },
-    {
-      "faction": "BH",
-      "category": "unit",
-      "name": "MCV",
-      "cost": "3500",
-      "time": "0:35"
-    },
-    {
-      "faction": "BH",
-      "category": "unit",
-      "name": "Flame Tank",
-      "cost": "1200",
-      "time": "0:12"
-    },
-    {
-      "faction": "BH",
-      "category": "unit",
-      "name": "Reckonner",
-      "cost": "900",
-      "time": "0:09"
-    },
-    {
-      "faction": "BH",
-      "category": "unit",
-      "name": "Beam Cannon",
-      "cost": "1000",
-      "time": "0:10"
-    },
-    {
-      "faction": "BH",
-      "category": "unit",
-      "name": "Mantis",
-      "cost": "1200",
-      "time": "0:12"
-    },
-    {
-      "faction": "BH",
-      "category": "unit",
-      "name": "Specter",
-      "cost": "1500",
-      "time": "0:15"
-    },
-    {
-      "faction": "BH",
-      "category": "unit",
-      "name": "Purifier",
-      "cost": "3000",
-      "time": "0:30"
-    },
-    {
-      "faction": "BH",
-      "category": "unit",
-      "name": "Redeemer",
-      "cost": "5000",
-      "time": "0:50"
-    },
-    {
-      "faction": "BH",
-      "category": "unit",
-      "name": "Venom",
-      "cost": "900",
-      "time": "0:09"
-    },
-    {
-      "faction": "BH",
-      "category": "unit",
-      "name": "Vertigo Bomber",
-      "cost": "1800",
-      "time": "0:18"
-    },
-    {
-      "faction": "Scrin",
-      "category": "unit",
-      "name": "Buzzer",
-      "cost": "200",
-      "time": "0:02"
-    },
-    {
-      "faction": "Scrin",
-      "category": "unit",
-      "name": "Disintegrators",
-      "cost": "300",
-      "time": "0:03"
-    },
-    {
-      "faction": "Scrin",
-      "category": "unit",
-      "name": "Assimilator",
-      "cost": "500",
-      "time": "0:05"
-    },
-    {
-      "faction": "Scrin",
-      "category": "unit",
-      "name": "Shock Trooper",
-      "cost": "800",
-      "time": "0:08"
-    },
-    {
-      "faction": "Scrin",
-      "category": "unit",
-      "name": "Ravager",
-      "cost": "1200",
-      "time": "0:12"
-    },
-    {
-      "faction": "Scrin",
-      "category": "unit",
-      "name": "Mastermind",
-      "cost": "2500",
-      "time": "0:25"
-    },
-    {
-      "faction": "Scrin",
-      "category": "unit",
-      "name": "Gun Walker",
-      "cost": "700",
-      "time": "0:07"
-    },
-    {
-      "faction": "Scrin",
-      "category": "unit",
-      "name": "Seeker",
-      "cost": "800",
-      "time": "0:08"
-    },
-    {
-      "faction": "Scrin",
-      "category": "unit",
-      "name": "Harvester",
-      "cost": "1600",
-      "time": "0:16"
-    },
-    {
-      "faction": "Scrin",
-      "category": "unit",
-      "name": "Devourer Tank",
-      "cost": "1600",
-      "time": "0:16"
-    },
-    {
-      "faction": "Scrin",
-      "category": "unit",
-      "name": "Corrupter",
-      "cost": "1000",
-      "time": "0:10"
-    },
-    {
-      "faction": "Scrin",
-      "category": "unit",
-      "name": "Annihilator Tripod",
-      "cost": "3000",
-      "time": "0:30"
-    },
-    {
-      "faction": "Scrin",
-      "category": "unit",
-      "name": "Mechapede",
-      "cost": "1400",
-      "time": "0:14"
-    },
-    {
-      "faction": "Scrin",
-      "category": "unit",
-      "name": "Segments (8)",
-      "cost": "100",
-      "time": "0:00"
-    },
-    {
-      "faction": "Scrin",
-      "category": "unit",
-      "name": "Hexapod",
-      "cost": "5000",
-      "time": "0:50"
-    },
-    {
-      "faction": "Scrin",
-      "category": "unit",
-      "name": "Drone Ship",
-      "cost": "3500",
-      "time": "0:35"
-    },
-    {
-      "faction": "Scrin",
-      "category": "unit",
-      "name": "Stormrider",
-      "cost": "1500",
-      "time": "0:15"
-    },
-    {
-      "faction": "Scrin",
-      "category": "unit",
-      "name": "Devastator Warship",
-      "cost": "2400",
-      "time": "0:24"
-    },
-    {
-      "faction": "Scrin",
-      "category": "unit",
-      "name": "Planetary Assault Carrier",
-      "cost": "3000",
-      "time": "0:30"
-    },
-    {
-      "faction": "R17",
-      "category": "unit",
-      "name": "Buzzer",
-      "cost": "200",
-      "time": "0:02"
-    },
-    {
-      "faction": "R17",
-      "category": "unit",
-      "name": "Disintegrators",
-      "cost": "300",
-      "time": "0:03"
-    },
-    {
-      "faction": "R17",
-      "category": "unit",
-      "name": "Assimilator",
-      "cost": "500",
-      "time": "0:05"
-    },
-    {
-      "faction": "R17",
-      "category": "unit",
-      "name": "Shock Trooper",
-      "cost": "800",
-      "time": "0:08"
-    },
-    {
-      "faction": "R17",
-      "category": "unit",
-      "name": "Ravager",
-      "cost": "1200",
-      "time": "0:12"
-    },
-    {
-      "faction": "R17",
-      "category": "unit",
-      "name": "Shard Walker",
-      "cost": "800",
-      "time": "0:08"
-    },
-    {
-      "faction": "R17",
-      "category": "unit",
-      "name": "Seeker",
-      "cost": "800",
-      "time": "0:08"
-    },
-    {
-      "faction": "R17",
-      "category": "unit",
-      "name": "Harvester",
-      "cost": "1600",
-      "time": "0:16"
-    },
-    {
-      "faction": "R17",
-      "category": "unit",
-      "name": "Devourer Tank",
-      "cost": "1600",
-      "time": "0:16"
-    },
-    {
-      "faction": "R17",
-      "category": "unit",
-      "name": "Corrupter",
-      "cost": "1000",
-      "time": "0:10"
-    },
-    {
-      "faction": "R17",
-      "category": "unit",
-      "name": "Reaper Tripod",
-      "cost": "3000",
-      "time": "0:30"
-    },
-    {
-      "faction": "R17",
-      "category": "unit",
-      "name": "Mechapede",
-      "cost": "1400",
-      "time": "0:14"
-    },
-    {
-      "faction": "R17",
-      "category": "unit",
-      "name": "Segments (8)",
-      "cost": "100",
-      "time": "0:00"
-    },
-    {
-      "faction": "R17",
-      "category": "unit",
-      "name": "Hexapod",
-      "cost": "5000",
-      "time": "0:50"
-    },
-    {
-      "faction": "R17",
-      "category": "unit",
-      "name": "Drone Ship",
-      "cost": "3500",
-      "time": "0:35"
-    },
-    {
-      "faction": "R17",
-      "category": "unit",
-      "name": "Stormrider",
-      "cost": "1500",
-      "time": "0:15"
-    },
-    {
-      "faction": "T59",
-      "category": "unit",
-      "name": "Buzzer",
-      "cost": "200",
-      "time": "0:02"
-    },
-    {
-      "faction": "T59",
-      "category": "unit",
-      "name": "Disintegrators",
-      "cost": "300",
-      "time": "0:03"
-    },
-    {
-      "faction": "T59",
-      "category": "unit",
-      "name": "Assimilator",
-      "cost": "500",
-      "time": "0:05"
-    },
-    {
-      "faction": "T59",
-      "category": "unit",
-      "name": "Shock Trooper",
-      "cost": "800",
-      "time": "0:08"
-    },
-    {
-      "faction": "T59",
-      "category": "unit",
-      "name": "Cultists",
-      "cost": "1000",
-      "time": "0:10"
-    },
-    {
-      "faction": "T59",
-      "category": "unit",
-      "name": "Ravager",
-      "cost": "1200",
-      "time": "0:12"
-    },
-    {
-      "faction": "T59",
-      "category": "unit",
-      "name": "Prodigy",
-      "cost": "2500",
-      "time": "0:25"
-    },
-    {
-      "faction": "T59",
-      "category": "unit",
-      "name": "Gun Walker",
-      "cost": "700",
-      "time": "0:07"
-    },
-    {
-      "faction": "T59",
-      "category": "unit",
-      "name": "Seeker",
-      "cost": "800",
-      "time": "0:08"
-    },
-    {
-      "faction": "T59",
-      "category": "unit",
-      "name": "Harvester",
-      "cost": "1600",
-      "time": "0:16"
-    },
-    {
-      "faction": "T59",
-      "category": "unit",
-      "name": "Corrupter",
-      "cost": "1000",
-      "time": "0:10"
-    },
-    {
-      "faction": "T59",
-      "category": "unit",
-      "name": "Annihilator Tripod",
-      "cost": "3000",
-      "time": "0:30"
-    },
-    {
-      "faction": "T59",
-      "category": "unit",
-      "name": "Mechapede",
-      "cost": "1400",
-      "time": "0:14"
-    },
-    {
-      "faction": "T59",
-      "category": "unit",
-      "name": "Segments (8)",
-      "cost": "100",
-      "time": "0:00"
-    },
-    {
-      "faction": "T59",
-      "category": "unit",
-      "name": "Hexapod",
-      "cost": "5000",
-      "time": "0:50"
-    },
-    {
-      "faction": "T59",
-      "category": "unit",
-      "name": "Drone Ship",
-      "cost": "3500",
-      "time": "0:35"
-    },
-    {
-      "faction": "T59",
-      "category": "unit",
-      "name": "Stormrider",
-      "cost": "1500",
-      "time": "0:15"
-    },
-    {
-      "faction": "T59",
-      "category": "unit",
-      "name": "Devastator Warship",
-      "cost": "2400",
-      "time": "0:24"
-    },
-    {
-      "faction": "T59",
-      "category": "unit",
-      "name": "Planetary Assault Carrier",
-      "cost": "3000",
-      "time": "0:30"
-    }
-  ]
+  "air": [
+	{
+		"faction": "Scrin",
+		"category": "air",
+		"name": "Drone Ship",
+		"tier": "tier 1",
+		"cost": "3500",
+		"time": "0:35",
+		"power": "10",
+		"sell_value": "1750",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "R17",
+		"category": "air",
+		"name": "Drone Ship",
+		"tier": "tier 1",
+		"cost": "3500",
+		"time": "0:35",
+		"power": "10",
+		"sell_value": "1750",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "T59",
+		"category": "air",
+		"name": "Drone Ship",
+		"tier": "tier 1",
+		"cost": "3500",
+		"time": "0:35",
+		"power": "10",
+		"sell_value": "1750",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "GDI",
+		"category": "air",
+		"name": "Orca",
+		"tier": "tier 2",
+		"cost": "1100",
+		"time": "0:11",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "GDI",
+		"category": "air",
+		"name": "Hammerhead",
+		"tier": "tier 2",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "ST",
+		"category": "air",
+		"name": "Orca",
+		"tier": "tier 2",
+		"cost": "1100",
+		"time": "0:11",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "ST",
+		"category": "air",
+		"name": "Hammerhead",
+		"tier": "tier 2",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "Zocom",
+		"category": "air",
+		"name": "Zocom Orca",
+		"tier": "tier 2",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "Zocom",
+		"category": "air",
+		"name": "Hammerhead",
+		"tier": "tier 2",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "NOD",
+		"category": "air",
+		"name": "Venom",
+		"tier": "tier 2",
+		"cost": "900",
+		"time": "0:09",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "MOK",
+		"category": "air",
+		"name": "Venom",
+		"tier": "tier 2",
+		"cost": "900",
+		"time": "0:09",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "BH",
+		"category": "air",
+		"name": "Venom",
+		"tier": "tier 2",
+		"cost": "900",
+		"time": "0:09",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "Scrin",
+		"category": "air",
+		"name": "Stormrider",
+		"tier": "tier 2",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "R17",
+		"category": "air",
+		"name": "Stormrider",
+		"tier": "tier 2",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "T59",
+		"category": "air",
+		"name": "Stormrider",
+		"tier": "tier 2",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "GDI",
+		"category": "air",
+		"name": "Firehawk",
+		"tier": "tier 3",
+		"cost": "1500",
+		"time": "0:15",
+		"power": ""
+	},
+	{
+		"faction": "ST",
+		"category": "air",
+		"name": "Firehawk",
+		"tier": "tier 3",
+		"cost": "1500",
+		"time": "0:15",
+		"power": ""
+	},
+	{
+		"faction": "Zocom",
+		"category": "air",
+		"name": "Firehawk",
+		"tier": "tier 3",
+		"cost": "1500",
+		"time": "0:15",
+		"power": ""
+	},
+	{
+		"faction": "NOD",
+		"category": "air",
+		"name": "Vertigo Bomber",
+		"tier": "tier 3",
+		"cost": "1800",
+		"time": "0:18",
+		"power": ""
+	},
+	{
+		"faction": "MOK",
+		"category": "air",
+		"name": "Vertigo Bomber",
+		"tier": "tier 3",
+		"cost": "1800",
+		"time": "0:18",
+		"power": ""
+	},
+	{
+		"faction": "BH",
+		"category": "air",
+		"name": "Vertigo Bomber",
+		"tier": "tier 3",
+		"cost": "1800",
+		"time": "0:18",
+		"power": ""
+	},
+	{
+		"faction": "Scrin",
+		"category": "air",
+		"name": "Devastator Warship",
+		"tier": "tier 3",
+		"cost": "2400",
+		"time": "0:24",
+		"power": ""
+	},
+	{
+		"faction": "T59",
+		"category": "air",
+		"name": "Devastator Warship",
+		"tier": "tier 3",
+		"cost": "2400",
+		"time": "0:24",
+		"power": ""
+	},
+	{
+		"faction": "Scrin",
+		"category": "air",
+		"name": "Planetary Assault Carrier",
+		"tier": "tier 4",
+		"cost": "3000",
+		"time": "0:30",
+		"power": ""
+	},
+	{
+		"faction": "T59",
+		"category": "air",
+		"name": "Planetary Assault Carrier",
+		"tier": "tier 4",
+		"cost": "3000",
+		"time": "0:30",
+		"power": ""
+	}
+], "defense": [
+	{
+		"faction": "GDI",
+		"category": "defense",
+		"name": "Watchtower",
+		"tier": "tier 1",
+		"cost": "600",
+		"time": "0:06",
+		"power": "5"
+	},
+	{
+		"faction": "GDI",
+		"category": "defense",
+		"name": "Guardian Cannon",
+		"tier": "tier 1",
+		"cost": "1200",
+		"time": "0:12",
+		"power": "8"
+	},
+	{
+		"faction": "GDI",
+		"category": "defense",
+		"name": "Tiberium Silo",
+		"tier": "tier 1",
+		"cost": "100",
+		"time": "0:05",
+		"power": ""
+	},
+	{
+		"faction": "GDI",
+		"category": "defense",
+		"name": "Surveryor",
+		"tier": "tier 1",
+		"cost": "1500",
+		"time": "0:15",
+		"power": ""
+	},
+	{
+		"faction": "Zocom",
+		"category": "defense",
+		"name": "Watchtower",
+		"tier": "tier 1",
+		"cost": "600",
+		"time": "0:06",
+		"power": "5"
+	},
+	{
+		"faction": "Zocom",
+		"category": "defense",
+		"name": "Guardian Cannon",
+		"tier": "tier 1",
+		"cost": "1200",
+		"time": "0:12",
+		"power": "8"
+	},
+	{
+		"faction": "Zocom",
+		"category": "defense",
+		"name": "Tiberium Silo",
+		"tier": "tier 1",
+		"cost": "100",
+		"time": "0:05",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "Zocom",
+		"category": "defense",
+		"name": "Surveryor",
+		"tier": "tier 1",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "ST",
+		"category": "defense",
+		"name": "Watchtower",
+		"tier": "tier 1",
+		"cost": "600",
+		"time": "0:06",
+		"power": "5",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "ST",
+		"category": "defense",
+		"name": "Guardian Cannon",
+		"tier": "tier 1",
+		"cost": "1200",
+		"time": "0:12",
+		"power": "8",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "ST",
+		"category": "defense",
+		"name": "Tiberium Silo",
+		"tier": "tier 1",
+		"cost": "100",
+		"time": "0:05",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "ST",
+		"category": "defense",
+		"name": "Surveryor",
+		"tier": "tier 1",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "NOD",
+		"category": "defense",
+		"name": "Shredder Turret",
+		"tier": "tier 1",
+		"cost": "600",
+		"time": "0:06",
+		"power": "6",
+		"sell_value": "",
+		"sell_spawn": "Millitant Squad"
+	},
+	{
+		"faction": "NOD",
+		"category": "defense",
+		"name": "Laser Turret",
+		"tier": "tier 1",
+		"cost": "1200",
+		"time": "0:12",
+		"power": "10",
+		"sell_value": "",
+		"sell_spawn": "Millitant Squad"
+	},
+	{
+		"faction": "NOD",
+		"category": "defense",
+		"name": "Tiberium Silo",
+		"tier": "tier 1",
+		"cost": "100",
+		"time": "0:05",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": "-"
+	},
+	{
+		"faction": "NOD",
+		"category": "defense",
+		"name": "Voice of Kane",
+		"tier": "tier 1",
+		"cost": "1000",
+		"time": "0:10",
+		"power": "5",
+		"sell_value": "",
+		"sell_spawn": "Millitant Squad"
+	},
+	{
+		"faction": "NOD",
+		"category": "defense",
+		"name": "Emissary",
+		"tier": "tier 1",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": "Millitant Squad"
+	},
+	{
+		"faction": "MOK",
+		"category": "defense",
+		"name": "Shredder Turret",
+		"tier": "tier 1",
+		"cost": "600",
+		"time": "0:06",
+		"power": "6",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "MOK",
+		"category": "defense",
+		"name": "Laser Turret",
+		"tier": "tier 1",
+		"cost": "1200",
+		"time": "0:12",
+		"power": "10",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "MOK",
+		"category": "defense",
+		"name": "Tiberium Silo",
+		"tier": "tier 1",
+		"cost": "100",
+		"time": "0:05",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "MOK",
+		"category": "defense",
+		"name": "Voice of Kane",
+		"tier": "tier 1",
+		"cost": "1000",
+		"time": "0:10",
+		"power": "5",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "MOK",
+		"category": "defense",
+		"name": "Emissary",
+		"tier": "tier 1",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "BH",
+		"category": "defense",
+		"name": "Shredder Turret",
+		"tier": "tier 1",
+		"cost": "600",
+		"time": "0:06",
+		"power": "6"
+	},
+	{
+		"faction": "BH",
+		"category": "defense",
+		"name": "Laser Turret",
+		"tier": "tier 1",
+		"cost": "1200",
+		"time": "0:12",
+		"power": "10"
+	},
+	{
+		"faction": "BH",
+		"category": "defense",
+		"name": "Tiberium Silo",
+		"tier": "tier 1",
+		"cost": "100",
+		"time": "0:05",
+		"power": ""
+	},
+	{
+		"faction": "BH",
+		"category": "defense",
+		"name": "Voice of Kane",
+		"tier": "tier 1",
+		"cost": "1000",
+		"time": "0:10",
+		"power": "5"
+	},
+	{
+		"faction": "BH",
+		"category": "defense",
+		"name": "Emissary",
+		"tier": "tier 1",
+		"cost": "1500",
+		"time": "0:15",
+		"power": ""
+	},
+	{
+		"faction": "Scrin",
+		"category": "defense",
+		"name": "Buzzer Hive",
+		"tier": "tier 1",
+		"cost": "600",
+		"time": "0:06",
+		"power": "7"
+	},
+	{
+		"faction": "Scrin",
+		"category": "defense",
+		"name": "Photon Cannon",
+		"tier": "tier 1",
+		"cost": "1200",
+		"time": "0:12",
+		"power": "8"
+	},
+	{
+		"faction": "Scrin",
+		"category": "defense",
+		"name": "Growth Accelerator",
+		"tier": "tier 1",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "5"
+	},
+	{
+		"faction": "Scrin",
+		"category": "defense",
+		"name": "Explorer",
+		"tier": "tier 1",
+		"cost": "1500",
+		"time": "0:15",
+		"power": ""
+	},
+	{
+		"faction": "R17",
+		"category": "defense",
+		"name": "Buzzer Hive",
+		"tier": "tier 1",
+		"cost": "600",
+		"time": "0:06",
+		"power": "7"
+	},
+	{
+		"faction": "R17",
+		"category": "defense",
+		"name": "Photon Cannon",
+		"tier": "tier 1",
+		"cost": "1200",
+		"time": "0:12",
+		"power": "8"
+	},
+	{
+		"faction": "R17",
+		"category": "defense",
+		"name": "Growth Accelerator",
+		"tier": "tier 1",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "5"
+	},
+	{
+		"faction": "R17",
+		"category": "defense",
+		"name": "Explorer",
+		"tier": "tier 1",
+		"cost": "1500",
+		"time": "0:15",
+		"power": ""
+	},
+	{
+		"faction": "T59",
+		"category": "defense",
+		"name": "Buzzer Hive",
+		"tier": "tier 1",
+		"cost": "600",
+		"time": "0:06",
+		"power": "7"
+	},
+	{
+		"faction": "T59",
+		"category": "defense",
+		"name": "Photon Cannon",
+		"tier": "tier 1",
+		"cost": "1200",
+		"time": "0:12",
+		"power": "8"
+	},
+	{
+		"faction": "T59",
+		"category": "defense",
+		"name": "Growth Accelerator",
+		"tier": "tier 1",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "5"
+	},
+	{
+		"faction": "T59",
+		"category": "defense",
+		"name": "Explorer",
+		"tier": "tier 1",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "NOD",
+		"category": "defense",
+		"name": "Disruption Tower",
+		"tier": "tier 1.5",
+		"cost": "1000",
+		"time": "0:10",
+		"power": "10",
+		"sell_value": "",
+		"sell_spawn": "Millitant Squad"
+	},
+	{
+		"faction": "MOK",
+		"category": "defense",
+		"name": "Disruption Tower",
+		"tier": "tier 1.5",
+		"cost": "500",
+		"time": "0:10",
+		"power": "10",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "GDI",
+		"category": "defense",
+		"name": "Support Airfield",
+		"tier": "tier 2",
+		"cost": "500",
+		"time": "0:05",
+		"power": "-5",
+		"sell_value": "250",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "ST",
+		"category": "defense",
+		"name": "Support Airfield",
+		"tier": "tier 2",
+		"cost": "500",
+		"time": "0:05",
+		"power": "-5",
+		"sell_value": "250",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "Zocom",
+		"category": "defense",
+		"name": "Support Airfield",
+		"tier": "tier 2",
+		"cost": "500",
+		"time": "0:05",
+		"power": "-5",
+		"sell_value": "250",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "GDI",
+		"category": "defense",
+		"name": "AA Battery",
+		"tier": "tier 2",
+		"cost": "800",
+		"time": "0:08",
+		"power": "5",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "Zocom",
+		"category": "defense",
+		"name": "AA Battery",
+		"tier": "tier 2",
+		"cost": "800",
+		"time": "0:08",
+		"power": "5",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "ST",
+		"category": "defense",
+		"name": "AA Battery",
+		"tier": "tier 2",
+		"cost": "800",
+		"time": "0:08",
+		"power": "5",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "NOD",
+		"category": "defense",
+		"name": "SAM Turret",
+		"tier": "tier 2",
+		"cost": "800",
+		"time": "0:08",
+		"power": "6",
+		"sell_value": "",
+		"sell_spawn": "Millitant Squad"
+	},
+	{
+		"faction": "NOD",
+		"category": "defense",
+		"name": "Air Support Tower",
+		"tier": "tier 2",
+		"cost": "500",
+		"time": "0:05",
+		"power": "5",
+		"sell_value": "250",
+		"sell_spawn": "-"
+	},
+	{
+		"faction": "MOK",
+		"category": "defense",
+		"name": "SAM Turret",
+		"tier": "tier 2",
+		"cost": "800",
+		"time": "0:08",
+		"power": "6",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "MOK",
+		"category": "defense",
+		"name": "Air Support Tower",
+		"tier": "tier 2",
+		"cost": "500",
+		"time": "0:05",
+		"power": "5",
+		"sell_value": "250",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "BH",
+		"category": "defense",
+		"name": "SAM Turret",
+		"tier": "tier 2",
+		"cost": "800",
+		"time": "0:08",
+		"power": "6",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "Scrin",
+		"category": "defense",
+		"name": "Plasma Missile Battery",
+		"tier": "tier 2",
+		"cost": "800",
+		"time": "0:08",
+		"power": "7",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "R17",
+		"category": "defense",
+		"name": "Plasma Missile Battery",
+		"tier": "tier 2",
+		"cost": "800",
+		"time": "0:08",
+		"power": "7",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "T59",
+		"category": "defense",
+		"name": "Plasma Missile Battery",
+		"tier": "tier 2",
+		"cost": "800",
+		"time": "0:08",
+		"power": "7",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "GDI",
+		"category": "defense",
+		"name": "Sonic Emitter",
+		"tier": "tier 3",
+		"cost": "2000",
+		"time": "0:20",
+		"power": "15",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "GDI",
+		"category": "defense",
+		"name": "Ion Cannon",
+		"tier": "tier 3",
+		"cost": "5000",
+		"time": "0:50",
+		"power": "20",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "Zocom",
+		"category": "defense",
+		"name": "Sonic Emitter",
+		"tier": "tier 3",
+		"cost": "2000",
+		"time": "0:20",
+		"power": "15",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "Zocom",
+		"category": "defense",
+		"name": "Ion Cannon",
+		"tier": "tier 3",
+		"cost": "5000",
+		"time": "0:50",
+		"power": "20",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "ST",
+		"category": "defense",
+		"name": "Ion Cannon",
+		"tier": "tier 3",
+		"cost": "5000",
+		"time": "0:50",
+		"power": "20",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "NOD",
+		"category": "defense",
+		"name": "Obelisk of Light",
+		"tier": "tier 3",
+		"cost": "2000",
+		"time": "0:20",
+		"power": "15",
+		"sell_value": "",
+		"sell_spawn": "Millitant Squad"
+	},
+	{
+		"faction": "NOD",
+		"category": "defense",
+		"name": "Temple of Nod",
+		"tier": "tier 3",
+		"cost": "5000",
+		"time": "0:50",
+		"power": "20",
+		"sell_value": "",
+		"sell_spawn": "Black Hand Squad"
+	},
+	{
+		"faction": "MOK",
+		"category": "defense",
+		"name": "Obelisk of Light",
+		"tier": "tier 3",
+		"cost": "2000",
+		"time": "0:20",
+		"power": "15",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "MOK",
+		"category": "defense",
+		"name": "Temple of Nod",
+		"tier": "tier 3",
+		"cost": "5000",
+		"time": "0:50",
+		"power": "20",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "BH",
+		"category": "defense",
+		"name": "Obelisk of Light",
+		"tier": "tier 3",
+		"cost": "2000",
+		"time": "0:20",
+		"power": "15",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "BH",
+		"category": "defense",
+		"name": "Temple of Nod",
+		"tier": "tier 3",
+		"cost": "5000",
+		"time": "0:50",
+		"power": "20",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "Scrin",
+		"category": "defense",
+		"name": "Storm Column",
+		"tier": "tier 3",
+		"cost": "3000",
+		"time": "0:30",
+		"power": "12",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "Scrin",
+		"category": "defense",
+		"name": "Rift Generator",
+		"tier": "tier 3",
+		"cost": "5000",
+		"time": "0:50",
+		"power": "15",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "R17",
+		"category": "defense",
+		"name": "Storm Column",
+		"tier": "tier 3",
+		"cost": "3000",
+		"time": "0:30",
+		"power": "12",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "R17",
+		"category": "defense",
+		"name": "Rift Generator",
+		"tier": "tier 3",
+		"cost": "5000",
+		"time": "0:50",
+		"power": "15",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "T59",
+		"category": "defense",
+		"name": "Storm Column",
+		"tier": "tier 3",
+		"cost": "3000",
+		"time": "0:30",
+		"power": "12"
+	},
+	{
+		"faction": "T59",
+		"category": "defense",
+		"name": "Rift Generator",
+		"tier": "tier 3",
+		"cost": "5000",
+		"time": "0:50",
+		"power": "15"
+	}
+], "infantry": [
+	{
+		"faction": "GDI",
+		"category": "infantry",
+		"name": "Rifleman Squad",
+		"tier": "tier 1",
+		"cost": "300",
+		"time": "0:03",
+		"power": ""
+	},
+	{
+		"faction": "GDI",
+		"category": "infantry",
+		"name": "Missile Squad",
+		"tier": "tier 1",
+		"cost": "400",
+		"time": "0:04",
+		"power": ""
+	},
+	{
+		"faction": "GDI",
+		"category": "infantry",
+		"name": "Engineer",
+		"tier": "tier 1",
+		"cost": "500",
+		"time": "0:05",
+		"power": ""
+	},
+	{
+		"faction": "ST",
+		"category": "infantry",
+		"name": "Rifleman Squad",
+		"tier": "tier 1",
+		"cost": "300",
+		"time": "0:03",
+		"power": ""
+	},
+	{
+		"faction": "ST",
+		"category": "infantry",
+		"name": "Missile Squad",
+		"tier": "tier 1",
+		"cost": "400",
+		"time": "0:04",
+		"power": ""
+	},
+	{
+		"faction": "ST",
+		"category": "infantry",
+		"name": "Engineer",
+		"tier": "tier 1",
+		"cost": "500",
+		"time": "0:05",
+		"power": ""
+	},
+	{
+		"faction": "Zocom",
+		"category": "infantry",
+		"name": "Rifleman Squad",
+		"tier": "tier 1",
+		"cost": "300",
+		"time": "0:03",
+		"power": ""
+	},
+	{
+		"faction": "Zocom",
+		"category": "infantry",
+		"name": "Missile Squad",
+		"tier": "tier 1",
+		"cost": "400",
+		"time": "0:04",
+		"power": ""
+	},
+	{
+		"faction": "Zocom",
+		"category": "infantry",
+		"name": "Engineer",
+		"tier": "tier 1",
+		"cost": "500",
+		"time": "0:05",
+		"power": ""
+	},
+	{
+		"faction": "NOD",
+		"category": "infantry",
+		"name": "Militant Squad",
+		"tier": "tier 1",
+		"cost": "200",
+		"time": "0:02",
+		"power": ""
+	},
+	{
+		"faction": "NOD",
+		"category": "infantry",
+		"name": "Militant Rocket Squad",
+		"tier": "tier 1",
+		"cost": "400",
+		"time": "0:04",
+		"power": ""
+	},
+	{
+		"faction": "NOD",
+		"category": "infantry",
+		"name": "Saboteur",
+		"tier": "tier 1",
+		"cost": "500",
+		"time": "0:05",
+		"power": ""
+	},
+	{
+		"faction": "MOK",
+		"category": "infantry",
+		"name": "Militant Rocket Squad",
+		"tier": "tier 1",
+		"cost": "400",
+		"time": "0:04",
+		"power": ""
+	},
+	{
+		"faction": "MOK",
+		"category": "infantry",
+		"name": "Saboteur",
+		"tier": "tier 1",
+		"cost": "500",
+		"time": "0:05",
+		"power": ""
+	},
+	{
+		"faction": "BH",
+		"category": "infantry",
+		"name": "Militant Rocket Squad",
+		"tier": "tier 1",
+		"cost": "400",
+		"time": "0:04"
+	},
+	{
+		"faction": "BH",
+		"category": "infantry",
+		"name": "Saboteur",
+		"tier": "tier 1",
+		"cost": "500",
+		"time": "0:05"
+	},
+	{
+		"faction": "Scrin",
+		"category": "infantry",
+		"name": "Buzzer",
+		"tier": "tier 1",
+		"cost": "200",
+		"time": "0:02"
+	},
+	{
+		"faction": "Scrin",
+		"category": "infantry",
+		"name": "Disintegrators",
+		"tier": "tier 1",
+		"cost": "300",
+		"time": "0:03"
+	},
+	{
+		"faction": "Scrin",
+		"category": "infantry",
+		"name": "Assimilator",
+		"tier": "tier 1",
+		"cost": "500",
+		"time": "0:05"
+	},
+	{
+		"faction": "R17",
+		"category": "infantry",
+		"name": "Buzzer",
+		"tier": "tier 1",
+		"cost": "200",
+		"time": "0:02"
+	},
+	{
+		"faction": "R17",
+		"category": "infantry",
+		"name": "Disintegrators",
+		"tier": "tier 1",
+		"cost": "300",
+		"time": "0:03"
+	},
+	{
+		"faction": "R17",
+		"category": "infantry",
+		"name": "Assimilator",
+		"tier": "tier 1",
+		"cost": "500",
+		"time": "0:05"
+	},
+	{
+		"faction": "T59",
+		"category": "infantry",
+		"name": "Buzzer",
+		"tier": "tier 1",
+		"cost": "200",
+		"time": "0:02"
+	},
+	{
+		"faction": "T59",
+		"category": "infantry",
+		"name": "Disintegrators",
+		"tier": "tier 1",
+		"cost": "300",
+		"time": "0:03"
+	},
+	{
+		"faction": "T59",
+		"category": "infantry",
+		"name": "Assimilator",
+		"tier": "tier 1",
+		"cost": "500",
+		"time": "0:05"
+	},
+	{
+		"faction": "GDI",
+		"category": "infantry",
+		"name": "Sniper Team",
+		"tier": "tier 1.5",
+		"cost": "1000",
+		"time": "0:10"
+	},
+	{
+		"faction": "Zocom",
+		"category": "infantry",
+		"name": "Sniper Team",
+		"tier": "tier 1.5",
+		"cost": "1000",
+		"time": "0:10"
+	},
+	{
+		"faction": "NOD",
+		"category": "infantry",
+		"name": "Shadow Team",
+		"tier": "tier 1.5",
+		"cost": "800",
+		"time": "0:08"
+	},
+	{
+		"faction": "MOK",
+		"category": "infantry",
+		"name": "Shadow Team",
+		"tier": "tier 1.5",
+		"cost": "800",
+		"time": "0:08"
+	},
+	{
+		"faction": "Scrin",
+		"category": "infantry",
+		"name": "Ravager",
+		"tier": "tier 1.5",
+		"cost": "1200",
+		"time": "0:12"
+	},
+	{
+		"faction": "R17",
+		"category": "infantry",
+		"name": "Ravager",
+		"tier": "tier 1.5",
+		"cost": "1200",
+		"time": "0:12"
+	},
+	{
+		"faction": "T59",
+		"category": "infantry",
+		"name": "Ravager",
+		"tier": "tier 1.5",
+		"cost": "1200",
+		"time": "0:12"
+	},
+	{
+		"faction": "GDI",
+		"category": "infantry",
+		"name": "Grenadier Squad",
+		"tier": "tier 2",
+		"cost": "800",
+		"time": "0:08"
+	},
+	{
+		"faction": "ST",
+		"category": "infantry",
+		"name": "Grenadier Squad",
+		"tier": "tier 2",
+		"cost": "800",
+		"time": "0:08"
+	},
+	{
+		"faction": "Zocom",
+		"category": "infantry",
+		"name": "Grenadier Squad",
+		"tier": "tier 2",
+		"cost": "800",
+		"time": "0:08"
+	},
+	{
+		"faction": "NOD",
+		"category": "infantry",
+		"name": "Fanatics",
+		"tier": "tier 2",
+		"cost": "700",
+		"time": "0:07"
+	},
+	{
+		"faction": "NOD",
+		"category": "infantry",
+		"name": "Black Hand",
+		"tier": "tier 2",
+		"cost": "900",
+		"time": "0:09"
+	},
+	{
+		"faction": "MOK",
+		"category": "infantry",
+		"name": "Fanatics",
+		"tier": "tier 2",
+		"cost": "700",
+		"time": "0:07"
+	},
+	{
+		"faction": "BH",
+		"category": "infantry",
+		"name": "Fanatics",
+		"tier": "tier 2",
+		"cost": "700",
+		"time": "0:07"
+	},
+	{
+		"faction": "BH",
+		"category": "infantry",
+		"name": "Black Hand",
+		"tier": "tier 2",
+		"cost": "900",
+		"time": "0:09"
+	},
+	{
+		"faction": "Scrin",
+		"category": "infantry",
+		"name": "Shock Trooper",
+		"tier": "tier 2",
+		"cost": "800",
+		"time": "0:08"
+	},
+	{
+		"faction": "R17",
+		"category": "infantry",
+		"name": "Shock Trooper",
+		"tier": "tier 2",
+		"cost": "800",
+		"time": "0:08"
+	},
+	{
+		"faction": "T59",
+		"category": "infantry",
+		"name": "Shock Trooper",
+		"tier": "tier 2",
+		"cost": "800",
+		"time": "0:08"
+	},
+	{
+		"faction": "T59",
+		"category": "infantry",
+		"name": "Cultists",
+		"tier": "tier 2",
+		"cost": "1000",
+		"time": "0:10"
+	},
+	{
+		"faction": "GDI",
+		"category": "infantry",
+		"name": "Zone Trooper",
+		"tier": "tier 3",
+		"cost": "1300",
+		"time": "0:13"
+	},
+	{
+		"faction": "GDI",
+		"category": "infantry",
+		"name": "Commando",
+		"tier": "tier 3",
+		"cost": "2000",
+		"time": "0:20"
+	},
+	{
+		"faction": "Zocom",
+		"category": "infantry",
+		"name": "Commando",
+		"tier": "tier 3",
+		"cost": "2000",
+		"time": "0:20",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "NOD",
+		"category": "infantry",
+		"name": "Commando",
+		"tier": "tier 3",
+		"cost": "2000",
+		"time": "0:20",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "MOK",
+		"category": "infantry",
+		"name": "Commando",
+		"tier": "tier 3",
+		"cost": "2000",
+		"time": "0:20",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "BH",
+		"category": "infantry",
+		"name": "Commando",
+		"tier": "tier 3",
+		"cost": "2000",
+		"time": "0:20",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "Scrin",
+		"category": "infantry",
+		"name": "Mastermind",
+		"tier": "tier 3",
+		"cost": "2500",
+		"time": "0:25",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "T59",
+		"category": "infantry",
+		"name": "Prodigy",
+		"tier": "tier 3",
+		"cost": "2500",
+		"time": "0:25",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	}
+], "structure": [
+	{
+		"faction": "GDI",
+		"category": "structure",
+		"name": "Crane",
+		"tier": "tier 1",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "-10",
+		"sell_value": "750",
+		"sell_spawn": "-"
+	},
+	{
+		"faction": "GDI",
+		"category": "structure",
+		"name": "Power Plant",
+		"tier": "tier 1",
+		"cost": "700",
+		"time": "0:07",
+		"power": "20",
+		"sell_value": "350",
+		"sell_spawn": "Rifleman Squad"
+	},
+	{
+		"faction": "GDI",
+		"category": "structure",
+		"name": "Refinery",
+		"tier": "tier 1",
+		"cost": "3000",
+		"time": "0:30",
+		"power": "-15",
+		"sell_value": "500",
+		"sell_spawn": "Rifleman Squad"
+	},
+	{
+		"faction": "GDI",
+		"category": "structure",
+		"name": "Barracks",
+		"tier": "tier 1",
+		"cost": "500",
+		"time": "0:05",
+		"power": "-5",
+		"sell_value": "250",
+		"sell_spawn": "Rifleman Squad"
+	},
+	{
+		"faction": "GDI",
+		"category": "structure",
+		"name": "War Factory",
+		"tier": "tier 1",
+		"cost": "2000",
+		"time": "0:20",
+		"power": "-7",
+		"sell_value": "1000",
+		"sell_spawn": "Rifleman Squad"
+	},
+	{
+		"faction": "ST",
+		"category": "structure",
+		"name": "Crane",
+		"tier": "tier 1",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "-10",
+		"sell_value": "750",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "ST",
+		"category": "structure",
+		"name": "Power Plant",
+		"tier": "tier 1",
+		"cost": "700",
+		"time": "0:07",
+		"power": "20",
+		"sell_value": "350",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "ST",
+		"category": "structure",
+		"name": "Refinery",
+		"tier": "tier 1",
+		"cost": "3000",
+		"time": "0:30",
+		"power": "-15",
+		"sell_value": "500",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "ST",
+		"category": "structure",
+		"name": "Barracks",
+		"tier": "tier 1",
+		"cost": "500",
+		"time": "0:05",
+		"power": "-5",
+		"sell_value": "250",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "ST",
+		"category": "structure",
+		"name": "War Factory",
+		"tier": "tier 1",
+		"cost": "2000",
+		"time": "0:20",
+		"power": "-7",
+		"sell_value": "1000",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "Zocom",
+		"category": "structure",
+		"name": "Crane",
+		"tier": "tier 1",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "-10",
+		"sell_value": "750",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "Zocom",
+		"category": "structure",
+		"name": "Power Plant",
+		"tier": "tier 1",
+		"cost": "700",
+		"time": "0:07",
+		"power": "20",
+		"sell_value": "350",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "Zocom",
+		"category": "structure",
+		"name": "Refinery",
+		"tier": "tier 1",
+		"cost": "3000",
+		"time": "0:30",
+		"power": "-15",
+		"sell_value": "500",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "Zocom",
+		"category": "structure",
+		"name": "Barracks",
+		"tier": "tier 1",
+		"cost": "500",
+		"time": "0:05",
+		"power": "-5",
+		"sell_value": "250",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "Zocom",
+		"category": "structure",
+		"name": "War Factory",
+		"tier": "tier 1",
+		"cost": "2000",
+		"time": "0:20",
+		"power": "-7",
+		"sell_value": "1000",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "NOD",
+		"category": "structure",
+		"name": "Crane",
+		"tier": "tier 1",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "10",
+		"sell_value": "750",
+		"sell_spawn": "-"
+	},
+	{
+		"faction": "NOD",
+		"category": "structure",
+		"name": "Power Plant",
+		"tier": "tier 1",
+		"cost": "500",
+		"time": "0:05",
+		"power": "15",
+		"sell_value": "250",
+		"sell_spawn": "Millitant Squad"
+	},
+	{
+		"faction": "NOD",
+		"category": "structure",
+		"name": "Refinery",
+		"tier": "tier 1",
+		"cost": "3000",
+		"time": "0:30",
+		"power": "15",
+		"sell_value": "500",
+		"sell_spawn": "Millitant Squad"
+	},
+	{
+		"faction": "NOD",
+		"category": "structure",
+		"name": "Hand of Nod",
+		"tier": "tier 1",
+		"cost": "500",
+		"time": "0:05",
+		"power": "5",
+		"sell_value": "250",
+		"sell_spawn": "Millitant Squad"
+	},
+	{
+		"faction": "NOD",
+		"category": "structure",
+		"name": "War Factory",
+		"tier": "tier 1",
+		"cost": "2000",
+		"time": "0:20",
+		"power": "5",
+		"sell_value": "1000",
+		"sell_spawn": "Millitant Squad"
+	},
+	{
+		"faction": "MOK",
+		"category": "structure",
+		"name": "Crane",
+		"tier": "tier 1",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "10",
+		"sell_value": "750",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "MOK",
+		"category": "structure",
+		"name": "Power Plant",
+		"tier": "tier 1",
+		"cost": "500",
+		"time": "0:05",
+		"power": "15",
+		"sell_value": "250",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "MOK",
+		"category": "structure",
+		"name": "Refinery",
+		"tier": "tier 1",
+		"cost": "3000",
+		"time": "0:30",
+		"power": "15",
+		"sell_value": "500",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "MOK",
+		"category": "structure",
+		"name": "Hand of Nod",
+		"tier": "tier 1",
+		"cost": "500",
+		"time": "0:05",
+		"power": "5",
+		"sell_value": "250",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "MOK",
+		"category": "structure",
+		"name": "War Factory",
+		"tier": "tier 1",
+		"cost": "2000",
+		"time": "0:20",
+		"power": "5",
+		"sell_value": "1000",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "BH",
+		"category": "structure",
+		"name": "Crane",
+		"tier": "tier 1",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "10",
+		"sell_value": "750",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "BH",
+		"category": "structure",
+		"name": "Power Plant",
+		"tier": "tier 1",
+		"cost": "500",
+		"time": "0:05",
+		"power": "15",
+		"sell_value": "250"
+	},
+	{
+		"faction": "BH",
+		"category": "structure",
+		"name": "Refinery",
+		"tier": "tier 1",
+		"cost": "3000",
+		"time": "0:30",
+		"power": "15",
+		"sell_value": "500"
+	},
+	{
+		"faction": "BH",
+		"category": "structure",
+		"name": "Hand of Nod",
+		"tier": "tier 1",
+		"cost": "500",
+		"time": "0:05",
+		"power": "5",
+		"sell_value": "250"
+	},
+	{
+		"faction": "BH",
+		"category": "structure",
+		"name": "War Factory",
+		"tier": "tier 1",
+		"cost": "2000",
+		"time": "0:20",
+		"power": "5",
+		"sell_value": "1000"
+	},
+	{
+		"faction": "Scrin",
+		"category": "structure",
+		"name": "Crane",
+		"tier": "tier 1",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "10",
+		"sell_value": "750"
+	},
+	{
+		"faction": "Scrin",
+		"category": "structure",
+		"name": "Reactor",
+		"tier": "tier 1",
+		"cost": "600",
+		"time": "0:06",
+		"power": "20",
+		"sell_value": "300"
+	},
+	{
+		"faction": "Scrin",
+		"category": "structure",
+		"name": "Refinery",
+		"tier": "tier 1",
+		"cost": "3000",
+		"time": "0:30",
+		"power": "15",
+		"sell_value": "500"
+	},
+	{
+		"faction": "Scrin",
+		"category": "structure",
+		"name": "Barracks",
+		"tier": "tier 1",
+		"cost": "600",
+		"time": "0:06",
+		"power": "5",
+		"sell_value": "300"
+	},
+	{
+		"faction": "Scrin",
+		"category": "structure",
+		"name": "Warp Sphere",
+		"tier": "tier 1",
+		"cost": "2000",
+		"time": "0:20",
+		"power": "6",
+		"sell_value": "1000"
+	},
+	{
+		"faction": "R17",
+		"category": "structure",
+		"name": "Crane",
+		"tier": "tier 1",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "10",
+		"sell_value": "750"
+	},
+	{
+		"faction": "R17",
+		"category": "structure",
+		"name": "Reactor",
+		"tier": "tier 1",
+		"cost": "600",
+		"time": "0:06",
+		"power": "20",
+		"sell_value": "300"
+	},
+	{
+		"faction": "R17",
+		"category": "structure",
+		"name": "Refinery",
+		"tier": "tier 1",
+		"cost": "3000",
+		"time": "0:30",
+		"power": "15",
+		"sell_value": "500"
+	},
+	{
+		"faction": "R17",
+		"category": "structure",
+		"name": "Barracks",
+		"tier": "tier 1",
+		"cost": "600",
+		"time": "0:06",
+		"power": "5",
+		"sell_value": "300"
+	},
+	{
+		"faction": "R17",
+		"category": "structure",
+		"name": "Warp Sphere",
+		"tier": "tier 1",
+		"cost": "2000",
+		"time": "0:20",
+		"power": "6",
+		"sell_value": "1000"
+	},
+	{
+		"faction": "T59",
+		"category": "structure",
+		"name": "Crane",
+		"tier": "tier 1",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "10",
+		"sell_value": "750"
+	},
+	{
+		"faction": "T59",
+		"category": "structure",
+		"name": "Reactor",
+		"tier": "tier 1",
+		"cost": "600",
+		"time": "0:06",
+		"power": "20",
+		"sell_value": "300"
+	},
+	{
+		"faction": "T59",
+		"category": "structure",
+		"name": "Refinery",
+		"tier": "tier 1",
+		"cost": "3000",
+		"time": "0:30",
+		"power": "15",
+		"sell_value": "500",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "T59",
+		"category": "structure",
+		"name": "Barracks",
+		"tier": "tier 1",
+		"cost": "600",
+		"time": "0:06",
+		"power": "5",
+		"sell_value": "300",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "T59",
+		"category": "structure",
+		"name": "Warp Sphere",
+		"tier": "tier 1",
+		"cost": "2000",
+		"time": "0:20",
+		"power": "6",
+		"sell_value": "1000",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "GDI",
+		"category": "structure",
+		"name": "Armory",
+		"tier": "tier 1.5",
+		"cost": "1000",
+		"time": "0:10",
+		"power": "-7",
+		"sell_value": "500",
+		"sell_spawn": "Rifleman Squad"
+	},
+	{
+		"faction": "Zocom",
+		"category": "structure",
+		"name": "Armory",
+		"tier": "tier 1.5",
+		"cost": "1000",
+		"time": "0:10",
+		"power": "-7",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "NOD",
+		"category": "structure",
+		"name": "Secret Shrine",
+		"tier": "tier 1.5",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "8",
+		"sell_value": "750",
+		"sell_spawn": "Millitant Squad"
+	},
+	{
+		"faction": "MOK",
+		"category": "structure",
+		"name": "Secret Shrine",
+		"tier": "tier 1.5",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "8",
+		"sell_value": "750",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "BH",
+		"category": "structure",
+		"name": "Secret Shrine",
+		"tier": "tier 1.5",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "8",
+		"sell_value": "750",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "Scrin",
+		"category": "structure",
+		"name": "Fusion Core",
+		"tier": "tier 1.5",
+		"cost": "400",
+		"time": "0:10",
+		"power": "20",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "Scrin",
+		"category": "structure",
+		"name": "Stasis Chamber",
+		"tier": "tier 1.5",
+		"cost": "1200",
+		"time": "0:12",
+		"power": "8",
+		"sell_value": "600",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "R17",
+		"category": "structure",
+		"name": "Fusion Core",
+		"tier": "tier 1.5",
+		"cost": "400",
+		"time": "0:10",
+		"power": "20",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "R17",
+		"category": "structure",
+		"name": "Stasis Chamber",
+		"tier": "tier 1.5",
+		"cost": "1200",
+		"time": "0:12",
+		"power": "8",
+		"sell_value": "600",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "T59",
+		"category": "structure",
+		"name": "Fusion Core",
+		"tier": "tier 1.5",
+		"cost": "400",
+		"time": "0:10",
+		"power": "20",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "T59",
+		"category": "structure",
+		"name": "Stasis Chamber",
+		"tier": "tier 1.5",
+		"cost": "1200",
+		"time": "0:12",
+		"power": "8",
+		"sell_value": "600",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "GDI",
+		"category": "structure",
+		"name": "Command Post",
+		"tier": "tier 2",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "-9",
+		"sell_value": "750",
+		"sell_spawn": "Rifleman Squad"
+	},
+	{
+		"faction": "GDI",
+		"category": "structure",
+		"name": "Air Field",
+		"tier": "tier 2",
+		"cost": "1000",
+		"time": "0:10",
+		"power": "-8",
+		"sell_value": "500",
+		"sell_spawn": "Rifleman Squad"
+	},
+	{
+		"faction": "ST",
+		"category": "structure",
+		"name": "Advanced Turbines",
+		"tier": "tier 2",
+		"cost": "300",
+		"time": "0:05",
+		"power": "20",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "ST",
+		"category": "structure",
+		"name": "Command Post",
+		"tier": "tier 2",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "-9",
+		"sell_value": "750",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "ST",
+		"category": "structure",
+		"name": "Air Field",
+		"tier": "tier 2",
+		"cost": "1000",
+		"time": "0:10",
+		"power": "-8",
+		"sell_value": "500",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "Zocom",
+		"category": "structure",
+		"name": "Advanced Turbines",
+		"tier": "tier 2",
+		"cost": "300",
+		"time": "0:05",
+		"power": "20",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "Zocom",
+		"category": "structure",
+		"name": "Command Post",
+		"tier": "tier 2",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "-9",
+		"sell_value": "750",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "Zocom",
+		"category": "structure",
+		"name": "Air Field",
+		"tier": "tier 2",
+		"cost": "1000",
+		"time": "0:10",
+		"power": "-8",
+		"sell_value": "500",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "NOD",
+		"category": "structure",
+		"name": "Advanced Turbines",
+		"tier": "tier 2",
+		"cost": "500",
+		"time": "0:05",
+		"power": "30",
+		"sell_value": "250",
+		"sell_spawn": "-"
+	},
+	{
+		"faction": "NOD",
+		"category": "structure",
+		"name": "Operations Center",
+		"tier": "tier 2",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "10",
+		"sell_value": "750",
+		"sell_spawn": "Black Hand Squad"
+	},
+	{
+		"faction": "NOD",
+		"category": "structure",
+		"name": "Air Tower",
+		"tier": "tier 2",
+		"cost": "1000",
+		"time": "0:10",
+		"power": "5",
+		"sell_value": "500",
+		"sell_spawn": "Millitant Squad"
+	},
+	{
+		"faction": "MOK",
+		"category": "structure",
+		"name": "Advanced Turbines",
+		"tier": "tier 2",
+		"cost": "500",
+		"time": "0:05",
+		"power": "30",
+		"sell_value": "250",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "MOK",
+		"category": "structure",
+		"name": "Operations Center",
+		"tier": "tier 2",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "10",
+		"sell_value": "750",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "MOK",
+		"category": "structure",
+		"name": "Air Tower",
+		"tier": "tier 2",
+		"cost": "1000",
+		"time": "0:10",
+		"power": "5",
+		"sell_value": "500",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "BH",
+		"category": "structure",
+		"name": "Advanced Turbines",
+		"tier": "tier 2",
+		"cost": "500",
+		"time": "0:05",
+		"power": "30",
+		"sell_value": "250",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "BH",
+		"category": "structure",
+		"name": "Operations Center",
+		"tier": "tier 2",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "10",
+		"sell_value": "750",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "Scrin",
+		"category": "structure",
+		"name": "Nerve Center",
+		"tier": "tier 2",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "8",
+		"sell_value": "750",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "Scrin",
+		"category": "structure",
+		"name": "Gravity Stabilizer",
+		"tier": "tier 2",
+		"cost": "1000",
+		"time": "0:10",
+		"power": "7",
+		"sell_value": "500",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "R17",
+		"category": "structure",
+		"name": "Nerve Center",
+		"tier": "tier 2",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "8",
+		"sell_value": "750",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "R17",
+		"category": "structure",
+		"name": "Gravity Stabilizer",
+		"tier": "tier 2",
+		"cost": "1000",
+		"time": "0:10",
+		"power": "7",
+		"sell_value": "500",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "T59",
+		"category": "structure",
+		"name": "Nerve Center",
+		"tier": "tier 2",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "8",
+		"sell_value": "750",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "T59",
+		"category": "structure",
+		"name": "Gravity Stabilizer",
+		"tier": "tier 2",
+		"cost": "1000",
+		"time": "0:10",
+		"power": "7",
+		"sell_value": "500",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "GDI",
+		"category": "structure",
+		"name": "Tech Center",
+		"tier": "tier 3",
+		"cost": "4000",
+		"time": "0:40",
+		"power": "-12",
+		"sell_value": "2000",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "GDI",
+		"category": "structure",
+		"name": "Reclamator Hub",
+		"tier": "tier 3",
+		"cost": "3000",
+		"time": "0:41",
+		"power": "-10",
+		"sell_value": "1500",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "ST",
+		"category": "structure",
+		"name": "Tech Center",
+		"tier": "tier 3",
+		"cost": "4000",
+		"time": "0:40",
+		"power": "-12",
+		"sell_value": "2000",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "ST",
+		"category": "structure",
+		"name": "Reclamator Hub",
+		"tier": "tier 3",
+		"cost": "3000",
+		"time": "0:30",
+		"power": "-10",
+		"sell_value": "1500",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "Zocom",
+		"category": "structure",
+		"name": "Tech Center",
+		"tier": "tier 3",
+		"cost": "4000",
+		"time": "0:40",
+		"power": "-12",
+		"sell_value": "2000",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "Zocom",
+		"category": "structure",
+		"name": "Reclamator Hub",
+		"tier": "tier 3",
+		"cost": "3000",
+		"time": "0:30",
+		"power": "-10",
+		"sell_value": "1500",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "NOD",
+		"category": "structure",
+		"name": "Tech Lab",
+		"tier": "tier 3",
+		"cost": "4000",
+		"time": "0:40",
+		"power": "15",
+		"sell_value": "2000",
+		"sell_spawn": "Black Hand Squad"
+	},
+	{
+		"faction": "NOD",
+		"category": "structure",
+		"name": "Redeemer Engineering Facility",
+		"tier": "tier 3",
+		"cost": "3000",
+		"time": "0:30",
+		"power": "10",
+		"sell_value": "1500",
+		"sell_spawn": "Black Hand Squad"
+	},
+	{
+		"faction": "MOK",
+		"category": "structure",
+		"name": "Tech Lab",
+		"tier": "tier 3",
+		"cost": "4000",
+		"time": "0:40",
+		"power": "15",
+		"sell_value": "2000",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "MOK",
+		"category": "structure",
+		"name": "Redeemer Engineering Facility",
+		"tier": "tier 3",
+		"cost": "3000",
+		"time": "0:30",
+		"power": "10",
+		"sell_value": "1500",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "BH",
+		"category": "structure",
+		"name": "Tech Lab",
+		"tier": "tier 3",
+		"cost": "4000",
+		"time": "0:40",
+		"power": "15",
+		"sell_value": "2000",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "BH",
+		"category": "structure",
+		"name": "Redeemer Engineering Facility",
+		"tier": "tier 3",
+		"cost": "3000",
+		"time": "0:30",
+		"power": "10",
+		"sell_value": "1500",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "Scrin",
+		"category": "structure",
+		"name": "Tech Center",
+		"tier": "tier 3",
+		"cost": "4000",
+		"time": "0:40",
+		"power": "10",
+		"sell_value": "2000",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "Scrin",
+		"category": "structure",
+		"name": "Warp Chasm",
+		"tier": "tier 3",
+		"cost": "3000",
+		"time": "0:30",
+		"power": "10",
+		"sell_value": "1500",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "R17",
+		"category": "structure",
+		"name": "Tech Center",
+		"tier": "tier 3",
+		"cost": "4000",
+		"time": "0:40",
+		"power": "10",
+		"sell_value": "2000",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "R17",
+		"category": "structure",
+		"name": "Warp Chasm",
+		"tier": "tier 3",
+		"cost": "3000",
+		"time": "0:30",
+		"power": "10",
+		"sell_value": "1500",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "T59",
+		"category": "structure",
+		"name": "Tech Center",
+		"tier": "tier 3",
+		"cost": "4000",
+		"time": "0:40",
+		"power": "10",
+		"sell_value": "2000",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "T59",
+		"category": "structure",
+		"name": "Warp Chasm",
+		"tier": "tier 3",
+		"cost": "3000",
+		"time": "0:30",
+		"power": "10",
+		"sell_value": "1500",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "GDI",
+		"category": "structure",
+		"name": "Space Command Uplink",
+		"tier": "tier 4",
+		"cost": "3000",
+		"time": "0:41",
+		"power": "-15",
+		"sell_value": "1500",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "ST",
+		"category": "structure",
+		"name": "Space Command Uplink",
+		"tier": "tier 4",
+		"cost": "3000",
+		"time": "0:30",
+		"power": "-15",
+		"sell_value": "1500",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "Zocom",
+		"category": "structure",
+		"name": "Space Command Uplink",
+		"tier": "tier 4",
+		"cost": "3000",
+		"time": "0:30",
+		"power": "-15",
+		"sell_value": "1500",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "NOD",
+		"category": "structure",
+		"name": "Tiberium Chemical Plant",
+		"tier": "tier 4",
+		"cost": "3000",
+		"time": "0:30",
+		"power": "15",
+		"sell_value": "1500",
+		"sell_spawn": "Black Hand Squad"
+	},
+	{
+		"faction": "MOK",
+		"category": "structure",
+		"name": "Tiberium Chemical Plant",
+		"tier": "tier 4",
+		"cost": "3000",
+		"time": "0:30",
+		"power": "15",
+		"sell_value": "1500",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "BH",
+		"category": "structure",
+		"name": "Tiberium Chemical Plant",
+		"tier": "tier 4",
+		"cost": "3000",
+		"time": "0:30",
+		"power": "15",
+		"sell_value": "1500",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "Scrin",
+		"category": "structure",
+		"name": "Signal Transmitter",
+		"tier": "tier 4",
+		"cost": "3000",
+		"time": "0:30",
+		"power": "10",
+		"sell_value": "1500",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "R17",
+		"category": "structure",
+		"name": "Signal Transmitter",
+		"tier": "tier 4",
+		"cost": "3000",
+		"time": "0:30",
+		"power": "10",
+		"sell_value": "1500",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "T59",
+		"category": "structure",
+		"name": "Signal Transmitter",
+		"tier": "tier 4",
+		"cost": "3000",
+		"time": "0:30",
+		"power": "10",
+		"sell_value": "1500",
+		"sell_spawn": ""
+	}
+], "tank": [
+	{
+		"faction": "GDI",
+		"category": "tank",
+		"name": "Pitbull",
+		"tier": "tier 1",
+		"cost": "700",
+		"time": "0:07",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "GDI",
+		"category": "tank",
+		"name": "Predator Tank",
+		"tier": "tier 1",
+		"cost": "1100",
+		"time": "0:11",
+		"power": "",
+		"sell_value": ""
+	},
+	{
+		"faction": "GDI",
+		"category": "tank",
+		"name": "APC",
+		"tier": "tier 1",
+		"cost": "700",
+		"time": "0:07",
+		"power": "",
+		"sell_value": ""
+	},
+	{
+		"faction": "GDI",
+		"category": "tank",
+		"name": "Harvester",
+		"tier": "tier 1",
+		"cost": "1600",
+		"time": "0:16",
+		"power": "",
+		"sell_value": ""
+	},
+	{
+		"faction": "GDI",
+		"category": "tank",
+		"name": "MCV",
+		"tier": "tier 1",
+		"cost": "3500",
+		"time": "0:35",
+		"power": "10",
+		"sell_value": "1750"
+	},
+	{
+		"faction": "ST",
+		"category": "tank",
+		"name": "Pitbull",
+		"tier": "tier 1",
+		"cost": "700",
+		"time": "0:07",
+		"power": "",
+		"sell_value": ""
+	},
+	{
+		"faction": "ST",
+		"category": "tank",
+		"name": "Titan",
+		"tier": "tier 1",
+		"cost": "1300",
+		"time": "0:13",
+		"power": "",
+		"sell_value": ""
+	},
+	{
+		"faction": "ST",
+		"category": "tank",
+		"name": "MRT",
+		"tier": "tier 1",
+		"cost": "700",
+		"time": "0:07",
+		"power": "",
+		"sell_value": ""
+	},
+	{
+		"faction": "ST",
+		"category": "tank",
+		"name": "Harvester",
+		"tier": "tier 1",
+		"cost": "1600",
+		"time": "0:16",
+		"power": "",
+		"sell_value": ""
+	},
+	{
+		"faction": "ST",
+		"category": "tank",
+		"name": "MCV",
+		"tier": "tier 1",
+		"cost": "3500",
+		"time": "0:35",
+		"power": "10",
+		"sell_value": "1750"
+	},
+	{
+		"faction": "ST",
+		"category": "tank",
+		"name": "Wolverine",
+		"tier": "tier 1",
+		"cost": "900",
+		"time": "0:09",
+		"power": "",
+		"sell_value": ""
+	},
+	{
+		"faction": "Zocom",
+		"category": "tank",
+		"name": "Pitbull",
+		"tier": "tier 1",
+		"cost": "700",
+		"time": "0:07",
+		"power": "",
+		"sell_value": ""
+	},
+	{
+		"faction": "Zocom",
+		"category": "tank",
+		"name": "Predator Tank",
+		"tier": "tier 1",
+		"cost": "1100",
+		"time": "0:11",
+		"power": "",
+		"sell_value": ""
+	},
+	{
+		"faction": "Zocom",
+		"category": "tank",
+		"name": "APC",
+		"tier": "tier 1",
+		"cost": "700",
+		"time": "0:07",
+		"power": "",
+		"sell_value": ""
+	},
+	{
+		"faction": "Zocom",
+		"category": "tank",
+		"name": "Harvester",
+		"tier": "tier 1",
+		"cost": "1600",
+		"time": "0:16",
+		"power": "",
+		"sell_value": ""
+	},
+	{
+		"faction": "Zocom",
+		"category": "tank",
+		"name": "MCV",
+		"tier": "tier 1",
+		"cost": "3500",
+		"time": "0:35",
+		"power": "10",
+		"sell_value": "1750"
+	},
+	{
+		"faction": "NOD",
+		"category": "tank",
+		"name": "Attack Bike",
+		"tier": "tier 1",
+		"cost": "600",
+		"time": "0:06",
+		"power": "",
+		"sell_value": ""
+	},
+	{
+		"faction": "NOD",
+		"category": "tank",
+		"name": "Raider Buggy",
+		"tier": "tier 1",
+		"cost": "500",
+		"time": "0:05",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "NOD",
+		"category": "tank",
+		"name": "Scorpion Tank",
+		"tier": "tier 1",
+		"cost": "800",
+		"time": "0:08",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "NOD",
+		"category": "tank",
+		"name": "Harvester",
+		"tier": "tier 1",
+		"cost": "1600",
+		"time": "0:16",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "NOD",
+		"category": "tank",
+		"name": "MCV",
+		"tier": "tier 1",
+		"cost": "3500",
+		"time": "0:35",
+		"power": "10",
+		"sell_value": "1750",
+		"sell_spawn": "Millitant Squad"
+	},
+	{
+		"faction": "MOK",
+		"category": "tank",
+		"name": "The Awakened",
+		"tier": "tier 1",
+		"cost": "500",
+		"time": "0:05",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "MOK",
+		"category": "tank",
+		"name": "Attack Bike",
+		"tier": "tier 1",
+		"cost": "600",
+		"time": "0:06",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "MOK",
+		"category": "tank",
+		"name": "Raider Buggy",
+		"tier": "tier 1",
+		"cost": "500",
+		"time": "0:05",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "MOK",
+		"category": "tank",
+		"name": "Scorpion Tank",
+		"tier": "tier 1",
+		"cost": "800",
+		"time": "0:08",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "MOK",
+		"category": "tank",
+		"name": "Harvester",
+		"tier": "tier 1",
+		"cost": "1600",
+		"time": "0:16",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "MOK",
+		"category": "tank",
+		"name": "MCV",
+		"tier": "tier 1",
+		"cost": "3500",
+		"time": "0:35",
+		"power": "10",
+		"sell_value": "1750",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "BH",
+		"category": "tank",
+		"name": "Confessor Cabal",
+		"tier": "tier 1",
+		"cost": "400",
+		"time": "0:04",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "BH",
+		"category": "tank",
+		"name": "Attack Bike",
+		"tier": "tier 1",
+		"cost": "600",
+		"time": "0:06",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "BH",
+		"category": "tank",
+		"name": "Raider Buggy",
+		"tier": "tier 1",
+		"cost": "500",
+		"time": "0:05",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "BH",
+		"category": "tank",
+		"name": "Scorpion Tank",
+		"tier": "tier 1",
+		"cost": "800",
+		"time": "0:08",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "BH",
+		"category": "tank",
+		"name": "Harvester",
+		"tier": "tier 1",
+		"cost": "1600",
+		"time": "0:16",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "BH",
+		"category": "tank",
+		"name": "MCV",
+		"tier": "tier 1",
+		"cost": "3500",
+		"time": "0:35",
+		"power": "10",
+		"sell_value": "1750",
+		"sell_spawn": ""
+	},
+	{
+		"faction": "Scrin",
+		"category": "tank",
+		"name": "Gun Walker",
+		"tier": "tier 1",
+		"cost": "700",
+		"time": "0:07"
+	},
+	{
+		"faction": "Scrin",
+		"category": "tank",
+		"name": "Seeker",
+		"tier": "tier 1",
+		"cost": "800",
+		"time": "0:08"
+	},
+	{
+		"faction": "Scrin",
+		"category": "tank",
+		"name": "Harvester",
+		"tier": "tier 1",
+		"cost": "1600",
+		"time": "0:16"
+	},
+	{
+		"faction": "R17",
+		"category": "tank",
+		"name": "Shard Walker",
+		"tier": "tier 1",
+		"cost": "800",
+		"time": "0:08"
+	},
+	{
+		"faction": "R17",
+		"category": "tank",
+		"name": "Seeker",
+		"tier": "tier 1",
+		"cost": "800",
+		"time": "0:08"
+	},
+	{
+		"faction": "R17",
+		"category": "tank",
+		"name": "Harvester",
+		"tier": "tier 1",
+		"cost": "1600",
+		"time": "0:16"
+	},
+	{
+		"faction": "T59",
+		"category": "tank",
+		"name": "Gun Walker",
+		"tier": "tier 1",
+		"cost": "700",
+		"time": "0:07"
+	},
+	{
+		"faction": "T59",
+		"category": "tank",
+		"name": "Seeker",
+		"tier": "tier 1",
+		"cost": "800",
+		"time": "0:08"
+	},
+	{
+		"faction": "T59",
+		"category": "tank",
+		"name": "Harvester",
+		"tier": "tier 1",
+		"cost": "1600",
+		"time": "0:16"
+	},
+	{
+		"faction": "MOK",
+		"category": "tank",
+		"name": "The Enlightened",
+		"tier": "tier 1.5",
+		"cost": "1200",
+		"time": "0:12"
+	},
+	{
+		"faction": "GDI",
+		"category": "tank",
+		"name": "Shatterer",
+		"tier": "tier 2",
+		"cost": "1500",
+		"time": "0:15"
+	},
+	{
+		"faction": "GDI",
+		"category": "tank",
+		"name": "Slingshot",
+		"tier": "tier 2",
+		"cost": "1000",
+		"time": "0:10"
+	},
+	{
+		"faction": "GDI",
+		"category": "tank",
+		"name": "Rig",
+		"tier": "tier 2",
+		"cost": "2000",
+		"time": "0:20"
+	},
+	{
+		"faction": "ST",
+		"category": "tank",
+		"name": "Slingshot",
+		"tier": "tier 2",
+		"cost": "1000",
+		"time": "0:10"
+	},
+	{
+		"faction": "ST",
+		"category": "tank",
+		"name": "Rig",
+		"tier": "tier 2",
+		"cost": "2000",
+		"time": "0:20"
+	},
+	{
+		"faction": "Zocom",
+		"category": "tank",
+		"name": "Shatterer",
+		"tier": "tier 2",
+		"cost": "1600",
+		"time": "0:16"
+	},
+	{
+		"faction": "Zocom",
+		"category": "tank",
+		"name": "Slingshot",
+		"tier": "tier 2",
+		"cost": "1000",
+		"time": "0:10"
+	},
+	{
+		"faction": "Zocom",
+		"category": "tank",
+		"name": "Rig",
+		"tier": "tier 2",
+		"cost": "2000",
+		"time": "0:20"
+	},
+	{
+		"faction": "NOD",
+		"category": "tank",
+		"name": "Flame Tank",
+		"tier": "tier 2",
+		"cost": "1200",
+		"time": "0:12"
+	},
+	{
+		"faction": "NOD",
+		"category": "tank",
+		"name": "Reckonner",
+		"tier": "tier 2",
+		"cost": "900",
+		"time": "0:09"
+	},
+	{
+		"faction": "NOD",
+		"category": "tank",
+		"name": "Beam Cannon",
+		"tier": "tier 2",
+		"cost": "1000",
+		"time": "0:10"
+	},
+	{
+		"faction": "MOK",
+		"category": "tank",
+		"name": "Tiberium Trooper",
+		"tier": "tier 2",
+		"cost": "900",
+		"time": "0:09"
+	},
+	{
+		"faction": "MOK",
+		"category": "tank",
+		"name": "Flame Tank",
+		"tier": "tier 2",
+		"cost": "1200",
+		"time": "0:12"
+	},
+	{
+		"faction": "MOK",
+		"category": "tank",
+		"name": "Reckonner",
+		"tier": "tier 2",
+		"cost": "900",
+		"time": "0:09"
+	},
+	{
+		"faction": "MOK",
+		"category": "tank",
+		"name": "Beam Cannon",
+		"tier": "tier 2",
+		"cost": "1000",
+		"time": "0:10"
+	},
+	{
+		"faction": "BH",
+		"category": "tank",
+		"name": "Flame Tank",
+		"tier": "tier 2",
+		"cost": "1200",
+		"time": "0:12"
+	},
+	{
+		"faction": "BH",
+		"category": "tank",
+		"name": "Reckonner",
+		"tier": "tier 2",
+		"cost": "900",
+		"time": "0:09"
+	},
+	{
+		"faction": "BH",
+		"category": "tank",
+		"name": "Beam Cannon",
+		"tier": "tier 2",
+		"cost": "1000",
+		"time": "0:10"
+	},
+	{
+		"faction": "BH",
+		"category": "tank",
+		"name": "Mantis",
+		"tier": "tier 2",
+		"cost": "1200",
+		"time": "0:12"
+	},
+	{
+		"faction": "Scrin",
+		"category": "tank",
+		"name": "Devourer Tank",
+		"tier": "tier 2",
+		"cost": "1600",
+		"time": "0:16"
+	},
+	{
+		"faction": "Scrin",
+		"category": "tank",
+		"name": "Corrupter",
+		"tier": "tier 2",
+		"cost": "1000",
+		"time": "0:10"
+	},
+	{
+		"faction": "R17",
+		"category": "tank",
+		"name": "Devourer Tank",
+		"tier": "tier 2",
+		"cost": "1600",
+		"time": "0:16"
+	},
+	{
+		"faction": "R17",
+		"category": "tank",
+		"name": "Corrupter",
+		"tier": "tier 2",
+		"cost": "1000",
+		"time": "0:10"
+	},
+	{
+		"faction": "T59",
+		"category": "tank",
+		"name": "Corrupter",
+		"tier": "tier 2",
+		"cost": "1000",
+		"time": "0:10"
+	},
+	{
+		"faction": "GDI",
+		"category": "tank",
+		"name": "Mammoth Tank",
+		"tier": "tier 3",
+		"cost": "2500",
+		"time": "0:25"
+	},
+	{
+		"faction": "GDI",
+		"category": "tank",
+		"name": "Juggernaut",
+		"tier": "tier 3",
+		"cost": "2200",
+		"time": "0:22"
+	},
+	{
+		"faction": "GDI",
+		"category": "tank",
+		"name": "MARV",
+		"tier": "tier 3",
+		"cost": "5000",
+		"time": "0:50"
+	},
+	{
+		"faction": "ST",
+		"category": "tank",
+		"name": "Mammoth Tank",
+		"tier": "tier 3",
+		"cost": "2500",
+		"time": "0:25"
+	},
+	{
+		"faction": "ST",
+		"category": "tank",
+		"name": "Behemoth",
+		"tier": "tier 3",
+		"cost": "2200",
+		"time": "0:22"
+	},
+	{
+		"faction": "ST",
+		"category": "tank",
+		"name": "MARV",
+		"tier": "tier 3",
+		"cost": "5000",
+		"time": "0:50"
+	},
+	{
+		"faction": "Zocom",
+		"category": "tank",
+		"name": "Zone Raider",
+		"tier": "tier 3",
+		"cost": "1300",
+		"time": "0:13"
+	},
+	{
+		"faction": "Zocom",
+		"category": "tank",
+		"name": "Mammoth Tank",
+		"tier": "tier 3",
+		"cost": "2500",
+		"time": "0:25"
+	},
+	{
+		"faction": "Zocom",
+		"category": "tank",
+		"name": "MARV",
+		"tier": "tier 3",
+		"cost": "5000",
+		"time": "0:50"
+	},
+	{
+		"faction": "NOD",
+		"category": "tank",
+		"name": "Stealth Tank",
+		"tier": "tier 3",
+		"cost": "1800",
+		"time": "0:18"
+	},
+	{
+		"faction": "NOD",
+		"category": "tank",
+		"name": "Specter",
+		"tier": "tier 3",
+		"cost": "1500",
+		"time": "0:15"
+	},
+	{
+		"faction": "NOD",
+		"category": "tank",
+		"name": "Avatar",
+		"tier": "tier 3",
+		"cost": "2200",
+		"time": "0:22"
+	},
+	{
+		"faction": "NOD",
+		"category": "tank",
+		"name": "Redeemer",
+		"tier": "tier 3",
+		"cost": "5000",
+		"time": "0:50"
+	},
+	{
+		"faction": "MOK",
+		"category": "tank",
+		"name": "Stealth Tank",
+		"tier": "tier 3",
+		"cost": "1800",
+		"time": "0:18"
+	},
+	{
+		"faction": "MOK",
+		"category": "tank",
+		"name": "Specter",
+		"tier": "tier 3",
+		"cost": "1500",
+		"time": "0:15"
+	},
+	{
+		"faction": "MOK",
+		"category": "tank",
+		"name": "Avatar",
+		"tier": "tier 3",
+		"cost": "2200",
+		"time": "0:22"
+	},
+	{
+		"faction": "MOK",
+		"category": "tank",
+		"name": "Redeemer",
+		"tier": "tier 3",
+		"cost": "5000",
+		"time": "0:50"
+	},
+	{
+		"faction": "BH",
+		"category": "tank",
+		"name": "Specter",
+		"tier": "tier 3",
+		"cost": "1500",
+		"time": "0:15"
+	},
+	{
+		"faction": "BH",
+		"category": "tank",
+		"name": "Purifier",
+		"tier": "tier 3",
+		"cost": "3000",
+		"time": "0:30"
+	},
+	{
+		"faction": "BH",
+		"category": "tank",
+		"name": "Redeemer",
+		"tier": "tier 3",
+		"cost": "5000",
+		"time": "0:50"
+	},
+	{
+		"faction": "Scrin",
+		"category": "tank",
+		"name": "Annihilator Tripod",
+		"tier": "tier 3",
+		"cost": "3000",
+		"time": "0:30"
+	},
+	{
+		"faction": "Scrin",
+		"category": "tank",
+		"name": "Mechapede",
+		"tier": "tier 3",
+		"cost": "1400",
+		"time": "0:14"
+	},
+	{
+		"faction": "Scrin",
+		"category": "tank",
+		"name": "Segments (8)",
+		"tier": "tier 3",
+		"cost": "100",
+		"time": "0:00"
+	},
+	{
+		"faction": "Scrin",
+		"category": "tank",
+		"name": "Hexapod",
+		"tier": "tier 3",
+		"cost": "5000",
+		"time": "0:50"
+	},
+	{
+		"faction": "R17",
+		"category": "tank",
+		"name": "Reaper Tripod",
+		"tier": "tier 3",
+		"cost": "3000",
+		"time": "0:30"
+	},
+	{
+		"faction": "R17",
+		"category": "tank",
+		"name": "Mechapede",
+		"tier": "tier 3",
+		"cost": "1400",
+		"time": "0:14"
+	},
+	{
+		"faction": "R17",
+		"category": "tank",
+		"name": "Segments (8)",
+		"tier": "tier 3",
+		"cost": "100",
+		"time": "0:00"
+	},
+	{
+		"faction": "R17",
+		"category": "tank",
+		"name": "Hexapod",
+		"tier": "tier 3",
+		"cost": "5000",
+		"time": "0:50"
+	},
+	{
+		"faction": "T59",
+		"category": "tank",
+		"name": "Annihilator Tripod",
+		"tier": "tier 3",
+		"cost": "3000",
+		"time": "0:30"
+	},
+	{
+		"faction": "T59",
+		"category": "tank",
+		"name": "Mechapede",
+		"tier": "tier 3",
+		"cost": "1400",
+		"time": "0:14"
+	},
+	{
+		"faction": "T59",
+		"category": "tank",
+		"name": "Segments (8)",
+		"tier": "tier 3",
+		"cost": "100",
+		"time": "0:00"
+	},
+	{
+		"faction": "T59",
+		"category": "tank",
+		"name": "Hexapod",
+		"tier": "tier 3",
+		"cost": "5000",
+		"time": "0:50"
+	},
+	{
+		"faction": ""
+	}
+]
 }
