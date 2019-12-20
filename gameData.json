@@ -1,5 +1,6 @@
 [
 	{
+		"id": "1",
 		"faction": "Scrin",
 		"category": "air",
 		"name": "Drone Ship",
@@ -11,6 +12,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "2",
 		"faction": "R17",
 		"category": "air",
 		"name": "Drone Ship",
@@ -22,6 +24,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "3",
 		"faction": "T59",
 		"category": "air",
 		"name": "Drone Ship",
@@ -33,6 +36,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "4",
 		"faction": "GDI",
 		"category": "air",
 		"name": "Orca",
@@ -44,6 +48,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "5",
 		"faction": "GDI",
 		"category": "air",
 		"name": "Hammerhead",
@@ -55,6 +60,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "6",
 		"faction": "ST",
 		"category": "air",
 		"name": "Orca",
@@ -66,6 +72,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "7",
 		"faction": "ST",
 		"category": "air",
 		"name": "Hammerhead",
@@ -77,6 +84,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "8",
 		"faction": "Zocom",
 		"category": "air",
 		"name": "Zocom Orca",
@@ -88,6 +96,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "9",
 		"faction": "Zocom",
 		"category": "air",
 		"name": "Hammerhead",
@@ -99,6 +108,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "10",
 		"faction": "NOD",
 		"category": "air",
 		"name": "Venom",
@@ -110,6 +120,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "11",
 		"faction": "MOK",
 		"category": "air",
 		"name": "Venom",
@@ -121,17 +132,7 @@
 		"sell_spawn": ""
 	},
 	{
-		"faction": "BH",
-		"category": "air",
-		"name": "Venom",
-		"tier": "tier 2",
-		"cost": "900",
-		"time": "0:09",
-		"power": "",
-		"sell_value": "",
-		"sell_spawn": ""
-	},
-	{
+		"id": "12",
 		"faction": "Scrin",
 		"category": "air",
 		"name": "Stormrider",
@@ -143,6 +144,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "13",
 		"faction": "R17",
 		"category": "air",
 		"name": "Stormrider",
@@ -154,6 +156,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "14",
 		"faction": "T59",
 		"category": "air",
 		"name": "Stormrider",
@@ -165,15 +168,19 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "15",
 		"faction": "GDI",
 		"category": "air",
 		"name": "Firehawk",
 		"tier": "tier 3",
 		"cost": "1500",
 		"time": "0:15",
-		"power": ""
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
 	},
 	{
+		"id": "16",
 		"faction": "ST",
 		"category": "air",
 		"name": "Firehawk",
@@ -183,6 +190,7 @@
 		"power": ""
 	},
 	{
+		"id": "17",
 		"faction": "Zocom",
 		"category": "air",
 		"name": "Firehawk",
@@ -192,6 +200,7 @@
 		"power": ""
 	},
 	{
+		"id": "18",
 		"faction": "NOD",
 		"category": "air",
 		"name": "Vertigo Bomber",
@@ -201,6 +210,7 @@
 		"power": ""
 	},
 	{
+		"id": "19",
 		"faction": "MOK",
 		"category": "air",
 		"name": "Vertigo Bomber",
@@ -210,15 +220,7 @@
 		"power": ""
 	},
 	{
-		"faction": "BH",
-		"category": "air",
-		"name": "Vertigo Bomber",
-		"tier": "tier 3",
-		"cost": "1800",
-		"time": "0:18",
-		"power": ""
-	},
-	{
+		"id": "20",
 		"faction": "Scrin",
 		"category": "air",
 		"name": "Devastator Warship",
@@ -228,6 +230,7 @@
 		"power": ""
 	},
 	{
+		"id": "21",
 		"faction": "T59",
 		"category": "air",
 		"name": "Devastator Warship",
@@ -237,6 +240,7 @@
 		"power": ""
 	},
 	{
+		"id": "22",
 		"faction": "Scrin",
 		"category": "air",
 		"name": "Planetary Assault Carrier",
@@ -246,6 +250,7 @@
 		"power": ""
 	},
 	{
+		"id": "23",
 		"faction": "T59",
 		"category": "air",
 		"name": "Planetary Assault Carrier",
@@ -255,6 +260,7 @@
 		"power": ""
 	},
 	{
+		"id": "24",
 		"faction": "GDI",
 		"category": "defense",
 		"name": "Watchtower",
@@ -264,6 +270,7 @@
 		"power": "5"
 	},
 	{
+		"id": "25",
 		"faction": "GDI",
 		"category": "defense",
 		"name": "Guardian Cannon",
@@ -273,6 +280,7 @@
 		"power": "8"
 	},
 	{
+		"id": "26",
 		"faction": "GDI",
 		"category": "defense",
 		"name": "Tiberium Silo",
@@ -282,6 +290,7 @@
 		"power": ""
 	},
 	{
+		"id": "27",
 		"faction": "GDI",
 		"category": "defense",
 		"name": "Surveryor",
@@ -291,6 +300,7 @@
 		"power": ""
 	},
 	{
+		"id": "28",
 		"faction": "Zocom",
 		"category": "defense",
 		"name": "Watchtower",
@@ -300,6 +310,7 @@
 		"power": "5"
 	},
 	{
+		"id": "29",
 		"faction": "Zocom",
 		"category": "defense",
 		"name": "Guardian Cannon",
@@ -309,28 +320,27 @@
 		"power": "8"
 	},
 	{
+		"id": "30",
 		"faction": "Zocom",
 		"category": "defense",
 		"name": "Tiberium Silo",
 		"tier": "tier 1",
 		"cost": "100",
 		"time": "0:05",
-		"power": "",
-		"sell_value": "",
-		"sell_spawn": ""
+		"power": ""
 	},
 	{
+		"id": "31",
 		"faction": "Zocom",
 		"category": "defense",
 		"name": "Surveryor",
 		"tier": "tier 1",
 		"cost": "1500",
 		"time": "0:15",
-		"power": "",
-		"sell_value": "",
-		"sell_spawn": ""
+		"power": ""
 	},
 	{
+		"id": "32",
 		"faction": "ST",
 		"category": "defense",
 		"name": "Watchtower",
@@ -342,6 +352,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "33",
 		"faction": "ST",
 		"category": "defense",
 		"name": "Guardian Cannon",
@@ -353,6 +364,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "34",
 		"faction": "ST",
 		"category": "defense",
 		"name": "Tiberium Silo",
@@ -364,6 +376,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "35",
 		"faction": "ST",
 		"category": "defense",
 		"name": "Surveryor",
@@ -375,6 +388,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "36",
 		"faction": "NOD",
 		"category": "defense",
 		"name": "Shredder Turret",
@@ -386,6 +400,7 @@
 		"sell_spawn": "Millitant Squad"
 	},
 	{
+		"id": "37",
 		"faction": "NOD",
 		"category": "defense",
 		"name": "Laser Turret",
@@ -397,6 +412,7 @@
 		"sell_spawn": "Millitant Squad"
 	},
 	{
+		"id": "38",
 		"faction": "NOD",
 		"category": "defense",
 		"name": "Tiberium Silo",
@@ -408,6 +424,7 @@
 		"sell_spawn": "-"
 	},
 	{
+		"id": "39",
 		"faction": "NOD",
 		"category": "defense",
 		"name": "Voice of Kane",
@@ -419,6 +436,7 @@
 		"sell_spawn": "Millitant Squad"
 	},
 	{
+		"id": "40",
 		"faction": "NOD",
 		"category": "defense",
 		"name": "Emissary",
@@ -430,6 +448,7 @@
 		"sell_spawn": "Millitant Squad"
 	},
 	{
+		"id": "41",
 		"faction": "MOK",
 		"category": "defense",
 		"name": "Shredder Turret",
@@ -441,6 +460,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "42",
 		"faction": "MOK",
 		"category": "defense",
 		"name": "Laser Turret",
@@ -452,6 +472,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "43",
 		"faction": "MOK",
 		"category": "defense",
 		"name": "Tiberium Silo",
@@ -463,6 +484,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "44",
 		"faction": "MOK",
 		"category": "defense",
 		"name": "Voice of Kane",
@@ -474,6 +496,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "45",
 		"faction": "MOK",
 		"category": "defense",
 		"name": "Emissary",
@@ -485,150 +508,199 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "46",
 		"faction": "BH",
 		"category": "defense",
 		"name": "Shredder Turret",
 		"tier": "tier 1",
 		"cost": "600",
 		"time": "0:06",
-		"power": "6"
+		"power": "6",
+		"sell_value": "",
+		"sell_spawn": ""
 	},
 	{
+		"id": "47",
 		"faction": "BH",
 		"category": "defense",
 		"name": "Laser Turret",
 		"tier": "tier 1",
 		"cost": "1200",
 		"time": "0:12",
-		"power": "10"
+		"power": "10",
+		"sell_value": "",
+		"sell_spawn": ""
 	},
 	{
+		"id": "48",
 		"faction": "BH",
 		"category": "defense",
 		"name": "Tiberium Silo",
 		"tier": "tier 1",
 		"cost": "100",
 		"time": "0:05",
-		"power": ""
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
 	},
 	{
+		"id": "49",
 		"faction": "BH",
 		"category": "defense",
 		"name": "Voice of Kane",
 		"tier": "tier 1",
 		"cost": "1000",
 		"time": "0:10",
-		"power": "5"
+		"power": "5",
+		"sell_value": "",
+		"sell_spawn": ""
 	},
 	{
+		"id": "50",
 		"faction": "BH",
 		"category": "defense",
 		"name": "Emissary",
 		"tier": "tier 1",
 		"cost": "1500",
 		"time": "0:15",
-		"power": ""
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
 	},
 	{
+		"id": "51",
 		"faction": "Scrin",
 		"category": "defense",
 		"name": "Buzzer Hive",
 		"tier": "tier 1",
 		"cost": "600",
 		"time": "0:06",
-		"power": "7"
+		"power": "7",
+		"sell_value": "",
+		"sell_spawn": ""
 	},
 	{
+		"id": "52",
 		"faction": "Scrin",
 		"category": "defense",
 		"name": "Photon Cannon",
 		"tier": "tier 1",
 		"cost": "1200",
 		"time": "0:12",
-		"power": "8"
+		"power": "8",
+		"sell_value": "",
+		"sell_spawn": ""
 	},
 	{
+		"id": "53",
 		"faction": "Scrin",
 		"category": "defense",
 		"name": "Growth Accelerator",
 		"tier": "tier 1",
 		"cost": "1500",
 		"time": "0:15",
-		"power": "5"
+		"power": "5",
+		"sell_value": "",
+		"sell_spawn": ""
 	},
 	{
+		"id": "54",
 		"faction": "Scrin",
 		"category": "defense",
 		"name": "Explorer",
 		"tier": "tier 1",
 		"cost": "1500",
 		"time": "0:15",
-		"power": ""
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
 	},
 	{
+		"id": "55",
 		"faction": "R17",
 		"category": "defense",
 		"name": "Buzzer Hive",
 		"tier": "tier 1",
 		"cost": "600",
 		"time": "0:06",
-		"power": "7"
+		"power": "7",
+		"sell_value": "",
+		"sell_spawn": ""
 	},
 	{
+		"id": "56",
 		"faction": "R17",
 		"category": "defense",
 		"name": "Photon Cannon",
 		"tier": "tier 1",
 		"cost": "1200",
 		"time": "0:12",
-		"power": "8"
+		"power": "8",
+		"sell_value": "",
+		"sell_spawn": ""
 	},
 	{
+		"id": "57",
 		"faction": "R17",
 		"category": "defense",
 		"name": "Growth Accelerator",
 		"tier": "tier 1",
 		"cost": "1500",
 		"time": "0:15",
-		"power": "5"
+		"power": "5",
+		"sell_value": "",
+		"sell_spawn": ""
 	},
 	{
+		"id": "58",
 		"faction": "R17",
 		"category": "defense",
 		"name": "Explorer",
 		"tier": "tier 1",
 		"cost": "1500",
 		"time": "0:15",
-		"power": ""
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
 	},
 	{
+		"id": "59",
 		"faction": "T59",
 		"category": "defense",
 		"name": "Buzzer Hive",
 		"tier": "tier 1",
 		"cost": "600",
 		"time": "0:06",
-		"power": "7"
+		"power": "7",
+		"sell_value": "",
+		"sell_spawn": ""
 	},
 	{
+		"id": "60",
 		"faction": "T59",
 		"category": "defense",
 		"name": "Photon Cannon",
 		"tier": "tier 1",
 		"cost": "1200",
 		"time": "0:12",
-		"power": "8"
+		"power": "8",
+		"sell_value": "",
+		"sell_spawn": ""
 	},
 	{
+		"id": "61",
 		"faction": "T59",
 		"category": "defense",
 		"name": "Growth Accelerator",
 		"tier": "tier 1",
 		"cost": "1500",
 		"time": "0:15",
-		"power": "5"
+		"power": "5",
+		"sell_value": "",
+		"sell_spawn": ""
 	},
 	{
+		"id": "62",
 		"faction": "T59",
 		"category": "defense",
 		"name": "Explorer",
@@ -640,6 +712,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "63",
 		"faction": "NOD",
 		"category": "defense",
 		"name": "Disruption Tower",
@@ -651,6 +724,7 @@
 		"sell_spawn": "Millitant Squad"
 	},
 	{
+		"id": "64",
 		"faction": "MOK",
 		"category": "defense",
 		"name": "Disruption Tower",
@@ -662,6 +736,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "65",
 		"faction": "GDI",
 		"category": "defense",
 		"name": "Support Airfield",
@@ -673,6 +748,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "66",
 		"faction": "ST",
 		"category": "defense",
 		"name": "Support Airfield",
@@ -684,6 +760,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "67",
 		"faction": "Zocom",
 		"category": "defense",
 		"name": "Support Airfield",
@@ -695,6 +772,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "68",
 		"faction": "GDI",
 		"category": "defense",
 		"name": "AA Battery",
@@ -706,6 +784,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "69",
 		"faction": "Zocom",
 		"category": "defense",
 		"name": "AA Battery",
@@ -717,6 +796,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "70",
 		"faction": "ST",
 		"category": "defense",
 		"name": "AA Battery",
@@ -728,6 +808,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "71",
 		"faction": "NOD",
 		"category": "defense",
 		"name": "SAM Turret",
@@ -739,6 +820,7 @@
 		"sell_spawn": "Millitant Squad"
 	},
 	{
+		"id": "72",
 		"faction": "NOD",
 		"category": "defense",
 		"name": "Air Support Tower",
@@ -750,6 +832,7 @@
 		"sell_spawn": "-"
 	},
 	{
+		"id": "73",
 		"faction": "MOK",
 		"category": "defense",
 		"name": "SAM Turret",
@@ -761,6 +844,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "74",
 		"faction": "MOK",
 		"category": "defense",
 		"name": "Air Support Tower",
@@ -772,6 +856,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "75",
 		"faction": "BH",
 		"category": "defense",
 		"name": "SAM Turret",
@@ -783,6 +868,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "76",
 		"faction": "Scrin",
 		"category": "defense",
 		"name": "Plasma Missile Battery",
@@ -794,6 +880,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "77",
 		"faction": "R17",
 		"category": "defense",
 		"name": "Plasma Missile Battery",
@@ -805,6 +892,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "78",
 		"faction": "T59",
 		"category": "defense",
 		"name": "Plasma Missile Battery",
@@ -816,6 +904,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "79",
 		"faction": "GDI",
 		"category": "defense",
 		"name": "Sonic Emitter",
@@ -827,6 +916,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "80",
 		"faction": "GDI",
 		"category": "defense",
 		"name": "Ion Cannon",
@@ -838,6 +928,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "81",
 		"faction": "Zocom",
 		"category": "defense",
 		"name": "Sonic Emitter",
@@ -849,6 +940,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "82",
 		"faction": "Zocom",
 		"category": "defense",
 		"name": "Ion Cannon",
@@ -860,6 +952,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "83",
 		"faction": "ST",
 		"category": "defense",
 		"name": "Ion Cannon",
@@ -871,6 +964,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "84",
 		"faction": "NOD",
 		"category": "defense",
 		"name": "Obelisk of Light",
@@ -882,6 +976,7 @@
 		"sell_spawn": "Millitant Squad"
 	},
 	{
+		"id": "85",
 		"faction": "NOD",
 		"category": "defense",
 		"name": "Temple of Nod",
@@ -893,6 +988,7 @@
 		"sell_spawn": "Black Hand Squad"
 	},
 	{
+		"id": "86",
 		"faction": "MOK",
 		"category": "defense",
 		"name": "Obelisk of Light",
@@ -904,6 +1000,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "87",
 		"faction": "MOK",
 		"category": "defense",
 		"name": "Temple of Nod",
@@ -915,6 +1012,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "88",
 		"faction": "BH",
 		"category": "defense",
 		"name": "Obelisk of Light",
@@ -926,6 +1024,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "89",
 		"faction": "BH",
 		"category": "defense",
 		"name": "Temple of Nod",
@@ -937,6 +1036,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "90",
 		"faction": "Scrin",
 		"category": "defense",
 		"name": "Storm Column",
@@ -948,6 +1048,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "91",
 		"faction": "Scrin",
 		"category": "defense",
 		"name": "Rift Generator",
@@ -959,6 +1060,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "92",
 		"faction": "R17",
 		"category": "defense",
 		"name": "Storm Column",
@@ -970,6 +1072,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "93",
 		"faction": "R17",
 		"category": "defense",
 		"name": "Rift Generator",
@@ -981,150 +1084,157 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "94",
 		"faction": "T59",
 		"category": "defense",
 		"name": "Storm Column",
 		"tier": "tier 3",
 		"cost": "3000",
 		"time": "0:30",
-		"power": "12"
+		"power": "12",
+		"sell_value": "",
+		"sell_spawn": ""
 	},
 	{
+		"id": "95",
 		"faction": "T59",
 		"category": "defense",
 		"name": "Rift Generator",
 		"tier": "tier 3",
 		"cost": "5000",
 		"time": "0:50",
-		"power": "15"
+		"power": "15",
+		"sell_value": "",
+		"sell_spawn": ""
 	},
 	{
+		"id": "96",
 		"faction": "GDI",
 		"category": "infantry",
 		"name": "Rifleman Squad",
 		"tier": "tier 1",
 		"cost": "300",
-		"time": "0:03",
-		"power": ""
+		"time": "0:03"
 	},
 	{
+		"id": "97",
 		"faction": "GDI",
 		"category": "infantry",
 		"name": "Missile Squad",
 		"tier": "tier 1",
 		"cost": "400",
-		"time": "0:04",
-		"power": ""
+		"time": "0:04"
 	},
 	{
+		"id": "98",
 		"faction": "GDI",
 		"category": "infantry",
 		"name": "Engineer",
 		"tier": "tier 1",
 		"cost": "500",
-		"time": "0:05",
-		"power": ""
+		"time": "0:05"
 	},
 	{
+		"id": "99",
 		"faction": "ST",
 		"category": "infantry",
 		"name": "Rifleman Squad",
 		"tier": "tier 1",
 		"cost": "300",
-		"time": "0:03",
-		"power": ""
+		"time": "0:03"
 	},
 	{
+		"id": "100",
 		"faction": "ST",
 		"category": "infantry",
 		"name": "Missile Squad",
 		"tier": "tier 1",
 		"cost": "400",
-		"time": "0:04",
-		"power": ""
+		"time": "0:04"
 	},
 	{
+		"id": "101",
 		"faction": "ST",
 		"category": "infantry",
 		"name": "Engineer",
 		"tier": "tier 1",
 		"cost": "500",
-		"time": "0:05",
-		"power": ""
+		"time": "0:05"
 	},
 	{
+		"id": "102",
 		"faction": "Zocom",
 		"category": "infantry",
 		"name": "Rifleman Squad",
 		"tier": "tier 1",
 		"cost": "300",
-		"time": "0:03",
-		"power": ""
+		"time": "0:03"
 	},
 	{
+		"id": "103",
 		"faction": "Zocom",
 		"category": "infantry",
 		"name": "Missile Squad",
 		"tier": "tier 1",
 		"cost": "400",
-		"time": "0:04",
-		"power": ""
+		"time": "0:04"
 	},
 	{
+		"id": "104",
 		"faction": "Zocom",
 		"category": "infantry",
 		"name": "Engineer",
 		"tier": "tier 1",
 		"cost": "500",
-		"time": "0:05",
-		"power": ""
+		"time": "0:05"
 	},
 	{
+		"id": "105",
 		"faction": "NOD",
 		"category": "infantry",
 		"name": "Militant Squad",
 		"tier": "tier 1",
 		"cost": "200",
-		"time": "0:02",
-		"power": ""
+		"time": "0:02"
 	},
 	{
+		"id": "106",
 		"faction": "NOD",
 		"category": "infantry",
 		"name": "Militant Rocket Squad",
 		"tier": "tier 1",
 		"cost": "400",
-		"time": "0:04",
-		"power": ""
+		"time": "0:04"
 	},
 	{
+		"id": "107",
 		"faction": "NOD",
 		"category": "infantry",
 		"name": "Saboteur",
 		"tier": "tier 1",
 		"cost": "500",
-		"time": "0:05",
-		"power": ""
+		"time": "0:05"
 	},
 	{
+		"id": "108",
 		"faction": "MOK",
 		"category": "infantry",
 		"name": "Militant Rocket Squad",
 		"tier": "tier 1",
 		"cost": "400",
-		"time": "0:04",
-		"power": ""
+		"time": "0:04"
 	},
 	{
+		"id": "109",
 		"faction": "MOK",
 		"category": "infantry",
 		"name": "Saboteur",
 		"tier": "tier 1",
 		"cost": "500",
-		"time": "0:05",
-		"power": ""
+		"time": "0:05"
 	},
 	{
+		"id": "110",
 		"faction": "BH",
 		"category": "infantry",
 		"name": "Militant Rocket Squad",
@@ -1133,6 +1243,7 @@
 		"time": "0:04"
 	},
 	{
+		"id": "111",
 		"faction": "BH",
 		"category": "infantry",
 		"name": "Saboteur",
@@ -1141,6 +1252,7 @@
 		"time": "0:05"
 	},
 	{
+		"id": "112",
 		"faction": "Scrin",
 		"category": "infantry",
 		"name": "Buzzer",
@@ -1149,6 +1261,7 @@
 		"time": "0:02"
 	},
 	{
+		"id": "113",
 		"faction": "Scrin",
 		"category": "infantry",
 		"name": "Disintegrators",
@@ -1157,6 +1270,7 @@
 		"time": "0:03"
 	},
 	{
+		"id": "114",
 		"faction": "Scrin",
 		"category": "infantry",
 		"name": "Assimilator",
@@ -1165,6 +1279,7 @@
 		"time": "0:05"
 	},
 	{
+		"id": "115",
 		"faction": "R17",
 		"category": "infantry",
 		"name": "Buzzer",
@@ -1173,6 +1288,7 @@
 		"time": "0:02"
 	},
 	{
+		"id": "116",
 		"faction": "R17",
 		"category": "infantry",
 		"name": "Disintegrators",
@@ -1181,6 +1297,7 @@
 		"time": "0:03"
 	},
 	{
+		"id": "117",
 		"faction": "R17",
 		"category": "infantry",
 		"name": "Assimilator",
@@ -1189,6 +1306,7 @@
 		"time": "0:05"
 	},
 	{
+		"id": "118",
 		"faction": "T59",
 		"category": "infantry",
 		"name": "Buzzer",
@@ -1197,6 +1315,7 @@
 		"time": "0:02"
 	},
 	{
+		"id": "119",
 		"faction": "T59",
 		"category": "infantry",
 		"name": "Disintegrators",
@@ -1205,6 +1324,7 @@
 		"time": "0:03"
 	},
 	{
+		"id": "120",
 		"faction": "T59",
 		"category": "infantry",
 		"name": "Assimilator",
@@ -1213,6 +1333,7 @@
 		"time": "0:05"
 	},
 	{
+		"id": "121",
 		"faction": "GDI",
 		"category": "infantry",
 		"name": "Sniper Team",
@@ -1221,6 +1342,7 @@
 		"time": "0:10"
 	},
 	{
+		"id": "122",
 		"faction": "Zocom",
 		"category": "infantry",
 		"name": "Sniper Team",
@@ -1229,6 +1351,7 @@
 		"time": "0:10"
 	},
 	{
+		"id": "123",
 		"faction": "NOD",
 		"category": "infantry",
 		"name": "Shadow Team",
@@ -1237,6 +1360,7 @@
 		"time": "0:08"
 	},
 	{
+		"id": "124",
 		"faction": "MOK",
 		"category": "infantry",
 		"name": "Shadow Team",
@@ -1245,6 +1369,7 @@
 		"time": "0:08"
 	},
 	{
+		"id": "125",
 		"faction": "Scrin",
 		"category": "infantry",
 		"name": "Ravager",
@@ -1253,6 +1378,7 @@
 		"time": "0:12"
 	},
 	{
+		"id": "126",
 		"faction": "R17",
 		"category": "infantry",
 		"name": "Ravager",
@@ -1261,6 +1387,7 @@
 		"time": "0:12"
 	},
 	{
+		"id": "127",
 		"faction": "T59",
 		"category": "infantry",
 		"name": "Ravager",
@@ -1269,6 +1396,7 @@
 		"time": "0:12"
 	},
 	{
+		"id": "128",
 		"faction": "GDI",
 		"category": "infantry",
 		"name": "Grenadier Squad",
@@ -1277,6 +1405,7 @@
 		"time": "0:08"
 	},
 	{
+		"id": "129",
 		"faction": "ST",
 		"category": "infantry",
 		"name": "Grenadier Squad",
@@ -1285,6 +1414,7 @@
 		"time": "0:08"
 	},
 	{
+		"id": "130",
 		"faction": "Zocom",
 		"category": "infantry",
 		"name": "Grenadier Squad",
@@ -1293,6 +1423,7 @@
 		"time": "0:08"
 	},
 	{
+		"id": "131",
 		"faction": "NOD",
 		"category": "infantry",
 		"name": "Fanatics",
@@ -1301,6 +1432,7 @@
 		"time": "0:07"
 	},
 	{
+		"id": "132",
 		"faction": "NOD",
 		"category": "infantry",
 		"name": "Black Hand",
@@ -1309,6 +1441,7 @@
 		"time": "0:09"
 	},
 	{
+		"id": "133",
 		"faction": "MOK",
 		"category": "infantry",
 		"name": "Fanatics",
@@ -1317,6 +1450,7 @@
 		"time": "0:07"
 	},
 	{
+		"id": "134",
 		"faction": "BH",
 		"category": "infantry",
 		"name": "Fanatics",
@@ -1325,6 +1459,7 @@
 		"time": "0:07"
 	},
 	{
+		"id": "135",
 		"faction": "BH",
 		"category": "infantry",
 		"name": "Black Hand",
@@ -1333,6 +1468,7 @@
 		"time": "0:09"
 	},
 	{
+		"id": "136",
 		"faction": "Scrin",
 		"category": "infantry",
 		"name": "Shock Trooper",
@@ -1341,6 +1477,7 @@
 		"time": "0:08"
 	},
 	{
+		"id": "137",
 		"faction": "R17",
 		"category": "infantry",
 		"name": "Shock Trooper",
@@ -1349,6 +1486,7 @@
 		"time": "0:08"
 	},
 	{
+		"id": "138",
 		"faction": "T59",
 		"category": "infantry",
 		"name": "Shock Trooper",
@@ -1357,6 +1495,7 @@
 		"time": "0:08"
 	},
 	{
+		"id": "139",
 		"faction": "T59",
 		"category": "infantry",
 		"name": "Cultists",
@@ -1365,6 +1504,7 @@
 		"time": "0:10"
 	},
 	{
+		"id": "140",
 		"faction": "GDI",
 		"category": "infantry",
 		"name": "Zone Trooper",
@@ -1373,6 +1513,7 @@
 		"time": "0:13"
 	},
 	{
+		"id": "141",
 		"faction": "GDI",
 		"category": "infantry",
 		"name": "Commando",
@@ -1381,28 +1522,25 @@
 		"time": "0:20"
 	},
 	{
+		"id": "142",
 		"faction": "Zocom",
 		"category": "infantry",
 		"name": "Commando",
 		"tier": "tier 3",
 		"cost": "2000",
-		"time": "0:20",
-		"power": "",
-		"sell_value": "",
-		"sell_spawn": ""
+		"time": "0:20"
 	},
 	{
+		"id": "143",
 		"faction": "NOD",
 		"category": "infantry",
 		"name": "Commando",
 		"tier": "tier 3",
 		"cost": "2000",
-		"time": "0:20",
-		"power": "",
-		"sell_value": "",
-		"sell_spawn": ""
+		"time": "0:20"
 	},
 	{
+		"id": "144",
 		"faction": "MOK",
 		"category": "infantry",
 		"name": "Commando",
@@ -1414,6 +1552,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "145",
 		"faction": "BH",
 		"category": "infantry",
 		"name": "Commando",
@@ -1425,6 +1564,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "146",
 		"faction": "Scrin",
 		"category": "infantry",
 		"name": "Mastermind",
@@ -1436,6 +1576,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "147",
 		"faction": "T59",
 		"category": "infantry",
 		"name": "Prodigy",
@@ -1447,6 +1588,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "148",
 		"faction": "GDI",
 		"category": "structure",
 		"name": "Crane",
@@ -1458,6 +1600,7 @@
 		"sell_spawn": "-"
 	},
 	{
+		"id": "149",
 		"faction": "GDI",
 		"category": "structure",
 		"name": "Power Plant",
@@ -1469,6 +1612,7 @@
 		"sell_spawn": "Rifleman Squad"
 	},
 	{
+		"id": "150",
 		"faction": "GDI",
 		"category": "structure",
 		"name": "Refinery",
@@ -1480,6 +1624,7 @@
 		"sell_spawn": "Rifleman Squad"
 	},
 	{
+		"id": "151",
 		"faction": "GDI",
 		"category": "structure",
 		"name": "Barracks",
@@ -1491,6 +1636,7 @@
 		"sell_spawn": "Rifleman Squad"
 	},
 	{
+		"id": "152",
 		"faction": "GDI",
 		"category": "structure",
 		"name": "War Factory",
@@ -1502,6 +1648,7 @@
 		"sell_spawn": "Rifleman Squad"
 	},
 	{
+		"id": "153",
 		"faction": "ST",
 		"category": "structure",
 		"name": "Crane",
@@ -1513,6 +1660,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "154",
 		"faction": "ST",
 		"category": "structure",
 		"name": "Power Plant",
@@ -1524,6 +1672,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "155",
 		"faction": "ST",
 		"category": "structure",
 		"name": "Refinery",
@@ -1535,6 +1684,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "156",
 		"faction": "ST",
 		"category": "structure",
 		"name": "Barracks",
@@ -1546,6 +1696,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "157",
 		"faction": "ST",
 		"category": "structure",
 		"name": "War Factory",
@@ -1557,6 +1708,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "158",
 		"faction": "Zocom",
 		"category": "structure",
 		"name": "Crane",
@@ -1568,6 +1720,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "159",
 		"faction": "Zocom",
 		"category": "structure",
 		"name": "Power Plant",
@@ -1579,6 +1732,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "160",
 		"faction": "Zocom",
 		"category": "structure",
 		"name": "Refinery",
@@ -1590,6 +1744,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "161",
 		"faction": "Zocom",
 		"category": "structure",
 		"name": "Barracks",
@@ -1601,6 +1756,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "162",
 		"faction": "Zocom",
 		"category": "structure",
 		"name": "War Factory",
@@ -1612,6 +1768,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "163",
 		"faction": "NOD",
 		"category": "structure",
 		"name": "Crane",
@@ -1623,6 +1780,7 @@
 		"sell_spawn": "-"
 	},
 	{
+		"id": "164",
 		"faction": "NOD",
 		"category": "structure",
 		"name": "Power Plant",
@@ -1634,6 +1792,7 @@
 		"sell_spawn": "Millitant Squad"
 	},
 	{
+		"id": "165",
 		"faction": "NOD",
 		"category": "structure",
 		"name": "Refinery",
@@ -1645,6 +1804,7 @@
 		"sell_spawn": "Millitant Squad"
 	},
 	{
+		"id": "166",
 		"faction": "NOD",
 		"category": "structure",
 		"name": "Hand of Nod",
@@ -1656,6 +1816,7 @@
 		"sell_spawn": "Millitant Squad"
 	},
 	{
+		"id": "167",
 		"faction": "NOD",
 		"category": "structure",
 		"name": "War Factory",
@@ -1667,6 +1828,7 @@
 		"sell_spawn": "Millitant Squad"
 	},
 	{
+		"id": "168",
 		"faction": "MOK",
 		"category": "structure",
 		"name": "Crane",
@@ -1678,6 +1840,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "169",
 		"faction": "MOK",
 		"category": "structure",
 		"name": "Power Plant",
@@ -1689,6 +1852,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "170",
 		"faction": "MOK",
 		"category": "structure",
 		"name": "Refinery",
@@ -1700,6 +1864,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "171",
 		"faction": "MOK",
 		"category": "structure",
 		"name": "Hand of Nod",
@@ -1711,6 +1876,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "172",
 		"faction": "MOK",
 		"category": "structure",
 		"name": "War Factory",
@@ -1722,6 +1888,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "173",
 		"faction": "BH",
 		"category": "structure",
 		"name": "Crane",
@@ -1733,6 +1900,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "174",
 		"faction": "BH",
 		"category": "structure",
 		"name": "Power Plant",
@@ -1740,160 +1908,12 @@
 		"cost": "500",
 		"time": "0:05",
 		"power": "15",
-		"sell_value": "250"
+		"sell_value": "250",
+		"sell_spawn": ""
 	},
 	{
+		"id": "175",
 		"faction": "BH",
-		"category": "structure",
-		"name": "Refinery",
-		"tier": "tier 1",
-		"cost": "3000",
-		"time": "0:30",
-		"power": "15",
-		"sell_value": "500"
-	},
-	{
-		"faction": "BH",
-		"category": "structure",
-		"name": "Hand of Nod",
-		"tier": "tier 1",
-		"cost": "500",
-		"time": "0:05",
-		"power": "5",
-		"sell_value": "250"
-	},
-	{
-		"faction": "BH",
-		"category": "structure",
-		"name": "War Factory",
-		"tier": "tier 1",
-		"cost": "2000",
-		"time": "0:20",
-		"power": "5",
-		"sell_value": "1000"
-	},
-	{
-		"faction": "Scrin",
-		"category": "structure",
-		"name": "Crane",
-		"tier": "tier 1",
-		"cost": "1500",
-		"time": "0:15",
-		"power": "10",
-		"sell_value": "750"
-	},
-	{
-		"faction": "Scrin",
-		"category": "structure",
-		"name": "Reactor",
-		"tier": "tier 1",
-		"cost": "600",
-		"time": "0:06",
-		"power": "20",
-		"sell_value": "300"
-	},
-	{
-		"faction": "Scrin",
-		"category": "structure",
-		"name": "Refinery",
-		"tier": "tier 1",
-		"cost": "3000",
-		"time": "0:30",
-		"power": "15",
-		"sell_value": "500"
-	},
-	{
-		"faction": "Scrin",
-		"category": "structure",
-		"name": "Barracks",
-		"tier": "tier 1",
-		"cost": "600",
-		"time": "0:06",
-		"power": "5",
-		"sell_value": "300"
-	},
-	{
-		"faction": "Scrin",
-		"category": "structure",
-		"name": "Warp Sphere",
-		"tier": "tier 1",
-		"cost": "2000",
-		"time": "0:20",
-		"power": "6",
-		"sell_value": "1000"
-	},
-	{
-		"faction": "R17",
-		"category": "structure",
-		"name": "Crane",
-		"tier": "tier 1",
-		"cost": "1500",
-		"time": "0:15",
-		"power": "10",
-		"sell_value": "750"
-	},
-	{
-		"faction": "R17",
-		"category": "structure",
-		"name": "Reactor",
-		"tier": "tier 1",
-		"cost": "600",
-		"time": "0:06",
-		"power": "20",
-		"sell_value": "300"
-	},
-	{
-		"faction": "R17",
-		"category": "structure",
-		"name": "Refinery",
-		"tier": "tier 1",
-		"cost": "3000",
-		"time": "0:30",
-		"power": "15",
-		"sell_value": "500"
-	},
-	{
-		"faction": "R17",
-		"category": "structure",
-		"name": "Barracks",
-		"tier": "tier 1",
-		"cost": "600",
-		"time": "0:06",
-		"power": "5",
-		"sell_value": "300"
-	},
-	{
-		"faction": "R17",
-		"category": "structure",
-		"name": "Warp Sphere",
-		"tier": "tier 1",
-		"cost": "2000",
-		"time": "0:20",
-		"power": "6",
-		"sell_value": "1000"
-	},
-	{
-		"faction": "T59",
-		"category": "structure",
-		"name": "Crane",
-		"tier": "tier 1",
-		"cost": "1500",
-		"time": "0:15",
-		"power": "10",
-		"sell_value": "750"
-	},
-	{
-		"faction": "T59",
-		"category": "structure",
-		"name": "Reactor",
-		"tier": "tier 1",
-		"cost": "600",
-		"time": "0:06",
-		"power": "20",
-		"sell_value": "300"
-	},
-	{
-		"faction": "T59",
 		"category": "structure",
 		"name": "Refinery",
 		"tier": "tier 1",
@@ -1904,6 +1924,172 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "176",
+		"faction": "BH",
+		"category": "structure",
+		"name": "Hand of Nod",
+		"tier": "tier 1",
+		"cost": "500",
+		"time": "0:05",
+		"power": "5",
+		"sell_value": "250"
+	},
+	{
+		"id": "177",
+		"faction": "BH",
+		"category": "structure",
+		"name": "War Factory",
+		"tier": "tier 1",
+		"cost": "2000",
+		"time": "0:20",
+		"power": "5",
+		"sell_value": "1000"
+	},
+	{
+		"id": "178",
+		"faction": "Scrin",
+		"category": "structure",
+		"name": "Crane",
+		"tier": "tier 1",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "10",
+		"sell_value": "750"
+	},
+	{
+		"id": "179",
+		"faction": "Scrin",
+		"category": "structure",
+		"name": "Reactor",
+		"tier": "tier 1",
+		"cost": "600",
+		"time": "0:06",
+		"power": "20",
+		"sell_value": "300"
+	},
+	{
+		"id": "180",
+		"faction": "Scrin",
+		"category": "structure",
+		"name": "Refinery",
+		"tier": "tier 1",
+		"cost": "3000",
+		"time": "0:30",
+		"power": "15",
+		"sell_value": "500"
+	},
+	{
+		"id": "181",
+		"faction": "Scrin",
+		"category": "structure",
+		"name": "Barracks",
+		"tier": "tier 1",
+		"cost": "600",
+		"time": "0:06",
+		"power": "5",
+		"sell_value": "300"
+	},
+	{
+		"id": "182",
+		"faction": "Scrin",
+		"category": "structure",
+		"name": "Warp Sphere",
+		"tier": "tier 1",
+		"cost": "2000",
+		"time": "0:20",
+		"power": "6",
+		"sell_value": "1000"
+	},
+	{
+		"id": "183",
+		"faction": "R17",
+		"category": "structure",
+		"name": "Crane",
+		"tier": "tier 1",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "10",
+		"sell_value": "750"
+	},
+	{
+		"id": "184",
+		"faction": "R17",
+		"category": "structure",
+		"name": "Reactor",
+		"tier": "tier 1",
+		"cost": "600",
+		"time": "0:06",
+		"power": "20",
+		"sell_value": "300"
+	},
+	{
+		"id": "185",
+		"faction": "R17",
+		"category": "structure",
+		"name": "Refinery",
+		"tier": "tier 1",
+		"cost": "3000",
+		"time": "0:30",
+		"power": "15",
+		"sell_value": "500"
+	},
+	{
+		"id": "186",
+		"faction": "R17",
+		"category": "structure",
+		"name": "Barracks",
+		"tier": "tier 1",
+		"cost": "600",
+		"time": "0:06",
+		"power": "5",
+		"sell_value": "300"
+	},
+	{
+		"id": "187",
+		"faction": "R17",
+		"category": "structure",
+		"name": "Warp Sphere",
+		"tier": "tier 1",
+		"cost": "2000",
+		"time": "0:20",
+		"power": "6",
+		"sell_value": "1000"
+	},
+	{
+		"id": "188",
+		"faction": "T59",
+		"category": "structure",
+		"name": "Crane",
+		"tier": "tier 1",
+		"cost": "1500",
+		"time": "0:15",
+		"power": "10",
+		"sell_value": "750"
+	},
+	{
+		"id": "189",
+		"faction": "T59",
+		"category": "structure",
+		"name": "Reactor",
+		"tier": "tier 1",
+		"cost": "600",
+		"time": "0:06",
+		"power": "20",
+		"sell_value": "300"
+	},
+	{
+		"id": "190",
+		"faction": "T59",
+		"category": "structure",
+		"name": "Refinery",
+		"tier": "tier 1",
+		"cost": "3000",
+		"time": "0:30",
+		"power": "15",
+		"sell_value": "500"
+	},
+	{
+		"id": "191",
 		"faction": "T59",
 		"category": "structure",
 		"name": "Barracks",
@@ -1911,10 +2097,10 @@
 		"cost": "600",
 		"time": "0:06",
 		"power": "5",
-		"sell_value": "300",
-		"sell_spawn": ""
+		"sell_value": "300"
 	},
 	{
+		"id": "192",
 		"faction": "T59",
 		"category": "structure",
 		"name": "Warp Sphere",
@@ -1926,6 +2112,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "193",
 		"faction": "GDI",
 		"category": "structure",
 		"name": "Armory",
@@ -1937,6 +2124,7 @@
 		"sell_spawn": "Rifleman Squad"
 	},
 	{
+		"id": "194",
 		"faction": "Zocom",
 		"category": "structure",
 		"name": "Armory",
@@ -1948,6 +2136,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "195",
 		"faction": "NOD",
 		"category": "structure",
 		"name": "Secret Shrine",
@@ -1959,6 +2148,7 @@
 		"sell_spawn": "Millitant Squad"
 	},
 	{
+		"id": "196",
 		"faction": "MOK",
 		"category": "structure",
 		"name": "Secret Shrine",
@@ -1970,6 +2160,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "197",
 		"faction": "BH",
 		"category": "structure",
 		"name": "Secret Shrine",
@@ -1981,6 +2172,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "198",
 		"faction": "Scrin",
 		"category": "structure",
 		"name": "Fusion Core",
@@ -1992,6 +2184,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "199",
 		"faction": "Scrin",
 		"category": "structure",
 		"name": "Stasis Chamber",
@@ -2003,6 +2196,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "200",
 		"faction": "R17",
 		"category": "structure",
 		"name": "Fusion Core",
@@ -2014,6 +2208,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "201",
 		"faction": "R17",
 		"category": "structure",
 		"name": "Stasis Chamber",
@@ -2025,6 +2220,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "202",
 		"faction": "T59",
 		"category": "structure",
 		"name": "Fusion Core",
@@ -2036,6 +2232,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "203",
 		"faction": "T59",
 		"category": "structure",
 		"name": "Stasis Chamber",
@@ -2047,6 +2244,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "204",
 		"faction": "GDI",
 		"category": "structure",
 		"name": "Command Post",
@@ -2058,6 +2256,7 @@
 		"sell_spawn": "Rifleman Squad"
 	},
 	{
+		"id": "205",
 		"faction": "GDI",
 		"category": "structure",
 		"name": "Air Field",
@@ -2069,6 +2268,7 @@
 		"sell_spawn": "Rifleman Squad"
 	},
 	{
+		"id": "206",
 		"faction": "ST",
 		"category": "structure",
 		"name": "Advanced Turbines",
@@ -2080,6 +2280,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "207",
 		"faction": "ST",
 		"category": "structure",
 		"name": "Command Post",
@@ -2091,6 +2292,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "208",
 		"faction": "ST",
 		"category": "structure",
 		"name": "Air Field",
@@ -2102,6 +2304,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "209",
 		"faction": "Zocom",
 		"category": "structure",
 		"name": "Advanced Turbines",
@@ -2113,6 +2316,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "210",
 		"faction": "Zocom",
 		"category": "structure",
 		"name": "Command Post",
@@ -2124,6 +2328,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "211",
 		"faction": "Zocom",
 		"category": "structure",
 		"name": "Air Field",
@@ -2135,6 +2340,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "212",
 		"faction": "NOD",
 		"category": "structure",
 		"name": "Advanced Turbines",
@@ -2146,6 +2352,7 @@
 		"sell_spawn": "-"
 	},
 	{
+		"id": "213",
 		"faction": "NOD",
 		"category": "structure",
 		"name": "Operations Center",
@@ -2157,6 +2364,7 @@
 		"sell_spawn": "Black Hand Squad"
 	},
 	{
+		"id": "214",
 		"faction": "NOD",
 		"category": "structure",
 		"name": "Air Tower",
@@ -2168,6 +2376,7 @@
 		"sell_spawn": "Millitant Squad"
 	},
 	{
+		"id": "215",
 		"faction": "MOK",
 		"category": "structure",
 		"name": "Advanced Turbines",
@@ -2179,6 +2388,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "216",
 		"faction": "MOK",
 		"category": "structure",
 		"name": "Operations Center",
@@ -2190,6 +2400,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "217",
 		"faction": "MOK",
 		"category": "structure",
 		"name": "Air Tower",
@@ -2201,6 +2412,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "218",
 		"faction": "BH",
 		"category": "structure",
 		"name": "Advanced Turbines",
@@ -2212,6 +2424,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "219",
 		"faction": "BH",
 		"category": "structure",
 		"name": "Operations Center",
@@ -2223,6 +2436,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "220",
 		"faction": "Scrin",
 		"category": "structure",
 		"name": "Nerve Center",
@@ -2234,6 +2448,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "221",
 		"faction": "Scrin",
 		"category": "structure",
 		"name": "Gravity Stabilizer",
@@ -2245,6 +2460,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "222",
 		"faction": "R17",
 		"category": "structure",
 		"name": "Nerve Center",
@@ -2256,6 +2472,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "223",
 		"faction": "R17",
 		"category": "structure",
 		"name": "Gravity Stabilizer",
@@ -2267,6 +2484,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "224",
 		"faction": "T59",
 		"category": "structure",
 		"name": "Nerve Center",
@@ -2278,6 +2496,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "225",
 		"faction": "T59",
 		"category": "structure",
 		"name": "Gravity Stabilizer",
@@ -2289,6 +2508,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "226",
 		"faction": "GDI",
 		"category": "structure",
 		"name": "Tech Center",
@@ -2300,6 +2520,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "227",
 		"faction": "GDI",
 		"category": "structure",
 		"name": "Reclamator Hub",
@@ -2311,6 +2532,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "228",
 		"faction": "ST",
 		"category": "structure",
 		"name": "Tech Center",
@@ -2322,6 +2544,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "229",
 		"faction": "ST",
 		"category": "structure",
 		"name": "Reclamator Hub",
@@ -2333,6 +2556,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "230",
 		"faction": "Zocom",
 		"category": "structure",
 		"name": "Tech Center",
@@ -2344,6 +2568,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "231",
 		"faction": "Zocom",
 		"category": "structure",
 		"name": "Reclamator Hub",
@@ -2355,6 +2580,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "232",
 		"faction": "NOD",
 		"category": "structure",
 		"name": "Tech Lab",
@@ -2366,6 +2592,7 @@
 		"sell_spawn": "Black Hand Squad"
 	},
 	{
+		"id": "233",
 		"faction": "NOD",
 		"category": "structure",
 		"name": "Redeemer Engineering Facility",
@@ -2377,6 +2604,7 @@
 		"sell_spawn": "Black Hand Squad"
 	},
 	{
+		"id": "234",
 		"faction": "MOK",
 		"category": "structure",
 		"name": "Tech Lab",
@@ -2388,6 +2616,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "235",
 		"faction": "MOK",
 		"category": "structure",
 		"name": "Redeemer Engineering Facility",
@@ -2399,6 +2628,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "236",
 		"faction": "BH",
 		"category": "structure",
 		"name": "Tech Lab",
@@ -2410,6 +2640,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "237",
 		"faction": "BH",
 		"category": "structure",
 		"name": "Redeemer Engineering Facility",
@@ -2421,6 +2652,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "238",
 		"faction": "Scrin",
 		"category": "structure",
 		"name": "Tech Center",
@@ -2432,6 +2664,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "239",
 		"faction": "Scrin",
 		"category": "structure",
 		"name": "Warp Chasm",
@@ -2443,6 +2676,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "240",
 		"faction": "R17",
 		"category": "structure",
 		"name": "Tech Center",
@@ -2454,6 +2688,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "241",
 		"faction": "R17",
 		"category": "structure",
 		"name": "Warp Chasm",
@@ -2465,6 +2700,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "242",
 		"faction": "T59",
 		"category": "structure",
 		"name": "Tech Center",
@@ -2476,6 +2712,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "243",
 		"faction": "T59",
 		"category": "structure",
 		"name": "Warp Chasm",
@@ -2487,6 +2724,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "244",
 		"faction": "GDI",
 		"category": "structure",
 		"name": "Space Command Uplink",
@@ -2498,6 +2736,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "245",
 		"faction": "ST",
 		"category": "structure",
 		"name": "Space Command Uplink",
@@ -2509,6 +2748,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "246",
 		"faction": "Zocom",
 		"category": "structure",
 		"name": "Space Command Uplink",
@@ -2520,6 +2760,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "247",
 		"faction": "NOD",
 		"category": "structure",
 		"name": "Tiberium Chemical Plant",
@@ -2531,6 +2772,7 @@
 		"sell_spawn": "Black Hand Squad"
 	},
 	{
+		"id": "248",
 		"faction": "MOK",
 		"category": "structure",
 		"name": "Tiberium Chemical Plant",
@@ -2542,6 +2784,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "249",
 		"faction": "BH",
 		"category": "structure",
 		"name": "Tiberium Chemical Plant",
@@ -2553,6 +2796,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "250",
 		"faction": "Scrin",
 		"category": "structure",
 		"name": "Signal Transmitter",
@@ -2564,6 +2808,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "251",
 		"faction": "R17",
 		"category": "structure",
 		"name": "Signal Transmitter",
@@ -2575,6 +2820,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "252",
 		"faction": "T59",
 		"category": "structure",
 		"name": "Signal Transmitter",
@@ -2586,6 +2832,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "253",
 		"faction": "GDI",
 		"category": "tank",
 		"name": "Pitbull",
@@ -2597,6 +2844,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "254",
 		"faction": "GDI",
 		"category": "tank",
 		"name": "Predator Tank",
@@ -2604,9 +2852,11 @@
 		"cost": "1100",
 		"time": "0:11",
 		"power": "",
-		"sell_value": ""
+		"sell_value": "",
+		"sell_spawn": ""
 	},
 	{
+		"id": "255",
 		"faction": "GDI",
 		"category": "tank",
 		"name": "APC",
@@ -2614,9 +2864,11 @@
 		"cost": "700",
 		"time": "0:07",
 		"power": "",
-		"sell_value": ""
+		"sell_value": "",
+		"sell_spawn": ""
 	},
 	{
+		"id": "256",
 		"faction": "GDI",
 		"category": "tank",
 		"name": "Harvester",
@@ -2627,6 +2879,7 @@
 		"sell_value": ""
 	},
 	{
+		"id": "257",
 		"faction": "GDI",
 		"category": "tank",
 		"name": "MCV",
@@ -2637,6 +2890,7 @@
 		"sell_value": "1750"
 	},
 	{
+		"id": "258",
 		"faction": "ST",
 		"category": "tank",
 		"name": "Pitbull",
@@ -2647,6 +2901,7 @@
 		"sell_value": ""
 	},
 	{
+		"id": "259",
 		"faction": "ST",
 		"category": "tank",
 		"name": "Titan",
@@ -2657,6 +2912,7 @@
 		"sell_value": ""
 	},
 	{
+		"id": "260",
 		"faction": "ST",
 		"category": "tank",
 		"name": "MRT",
@@ -2667,6 +2923,7 @@
 		"sell_value": ""
 	},
 	{
+		"id": "261",
 		"faction": "ST",
 		"category": "tank",
 		"name": "Harvester",
@@ -2677,6 +2934,7 @@
 		"sell_value": ""
 	},
 	{
+		"id": "262",
 		"faction": "ST",
 		"category": "tank",
 		"name": "MCV",
@@ -2687,6 +2945,7 @@
 		"sell_value": "1750"
 	},
 	{
+		"id": "263",
 		"faction": "ST",
 		"category": "tank",
 		"name": "Wolverine",
@@ -2697,6 +2956,7 @@
 		"sell_value": ""
 	},
 	{
+		"id": "264",
 		"faction": "Zocom",
 		"category": "tank",
 		"name": "Pitbull",
@@ -2707,6 +2967,7 @@
 		"sell_value": ""
 	},
 	{
+		"id": "265",
 		"faction": "Zocom",
 		"category": "tank",
 		"name": "Predator Tank",
@@ -2717,6 +2978,7 @@
 		"sell_value": ""
 	},
 	{
+		"id": "266",
 		"faction": "Zocom",
 		"category": "tank",
 		"name": "APC",
@@ -2727,6 +2989,7 @@
 		"sell_value": ""
 	},
 	{
+		"id": "267",
 		"faction": "Zocom",
 		"category": "tank",
 		"name": "Harvester",
@@ -2737,6 +3000,7 @@
 		"sell_value": ""
 	},
 	{
+		"id": "268",
 		"faction": "Zocom",
 		"category": "tank",
 		"name": "MCV",
@@ -2747,6 +3011,7 @@
 		"sell_value": "1750"
 	},
 	{
+		"id": "269",
 		"faction": "NOD",
 		"category": "tank",
 		"name": "Attack Bike",
@@ -2757,6 +3022,7 @@
 		"sell_value": ""
 	},
 	{
+		"id": "270",
 		"faction": "NOD",
 		"category": "tank",
 		"name": "Raider Buggy",
@@ -2764,10 +3030,10 @@
 		"cost": "500",
 		"time": "0:05",
 		"power": "",
-		"sell_value": "",
-		"sell_spawn": ""
+		"sell_value": ""
 	},
 	{
+		"id": "271",
 		"faction": "NOD",
 		"category": "tank",
 		"name": "Scorpion Tank",
@@ -2775,10 +3041,10 @@
 		"cost": "800",
 		"time": "0:08",
 		"power": "",
-		"sell_value": "",
-		"sell_spawn": ""
+		"sell_value": ""
 	},
 	{
+		"id": "272",
 		"faction": "NOD",
 		"category": "tank",
 		"name": "Harvester",
@@ -2790,6 +3056,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "273",
 		"faction": "NOD",
 		"category": "tank",
 		"name": "MCV",
@@ -2801,6 +3068,7 @@
 		"sell_spawn": "Millitant Squad"
 	},
 	{
+		"id": "274",
 		"faction": "MOK",
 		"category": "tank",
 		"name": "The Awakened",
@@ -2812,6 +3080,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "275",
 		"faction": "MOK",
 		"category": "tank",
 		"name": "Attack Bike",
@@ -2823,6 +3092,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "276",
 		"faction": "MOK",
 		"category": "tank",
 		"name": "Raider Buggy",
@@ -2834,6 +3104,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "277",
 		"faction": "MOK",
 		"category": "tank",
 		"name": "Scorpion Tank",
@@ -2845,6 +3116,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "278",
 		"faction": "MOK",
 		"category": "tank",
 		"name": "Harvester",
@@ -2856,6 +3128,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "279",
 		"faction": "MOK",
 		"category": "tank",
 		"name": "MCV",
@@ -2867,6 +3140,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "280",
 		"faction": "BH",
 		"category": "tank",
 		"name": "Confessor Cabal",
@@ -2878,6 +3152,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "281",
 		"faction": "BH",
 		"category": "tank",
 		"name": "Attack Bike",
@@ -2889,6 +3164,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "282",
 		"faction": "BH",
 		"category": "tank",
 		"name": "Raider Buggy",
@@ -2900,6 +3176,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "283",
 		"faction": "BH",
 		"category": "tank",
 		"name": "Scorpion Tank",
@@ -2911,6 +3188,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "284",
 		"faction": "BH",
 		"category": "tank",
 		"name": "Harvester",
@@ -2922,6 +3200,7 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "285",
 		"faction": "BH",
 		"category": "tank",
 		"name": "MCV",
@@ -2933,22 +3212,31 @@
 		"sell_spawn": ""
 	},
 	{
+		"id": "286",
 		"faction": "Scrin",
 		"category": "tank",
 		"name": "Gun Walker",
 		"tier": "tier 1",
 		"cost": "700",
-		"time": "0:07"
+		"time": "0:07",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
 	},
 	{
+		"id": "287",
 		"faction": "Scrin",
 		"category": "tank",
 		"name": "Seeker",
 		"tier": "tier 1",
 		"cost": "800",
-		"time": "0:08"
+		"time": "0:08",
+		"power": "",
+		"sell_value": "",
+		"sell_spawn": ""
 	},
 	{
+		"id": "288",
 		"faction": "Scrin",
 		"category": "tank",
 		"name": "Harvester",
@@ -2957,6 +3245,7 @@
 		"time": "0:16"
 	},
 	{
+		"id": "289",
 		"faction": "R17",
 		"category": "tank",
 		"name": "Shard Walker",
@@ -2965,6 +3254,7 @@
 		"time": "0:08"
 	},
 	{
+		"id": "290",
 		"faction": "R17",
 		"category": "tank",
 		"name": "Seeker",
@@ -2973,6 +3263,7 @@
 		"time": "0:08"
 	},
 	{
+		"id": "291",
 		"faction": "R17",
 		"category": "tank",
 		"name": "Harvester",
@@ -2981,6 +3272,7 @@
 		"time": "0:16"
 	},
 	{
+		"id": "292",
 		"faction": "T59",
 		"category": "tank",
 		"name": "Gun Walker",
@@ -2989,6 +3281,7 @@
 		"time": "0:07"
 	},
 	{
+		"id": "293",
 		"faction": "T59",
 		"category": "tank",
 		"name": "Seeker",
@@ -2997,6 +3290,7 @@
 		"time": "0:08"
 	},
 	{
+		"id": "294",
 		"faction": "T59",
 		"category": "tank",
 		"name": "Harvester",
@@ -3005,6 +3299,7 @@
 		"time": "0:16"
 	},
 	{
+		"id": "295",
 		"faction": "MOK",
 		"category": "tank",
 		"name": "The Enlightened",
@@ -3013,6 +3308,7 @@
 		"time": "0:12"
 	},
 	{
+		"id": "296",
 		"faction": "GDI",
 		"category": "tank",
 		"name": "Shatterer",
@@ -3021,6 +3317,7 @@
 		"time": "0:15"
 	},
 	{
+		"id": "297",
 		"faction": "GDI",
 		"category": "tank",
 		"name": "Slingshot",
@@ -3029,6 +3326,7 @@
 		"time": "0:10"
 	},
 	{
+		"id": "298",
 		"faction": "GDI",
 		"category": "tank",
 		"name": "Rig",
@@ -3037,6 +3335,7 @@
 		"time": "0:20"
 	},
 	{
+		"id": "299",
 		"faction": "ST",
 		"category": "tank",
 		"name": "Slingshot",
@@ -3045,6 +3344,7 @@
 		"time": "0:10"
 	},
 	{
+		"id": "300",
 		"faction": "ST",
 		"category": "tank",
 		"name": "Rig",
@@ -3053,6 +3353,7 @@
 		"time": "0:20"
 	},
 	{
+		"id": "301",
 		"faction": "Zocom",
 		"category": "tank",
 		"name": "Shatterer",
@@ -3061,6 +3362,7 @@
 		"time": "0:16"
 	},
 	{
+		"id": "302",
 		"faction": "Zocom",
 		"category": "tank",
 		"name": "Slingshot",
@@ -3069,6 +3371,7 @@
 		"time": "0:10"
 	},
 	{
+		"id": "303",
 		"faction": "Zocom",
 		"category": "tank",
 		"name": "Rig",
@@ -3077,6 +3380,7 @@
 		"time": "0:20"
 	},
 	{
+		"id": "304",
 		"faction": "NOD",
 		"category": "tank",
 		"name": "Flame Tank",
@@ -3085,6 +3389,7 @@
 		"time": "0:12"
 	},
 	{
+		"id": "305",
 		"faction": "NOD",
 		"category": "tank",
 		"name": "Reckonner",
@@ -3093,6 +3398,7 @@
 		"time": "0:09"
 	},
 	{
+		"id": "306",
 		"faction": "NOD",
 		"category": "tank",
 		"name": "Beam Cannon",
@@ -3101,6 +3407,7 @@
 		"time": "0:10"
 	},
 	{
+		"id": "307",
 		"faction": "MOK",
 		"category": "tank",
 		"name": "Tiberium Trooper",
@@ -3109,6 +3416,7 @@
 		"time": "0:09"
 	},
 	{
+		"id": "308",
 		"faction": "MOK",
 		"category": "tank",
 		"name": "Flame Tank",
@@ -3117,6 +3425,7 @@
 		"time": "0:12"
 	},
 	{
+		"id": "309",
 		"faction": "MOK",
 		"category": "tank",
 		"name": "Reckonner",
@@ -3125,6 +3434,7 @@
 		"time": "0:09"
 	},
 	{
+		"id": "310",
 		"faction": "MOK",
 		"category": "tank",
 		"name": "Beam Cannon",
@@ -3133,6 +3443,7 @@
 		"time": "0:10"
 	},
 	{
+		"id": "311",
 		"faction": "BH",
 		"category": "tank",
 		"name": "Flame Tank",
@@ -3141,6 +3452,7 @@
 		"time": "0:12"
 	},
 	{
+		"id": "312",
 		"faction": "BH",
 		"category": "tank",
 		"name": "Reckonner",
@@ -3149,6 +3461,7 @@
 		"time": "0:09"
 	},
 	{
+		"id": "313",
 		"faction": "BH",
 		"category": "tank",
 		"name": "Beam Cannon",
@@ -3157,6 +3470,7 @@
 		"time": "0:10"
 	},
 	{
+		"id": "314",
 		"faction": "BH",
 		"category": "tank",
 		"name": "Mantis",
@@ -3165,6 +3479,7 @@
 		"time": "0:12"
 	},
 	{
+		"id": "315",
 		"faction": "Scrin",
 		"category": "tank",
 		"name": "Devourer Tank",
@@ -3173,6 +3488,7 @@
 		"time": "0:16"
 	},
 	{
+		"id": "316",
 		"faction": "Scrin",
 		"category": "tank",
 		"name": "Corrupter",
@@ -3181,6 +3497,7 @@
 		"time": "0:10"
 	},
 	{
+		"id": "317",
 		"faction": "R17",
 		"category": "tank",
 		"name": "Devourer Tank",
@@ -3189,6 +3506,7 @@
 		"time": "0:16"
 	},
 	{
+		"id": "318",
 		"faction": "R17",
 		"category": "tank",
 		"name": "Corrupter",
@@ -3197,6 +3515,7 @@
 		"time": "0:10"
 	},
 	{
+		"id": "319",
 		"faction": "T59",
 		"category": "tank",
 		"name": "Corrupter",
@@ -3205,6 +3524,7 @@
 		"time": "0:10"
 	},
 	{
+		"id": "320",
 		"faction": "GDI",
 		"category": "tank",
 		"name": "Mammoth Tank",
@@ -3213,6 +3533,7 @@
 		"time": "0:25"
 	},
 	{
+		"id": "321",
 		"faction": "GDI",
 		"category": "tank",
 		"name": "Juggernaut",
@@ -3221,6 +3542,7 @@
 		"time": "0:22"
 	},
 	{
+		"id": "322",
 		"faction": "GDI",
 		"category": "tank",
 		"name": "MARV",
@@ -3229,6 +3551,7 @@
 		"time": "0:50"
 	},
 	{
+		"id": "323",
 		"faction": "ST",
 		"category": "tank",
 		"name": "Mammoth Tank",
@@ -3237,6 +3560,7 @@
 		"time": "0:25"
 	},
 	{
+		"id": "324",
 		"faction": "ST",
 		"category": "tank",
 		"name": "Behemoth",
@@ -3245,6 +3569,7 @@
 		"time": "0:22"
 	},
 	{
+		"id": "325",
 		"faction": "ST",
 		"category": "tank",
 		"name": "MARV",
@@ -3253,6 +3578,7 @@
 		"time": "0:50"
 	},
 	{
+		"id": "326",
 		"faction": "Zocom",
 		"category": "tank",
 		"name": "Zone Raider",
@@ -3261,6 +3587,7 @@
 		"time": "0:13"
 	},
 	{
+		"id": "327",
 		"faction": "Zocom",
 		"category": "tank",
 		"name": "Mammoth Tank",
@@ -3269,6 +3596,7 @@
 		"time": "0:25"
 	},
 	{
+		"id": "328",
 		"faction": "Zocom",
 		"category": "tank",
 		"name": "MARV",
@@ -3277,6 +3605,7 @@
 		"time": "0:50"
 	},
 	{
+		"id": "329",
 		"faction": "NOD",
 		"category": "tank",
 		"name": "Stealth Tank",
@@ -3285,6 +3614,7 @@
 		"time": "0:18"
 	},
 	{
+		"id": "330",
 		"faction": "NOD",
 		"category": "tank",
 		"name": "Specter",
@@ -3293,6 +3623,7 @@
 		"time": "0:15"
 	},
 	{
+		"id": "331",
 		"faction": "NOD",
 		"category": "tank",
 		"name": "Avatar",
@@ -3301,6 +3632,7 @@
 		"time": "0:22"
 	},
 	{
+		"id": "332",
 		"faction": "NOD",
 		"category": "tank",
 		"name": "Redeemer",
@@ -3309,6 +3641,7 @@
 		"time": "0:50"
 	},
 	{
+		"id": "333",
 		"faction": "MOK",
 		"category": "tank",
 		"name": "Stealth Tank",
@@ -3317,6 +3650,7 @@
 		"time": "0:18"
 	},
 	{
+		"id": "334",
 		"faction": "MOK",
 		"category": "tank",
 		"name": "Specter",
@@ -3325,6 +3659,7 @@
 		"time": "0:15"
 	},
 	{
+		"id": "335",
 		"faction": "MOK",
 		"category": "tank",
 		"name": "Avatar",
@@ -3333,6 +3668,7 @@
 		"time": "0:22"
 	},
 	{
+		"id": "336",
 		"faction": "MOK",
 		"category": "tank",
 		"name": "Redeemer",
@@ -3341,6 +3677,7 @@
 		"time": "0:50"
 	},
 	{
+		"id": "337",
 		"faction": "BH",
 		"category": "tank",
 		"name": "Specter",
@@ -3349,6 +3686,7 @@
 		"time": "0:15"
 	},
 	{
+		"id": "338",
 		"faction": "BH",
 		"category": "tank",
 		"name": "Purifier",
@@ -3357,6 +3695,7 @@
 		"time": "0:30"
 	},
 	{
+		"id": "339",
 		"faction": "BH",
 		"category": "tank",
 		"name": "Redeemer",
@@ -3365,6 +3704,7 @@
 		"time": "0:50"
 	},
 	{
+		"id": "340",
 		"faction": "Scrin",
 		"category": "tank",
 		"name": "Annihilator Tripod",
@@ -3373,6 +3713,7 @@
 		"time": "0:30"
 	},
 	{
+		"id": "341",
 		"faction": "Scrin",
 		"category": "tank",
 		"name": "Mechapede",
@@ -3381,6 +3722,7 @@
 		"time": "0:14"
 	},
 	{
+		"id": "342",
 		"faction": "Scrin",
 		"category": "tank",
 		"name": "Segments (8)",
@@ -3389,6 +3731,7 @@
 		"time": "0:00"
 	},
 	{
+		"id": "343",
 		"faction": "Scrin",
 		"category": "tank",
 		"name": "Hexapod",
@@ -3397,6 +3740,7 @@
 		"time": "0:50"
 	},
 	{
+		"id": "344",
 		"faction": "R17",
 		"category": "tank",
 		"name": "Reaper Tripod",
@@ -3405,6 +3749,7 @@
 		"time": "0:30"
 	},
 	{
+		"id": "345",
 		"faction": "R17",
 		"category": "tank",
 		"name": "Mechapede",
@@ -3413,6 +3758,7 @@
 		"time": "0:14"
 	},
 	{
+		"id": "346",
 		"faction": "R17",
 		"category": "tank",
 		"name": "Segments (8)",
@@ -3421,6 +3767,7 @@
 		"time": "0:00"
 	},
 	{
+		"id": "347",
 		"faction": "R17",
 		"category": "tank",
 		"name": "Hexapod",
@@ -3429,6 +3776,7 @@
 		"time": "0:50"
 	},
 	{
+		"id": "348",
 		"faction": "T59",
 		"category": "tank",
 		"name": "Annihilator Tripod",
@@ -3437,6 +3785,7 @@
 		"time": "0:30"
 	},
 	{
+		"id": "349",
 		"faction": "T59",
 		"category": "tank",
 		"name": "Mechapede",
@@ -3445,6 +3794,7 @@
 		"time": "0:14"
 	},
 	{
+		"id": "350",
 		"faction": "T59",
 		"category": "tank",
 		"name": "Segments (8)",
@@ -3453,6 +3803,7 @@
 		"time": "0:00"
 	},
 	{
+		"id": "351",
 		"faction": "T59",
 		"category": "tank",
 		"name": "Hexapod",
