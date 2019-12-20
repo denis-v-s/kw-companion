@@ -1,5 +1,4 @@
-{
-  "air": [
+[
 	{
 		"faction": "Scrin",
 		"category": "air",
@@ -254,8 +253,7 @@
 		"cost": "3000",
 		"time": "0:30",
 		"power": ""
-	}
-], "defense": [
+	},
 	{
 		"faction": "GDI",
 		"category": "defense",
@@ -999,8 +997,7 @@
 		"cost": "5000",
 		"time": "0:50",
 		"power": "15"
-	}
-], "infantry": [
+	},
 	{
 		"faction": "GDI",
 		"category": "infantry",
@@ -1448,8 +1445,7 @@
 		"power": "",
 		"sell_value": "",
 		"sell_spawn": ""
-	}
-], "structure": [
+	},
 	{
 		"faction": "GDI",
 		"category": "structure",
@@ -2588,8 +2584,7 @@
 		"power": "10",
 		"sell_value": "1500",
 		"sell_spawn": ""
-	}
-], "tank": [
+	},
 	{
 		"faction": "GDI",
 		"category": "tank",
@@ -3464,9 +3459,5 @@
 		"tier": "tier 3",
 		"cost": "5000",
 		"time": "0:50"
-	},
-	{
-		"faction": ""
 	}
 ]
-}
