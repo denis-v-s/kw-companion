@@ -345,7 +345,7 @@
         "name": "Radar Scan",
         "structure requirement": "Command Post",
         "cost": "300",
-        "Screenshot": "https://i.imgur.com/PCnJjT7.png"
+        "screenshot": "https://i.imgur.com/PCnJjT7.png"
       },
       "Sonic Repulsion Field": {
         "faction": "GDI",
@@ -353,7 +353,7 @@
         "name": "Sonic Repulsion Field",
         "structure requirement": "Command Post",
         "cost": "500",
-        "Screenshot": "https://i.imgur.com/SEmGk3U.png"
+        "screenshot": "https://i.imgur.com/SEmGk3U.png"
       },
       "Orca Strike": {
         "faction": "GDI",
@@ -361,7 +361,7 @@
         "name": "Orca Strike",
         "structure requirement": "Air Field",
         "cost": "500",
-        "Screenshot": "https://i.imgur.com/7NypBl2.png"
+        "screenshot": "https://i.imgur.com/7NypBl2.png"
       },
       "Bloodhounds": {
         "faction": "GDI",
@@ -369,7 +369,7 @@
         "name": "Bloodhounds",
         "structure requirement": "Air Field",
         "cost": "3000",
-        "Screenshot": "https://i.imgur.com/Wv7TMvc.png"
+        "screenshot": "https://i.imgur.com/Wv7TMvc.png"
       },
       "GDI Airborne": {
         "faction": "GDI",
@@ -377,7 +377,7 @@
         "name": "GDI Airborne",
         "structure requirement": "Armory",
         "cost": "1500",
-        "Screenshot": "https://i.imgur.com/wiSNtbN.png"
+        "screenshot": "https://i.imgur.com/wiSNtbN.png"
       },
       "Sharpshooter Team": {
         "faction": "GDI",
@@ -385,7 +385,7 @@
         "name": "Sharpshooter Team",
         "structure requirement": "Tech Center",
         "cost": "3500",
-        "Screenshot": "https://i.imgur.com/UAaHBc8.png"
+        "screenshot": "https://i.imgur.com/UAaHBc8.png"
       },
       "Zone Trooprt Drop Pod": {
         "faction": "GDI",
@@ -393,7 +393,7 @@
         "name": "Zone Trooprt Drop Pod",
         "structure requirement": "Space Command Uplink",
         "cost": "4500",
-        "Screenshot": "https://i.imgur.com/GjVyuWT.png"
+        "screenshot": "https://i.imgur.com/GjVyuWT.png"
       },
       "Shockwave Artillery": {
         "faction": "GDI",
@@ -401,7 +401,7 @@
         "name": "Shockwave Artillery",
         "structure requirement": "Space Command Uplink",
         "cost": "2000",
-        "Screenshot": "https://i.imgur.com/a0T4jGz.png"
+        "screenshot": "https://i.imgur.com/a0T4jGz.png"
       },
       "Orbital Strike": {
         "faction": "GDI",
@@ -409,7 +409,7 @@
         "name": "Orbital Strike",
         "structure requirement": "Space Command Uplink",
         "cost": "3000",
-        "Screenshot": "https://i.imgur.com/X57n043.png"
+        "screenshot": "https://i.imgur.com/X57n043.png"
       },
       "Supersonic Air Attack": {
         "faction": "GDI",
@@ -417,7 +417,7 @@
         "name": "Supersonic Air Attack",
         "structure requirement": "Space Command Uplink",
         "cost": "2000",
-        "Screenshot": "https://i.imgur.com/DyKf8Es.png"
+        "screenshot": "https://i.imgur.com/DyKf8Es.png"
       },
       "Ion Cannon": {
         "faction": "GDI",
@@ -425,7 +425,7 @@
         "name": "Ion Cannon",
         "structure requirement": "Ion Cannon",
         "cost": "0",
-        "Screenshot": "https://i.imgur.com/26pGYQb.png"
+        "screenshot": "https://i.imgur.com/26pGYQb.png"
       }
     },
     "infantry": {
@@ -1261,7 +1261,7 @@
         "name": "Radar Scan",
         "structure requirement": "Command Post",
         "cost": "300",
-        "Screenshot": "https://i.imgur.com/PCnJjT7.png"
+        "screenshot": "https://i.imgur.com/PCnJjT7.png"
       },
       "Sonic Repulsion Field": {
         "faction": "Zocom",
@@ -1269,7 +1269,7 @@
         "name": "Sonic Repulsion Field",
         "structure requirement": "Command Post",
         "cost": "500",
-        "Screenshot": "https://i.imgur.com/SEmGk3U.png"
+        "screenshot": "https://i.imgur.com/SEmGk3U.png"
       },
       "Orca Strike": {
         "faction": "Zocom",
@@ -1277,7 +1277,7 @@
         "name": "Orca Strike",
         "structure requirement": "Air Field",
         "cost": "500",
-        "Screenshot": "https://i.imgur.com/7NypBl2.png"
+        "screenshot": "https://i.imgur.com/7NypBl2.png"
       },
       "Bloodhounds": {
         "faction": "Zocom",
@@ -1285,7 +1285,7 @@
         "name": "Bloodhounds",
         "structure requirement": "Air Field",
         "cost": "3000",
-        "Screenshot": "https://i.imgur.com/Wv7TMvc.png"
+        "screenshot": "https://i.imgur.com/Wv7TMvc.png"
       },
       "Zocom Airborne": {
         "faction": "Zocom",
@@ -1293,7 +1293,7 @@
         "name": "Zocom Airborne",
         "structure requirement": "Armory",
         "cost": "1500",
-        "Screenshot": "https://i.imgur.com/wiSNtbN.png"
+        "screenshot": "https://i.imgur.com/wiSNtbN.png"
       },
       "Sharpshooter Team": {
         "faction": "Zocom",
@@ -1301,7 +1301,7 @@
         "name": "Sharpshooter Team",
         "structure requirement": "Tech Center",
         "cost": "3500",
-        "Screenshot": "https://i.imgur.com/UAaHBc8.png"
+        "screenshot": "https://i.imgur.com/UAaHBc8.png"
       },
       "Zone Raider Drop Pod": {
         "faction": "Zocom",
@@ -1309,7 +1309,7 @@
         "name": "Zone Raider Drop Pod",
         "structure requirement": "Space Command Uplink",
         "cost": "4500",
-        "Screenshot": "https://i.imgur.com/GjVyuWT.png"
+        "screenshot": "https://i.imgur.com/GjVyuWT.png"
       },
       "Shockwave Artillery": {
         "faction": "Zocom",
@@ -1317,7 +1317,7 @@
         "name": "Shockwave Artillery",
         "structure requirement": "Space Command Uplink",
         "cost": "2000",
-        "Screenshot": "https://i.imgur.com/a0T4jGz.png"
+        "screenshot": "https://i.imgur.com/a0T4jGz.png"
       },
       "Orbital Strike": {
         "faction": "Zocom",
@@ -1325,7 +1325,7 @@
         "name": "Orbital Strike",
         "structure requirement": "Space Command Uplink",
         "cost": "3000",
-        "Screenshot": "https://i.imgur.com/X57n043.png"
+        "screenshot": "https://i.imgur.com/X57n043.png"
       },
       "Supersonic Air Attack": {
         "faction": "Zocom",
@@ -1333,7 +1333,7 @@
         "name": "Supersonic Air Attack",
         "structure requirement": "Space Command Uplink",
         "cost": "2000",
-        "Screenshot": "https://i.imgur.com/DyKf8Es.png"
+        "screenshot": "https://i.imgur.com/DyKf8Es.png"
       },
       "Ion Cannon": {
         "faction": "Zocom",
@@ -1341,7 +1341,7 @@
         "name": "Ion Cannon",
         "structure requirement": "Ion Cannon",
         "cost": "0",
-        "Screenshot": "https://i.imgur.com/26pGYQb.png"
+        "screenshot": "https://i.imgur.com/26pGYQb.png"
       }
     },
     "infantry": {
@@ -2132,7 +2132,7 @@
         "name": "Radar Scan",
         "structure requirement": "Command Post",
         "cost": "300",
-        "Screenshot": "https://i.imgur.com/PCnJjT7.png"
+        "screenshot": "https://i.imgur.com/PCnJjT7.png"
       },
       "Sonic Repulsion Field": {
         "faction": "ST",
@@ -2140,7 +2140,7 @@
         "name": "Sonic Repulsion Field",
         "structure requirement": "Command Post",
         "cost": "500",
-        "Screenshot": "https://i.imgur.com/SEmGk3U.png"
+        "screenshot": "https://i.imgur.com/SEmGk3U.png"
       },
       "Orca Strike": {
         "faction": "ST",
@@ -2148,7 +2148,7 @@
         "name": "Orca Strike",
         "structure requirement": "Air Field",
         "cost": "500",
-        "Screenshot": "https://i.imgur.com/7NypBl2.png"
+        "screenshot": "https://i.imgur.com/7NypBl2.png"
       },
       "Bloodhounds": {
         "faction": "ST",
@@ -2156,7 +2156,7 @@
         "name": "Bloodhounds",
         "structure requirement": "Air Field",
         "cost": "3500",
-        "Screenshot": "https://i.imgur.com/u4N3pdJ.png"
+        "screenshot": "https://i.imgur.com/u4N3pdJ.png"
       },
       "Railgun Accelerator": {
         "faction": "ST",
@@ -2164,7 +2164,7 @@
         "name": "Railgun Accelerator",
         "structure requirement": "Tech Center",
         "cost": "500",
-        "Screenshot": "https://i.imgur.com/Zc6dake.png"
+        "screenshot": "https://i.imgur.com/Zc6dake.png"
       },
       "Shockwave Artillery": {
         "faction": "ST",
@@ -2172,7 +2172,7 @@
         "name": "Shockwave Artillery",
         "structure requirement": "Space Command Uplink",
         "cost": "2000",
-        "Screenshot": "https://i.imgur.com/a0T4jGz.png"
+        "screenshot": "https://i.imgur.com/a0T4jGz.png"
       },
       "Orbital Strike": {
         "faction": "ST",
@@ -2180,7 +2180,7 @@
         "name": "Orbital Strike",
         "structure requirement": "Space Command Uplink",
         "cost": "3000",
-        "Screenshot": "https://i.imgur.com/X57n043.png"
+        "screenshot": "https://i.imgur.com/X57n043.png"
       },
       "Supersonic Air Attack": {
         "faction": "ST",
@@ -2188,7 +2188,7 @@
         "name": "Supersonic Air Attack",
         "structure requirement": "Space Command Uplink",
         "cost": "2000",
-        "Screenshot": "https://i.imgur.com/DyKf8Es.png"
+        "screenshot": "https://i.imgur.com/DyKf8Es.png"
       },
       "Ion Cannon": {
         "faction": "ST",
@@ -2196,7 +2196,7 @@
         "name": "Ion Cannon",
         "structure requirement": "Ion Cannon",
         "cost": "0",
-        "Screenshot": "https://i.imgur.com/26pGYQb.png"
+        "screenshot": "https://i.imgur.com/26pGYQb.png"
       }
     },
     "infantry": {
@@ -2985,7 +2985,7 @@
         "name": "Shadow Strike Team",
         "structure requirement": "Secret Shrine",
         "cost": "2000",
-        "Screenshot": "https://i.imgur.com/IBlJsJx.png"
+        "screenshot": "https://i.imgur.com/IBlJsJx.png"
       },
       "Decoy Army": {
         "faction": "NOD",
@@ -2993,7 +2993,7 @@
         "name": "Decoy Army",
         "structure requirement": "Operations Center",
         "cost": "500",
-        "Screenshot": "https://i.imgur.com/8oO1Dsp.png"
+        "screenshot": "https://i.imgur.com/8oO1Dsp.png"
       },
       "Radar Jamming Missile": {
         "faction": "NOD",
@@ -3001,7 +3001,7 @@
         "name": "Radar Jamming Missile",
         "structure requirement": "Operations Center",
         "cost": "300",
-        "Screenshot": "https://i.imgur.com/OBVBwpG.png"
+        "screenshot": "https://i.imgur.com/OBVBwpG.png"
       },
       "Laser Fencing": {
         "faction": "NOD",
@@ -3009,7 +3009,7 @@
         "name": "Laser Fencing",
         "structure requirement": "Operations Center",
         "cost": "500",
-        "Screenshot": "https://i.imgur.com/9NrKQOz.png"
+        "screenshot": "https://i.imgur.com/9NrKQOz.png"
       },
       "Cloaking Field": {
         "faction": "NOD",
@@ -3017,7 +3017,7 @@
         "name": "Cloaking Field",
         "structure requirement": "Operations Center",
         "cost": "3000",
-        "Screenshot": "https://i.imgur.com/wUNr0sH.png"
+        "screenshot": "https://i.imgur.com/wUNr0sH.png"
       },
       "Redemption": {
         "faction": "NOD",
@@ -3025,7 +3025,7 @@
         "name": "Redemption",
         "structure requirement": "Tech Lab",
         "cost": "750",
-        "Screenshot": "https://i.imgur.com/LHaFvlP.png"
+        "screenshot": "https://i.imgur.com/LHaFvlP.png"
       },
       "Mine Drop": {
         "faction": "NOD",
@@ -3033,7 +3033,7 @@
         "name": "Mine Drop",
         "structure requirement": "Air Tower",
         "cost": "1500",
-        "Screenshot": "https://i.imgur.com/W95oRWI.png"
+        "screenshot": "https://i.imgur.com/W95oRWI.png"
       },
       "Tiberium Vein Detonation": {
         "faction": "NOD",
@@ -3041,7 +3041,7 @@
         "name": "Tiberium Vein Detonation",
         "structure requirement": "Tiberium Chemical Plant",
         "cost": "3500",
-        "Screenshot": "https://i.imgur.com/R2NE9GD.png"
+        "screenshot": "https://i.imgur.com/R2NE9GD.png"
       },
       "Catalyst Missile": {
         "faction": "NOD",
@@ -3049,7 +3049,7 @@
         "name": "Catalyst Missile",
         "structure requirement": "Tiberium Chemical Plant",
         "cost": "2000",
-        "Screenshot": "https://i.imgur.com/QzOVaO7.png"
+        "screenshot": "https://i.imgur.com/QzOVaO7.png"
       },
       "Seed Tiberium": {
         "faction": "NOD",
@@ -3057,7 +3057,7 @@
         "name": "Seed Tiberium",
         "structure requirement": "Tiberium Chemical Plant",
         "cost": "500",
-        "Screenshot": "https://i.imgur.com/haKqr4z.png"
+        "screenshot": "https://i.imgur.com/haKqr4z.png"
       },
       "Tiberium Vapor Bomb": {
         "faction": "NOD",
@@ -3065,7 +3065,7 @@
         "name": "Tiberium Vapor Bomb",
         "structure requirement": "Tiberium Chemical Plant",
         "cost": "3500",
-        "Screenshot": "https://i.imgur.com/QlIJqzb.png"
+        "screenshot": "https://i.imgur.com/QlIJqzb.png"
       },
       "Nuclear Missile": {
         "faction": "NOD",
@@ -3073,7 +3073,7 @@
         "name": "Nuclear Missile",
         "structure requirement": "Temple of NOD",
         "cost": "0",
-        "Screenshot": "https://i.imgur.com/cvhhc9S.png"
+        "screenshot": "https://i.imgur.com/cvhhc9S.png"
       }
     },
     "infantry": {
@@ -3889,7 +3889,7 @@
         "name": "Shadow Strike Team",
         "structure requirement": "Secret Shrine",
         "cost": "2000",
-        "Screenshot": "https://i.imgur.com/IBlJsJx.png"
+        "screenshot": "https://i.imgur.com/IBlJsJx.png"
       },
       "Decoy Army": {
         "faction": "MOK",
@@ -3897,7 +3897,7 @@
         "name": "Decoy Army",
         "structure requirement": "Operations Center",
         "cost": "500",
-        "Screenshot": "https://i.imgur.com/8oO1Dsp.png"
+        "screenshot": "https://i.imgur.com/8oO1Dsp.png"
       },
       "Radar Jamming Missile": {
         "faction": "MOK",
@@ -3905,7 +3905,7 @@
         "name": "Radar Jamming Missile",
         "structure requirement": "Operations Center",
         "cost": "300",
-        "Screenshot": "https://i.imgur.com/OBVBwpG.png"
+        "screenshot": "https://i.imgur.com/OBVBwpG.png"
       },
       "Laser Fencing": {
         "faction": "MOK",
@@ -3913,7 +3913,7 @@
         "name": "Laser Fencing",
         "structure requirement": "Operations Center",
         "cost": "500",
-        "Screenshot": "https://i.imgur.com/9NrKQOz.png"
+        "screenshot": "https://i.imgur.com/9NrKQOz.png"
       },
       "Cloaking Field": {
         "faction": "MOK",
@@ -3921,7 +3921,7 @@
         "name": "Cloaking Field",
         "structure requirement": "Operations Center",
         "cost": "3000",
-        "Screenshot": "https://i.imgur.com/wUNr0sH.png"
+        "screenshot": "https://i.imgur.com/wUNr0sH.png"
       },
       "Magnetic Mine Drop": {
         "faction": "MOK",
@@ -3929,7 +3929,7 @@
         "name": "Magnetic Mine Drop",
         "structure requirement": "Air Tower",
         "cost": "1500",
-        "Screenshot": "https://i.imgur.com/RpLdx6I.png"
+        "screenshot": "https://i.imgur.com/RpLdx6I.png"
       },
       "Tiberium Vein Detonation": {
         "faction": "MOK",
@@ -3937,7 +3937,7 @@
         "name": "Tiberium Vein Detonation",
         "structure requirement": "Tiberium Chemical Plant",
         "cost": "3500",
-        "Screenshot": "https://i.imgur.com/R2NE9GD.png"
+        "screenshot": "https://i.imgur.com/R2NE9GD.png"
       },
       "Catalyst Missile": {
         "faction": "MOK",
@@ -3945,7 +3945,7 @@
         "name": "Catalyst Missile",
         "structure requirement": "Tiberium Chemical Plant",
         "cost": "2000",
-        "Screenshot": "https://i.imgur.com/QzOVaO7.png"
+        "screenshot": "https://i.imgur.com/QzOVaO7.png"
       },
       "Seed Tiberium": {
         "faction": "MOK",
@@ -3953,7 +3953,7 @@
         "name": "Seed Tiberium",
         "structure requirement": "Tiberium Chemical Plant",
         "cost": "500",
-        "Screenshot": "https://i.imgur.com/haKqr4z.png"
+        "screenshot": "https://i.imgur.com/haKqr4z.png"
       },
       "Tiberium Vapor Bomb": {
         "faction": "MOK",
@@ -3961,7 +3961,7 @@
         "name": "Tiberium Vapor Bomb",
         "structure requirement": "Tiberium Chemical Plant",
         "cost": "3500",
-        "Screenshot": "https://i.imgur.com/QlIJqzb.png"
+        "screenshot": "https://i.imgur.com/QlIJqzb.png"
       },
       "Nuclear Missile": {
         "faction": "MOK",
@@ -3969,7 +3969,7 @@
         "name": "Nuclear Missile",
         "structure requirement": "Temple of NOD",
         "cost": "0",
-        "Screenshot": "https://i.imgur.com/cvhhc9S.png"
+        "screenshot": "https://i.imgur.com/cvhhc9S.png"
       }
     },
     "infantry": {
@@ -4759,7 +4759,7 @@
         "name": "Decoy Army",
         "structure requirement": "Operations Center",
         "cost": "500",
-        "Screenshot": "https://i.imgur.com/8oO1Dsp.png"
+        "screenshot": "https://i.imgur.com/8oO1Dsp.png"
       },
       "Radar Jamming Missile": {
         "faction": "BH",
@@ -4767,7 +4767,7 @@
         "name": "Radar Jamming Missile",
         "structure requirement": "Operations Center",
         "cost": "300",
-        "Screenshot": "https://i.imgur.com/OBVBwpG.png"
+        "screenshot": "https://i.imgur.com/OBVBwpG.png"
       },
       "Laser Fencing": {
         "faction": "BH",
@@ -4775,7 +4775,7 @@
         "name": "Laser Fencing",
         "structure requirement": "Operations Center",
         "cost": "500",
-        "Screenshot": "https://i.imgur.com/9NrKQOz.png"
+        "screenshot": "https://i.imgur.com/9NrKQOz.png"
       },
       "Power Signature Scan": {
         "faction": "BH",
@@ -4783,7 +4783,7 @@
         "name": "Power Signature Scan",
         "structure requirement": "Operations Center",
         "cost": "300",
-        "Screenshot": "https://i.imgur.com/7k5qMRJ.png"
+        "screenshot": "https://i.imgur.com/7k5qMRJ.png"
       },
       "Decoy Temple": {
         "faction": "BH",
@@ -4791,7 +4791,7 @@
         "name": "Decoy Temple",
         "structure requirement": "Tech Lab",
         "cost": "500",
-        "Screenshot": "https://i.imgur.com/YxVVMa5.png"
+        "screenshot": "https://i.imgur.com/YxVVMa5.png"
       },
       "Tiberium Vein Detonation": {
         "faction": "BH",
@@ -4799,7 +4799,7 @@
         "name": "Tiberium Vein Detonation",
         "structure requirement": "Tiberium Chemical Plant",
         "cost": "3500",
-        "Screenshot": "https://i.imgur.com/R2NE9GD.png"
+        "screenshot": "https://i.imgur.com/R2NE9GD.png"
       },
       "Catalyst Missile": {
         "faction": "BH",
@@ -4807,7 +4807,7 @@
         "name": "Catalyst Missile",
         "structure requirement": "Tiberium Chemical Plant",
         "cost": "2000",
-        "Screenshot": "https://i.imgur.com/QzOVaO7.png"
+        "screenshot": "https://i.imgur.com/QzOVaO7.png"
       },
       "Seed Tiberium": {
         "faction": "BH",
@@ -4815,7 +4815,7 @@
         "name": "Seed Tiberium",
         "structure requirement": "Tiberium Chemical Plant",
         "cost": "500",
-        "Screenshot": "https://i.imgur.com/haKqr4z.png"
+        "screenshot": "https://i.imgur.com/haKqr4z.png"
       },
       "Tiberium Vapor Bomb": {
         "faction": "BH",
@@ -4823,7 +4823,7 @@
         "name": "Tiberium Vapor Bomb",
         "structure requirement": "Tiberium Chemical Plant",
         "cost": "3500",
-        "Screenshot": "https://i.imgur.com/QlIJqzb.png"
+        "screenshot": "https://i.imgur.com/QlIJqzb.png"
       },
       "Nuclear Missile": {
         "faction": "BH",
@@ -4831,7 +4831,7 @@
         "name": "Nuclear Missile",
         "structure requirement": "Temple of NOD",
         "cost": "0",
-        "Screenshot": "https://i.imgur.com/cvhhc9S.png"
+        "screenshot": "https://i.imgur.com/cvhhc9S.png"
       }
     },
     "infantry": {
@@ -5441,7 +5441,7 @@
         "name": "Reconstruction Drones",
         "structure requirement": "Warp Sphere",
         "cost": "1500",
-        "Screenshot": "https://i.imgur.com/3NsXhYo.png"
+        "screenshot": "https://i.imgur.com/3NsXhYo.png"
       },
       "Tiberium Vibration Scan": {
         "faction": "Scrin",
@@ -5449,7 +5449,7 @@
         "name": "Tiberium Vibration Scan",
         "structure requirement": "Nerve Center",
         "cost": "300",
-        "Screenshot": "https://i.imgur.com/JpzSPqB.png"
+        "screenshot": "https://i.imgur.com/JpzSPqB.png"
       },
       "The Swarm": {
         "faction": "Scrin",
@@ -5457,7 +5457,7 @@
         "name": "The Swarm",
         "structure requirement": "Nerve Center",
         "cost": "1500",
-        "Screenshot": "https://i.imgur.com/kstwL8v.png"
+        "screenshot": "https://i.imgur.com/kstwL8v.png"
       },
       "Ichor Seed": {
         "faction": "Scrin",
@@ -5465,7 +5465,7 @@
         "name": "Ichor Seed",
         "structure requirement": "Nerve Center",
         "cost": "1000",
-        "Screenshot": "https://i.imgur.com/bjnmZat.png"
+        "screenshot": "https://i.imgur.com/bjnmZat.png"
       },
       "Lightning Spike": {
         "faction": "Scrin",
@@ -5473,7 +5473,7 @@
         "name": "Lightning Spike",
         "structure requirement": "Nerve Center",
         "cost": "1500",
-        "Screenshot": "https://i.imgur.com/pZPmZa2.png"
+        "screenshot": "https://i.imgur.com/pZPmZa2.png"
       },
       "Infestation": {
         "faction": "Scrin",
@@ -5481,7 +5481,7 @@
         "name": "Infestation",
         "structure requirement": "Nerve Center",
         "cost": "1000",
-        "Screenshot": "https://i.imgur.com/1jR2gQc.png"
+        "screenshot": "https://i.imgur.com/1jR2gQc.png"
       },
       "Phase Field": {
         "faction": "Scrin",
@@ -5489,7 +5489,7 @@
         "name": "Phase Field",
         "structure requirement": "Technology Assembler",
         "cost": "1500",
-        "Screenshot": "https://i.imgur.com/mD2m5CK.png"
+        "screenshot": "https://i.imgur.com/mD2m5CK.png"
       },
       "Wormhole": {
         "faction": "Scrin",
@@ -5497,7 +5497,7 @@
         "name": "Wormhole",
         "structure requirement": "Signal Transmitter",
         "cost": "2000",
-        "Screenshot": "https://i.imgur.com/7MLZzxW.png"
+        "screenshot": "https://i.imgur.com/7MLZzxW.png"
       },
       "Mothership": {
         "faction": "Scrin",
@@ -5505,7 +5505,7 @@
         "name": "Mothership",
         "structure requirement": "Signal Transmitter",
         "cost": "5000",
-        "Screenshot": "https://i.imgur.com/2bVz8wL.png"
+        "screenshot": "https://i.imgur.com/2bVz8wL.png"
       },
       "Overlord's Wrath": {
         "faction": "Scrin",
@@ -5513,7 +5513,7 @@
         "name": "Overlord's Wrath",
         "structure requirement": "Signal Transmitter",
         "cost": "4000",
-        "Screenshot": "https://i.imgur.com/iBYY47d.png"
+        "screenshot": "https://i.imgur.com/iBYY47d.png"
       },
       "Stasis Shield": {
         "faction": "Scrin",
@@ -5521,7 +5521,7 @@
         "name": "Stasis Shield",
         "structure requirement": "Stasis Chamber",
         "cost": "2000",
-        "Screenshot": "https://i.imgur.com/MXr9bYv.png"
+        "screenshot": "https://i.imgur.com/MXr9bYv.png"
       }
     },
     "infantry": {
@@ -5772,7 +5772,7 @@
               "upgrade": "Shard Segment",
               "cost": "100",
               "time": "0:00",
-              "Screenshot": "https://i.imgur.com/GKBrS9E.gif"
+              "screenshot": "https://i.imgur.com/GKBrS9E.gif"
             }
           },
           {
@@ -5782,7 +5782,7 @@
               "upgrade": "Toxin Segment",
               "cost": "100",
               "time": "0:00",
-              "Screenshot": "https://i.imgur.com/xmbqX4L.gif"
+              "screenshot": "https://i.imgur.com/xmbqX4L.gif"
             }
           },
           {
@@ -5792,7 +5792,7 @@
               "upgrade": "Disc Segment",
               "cost": "100",
               "time": "0:00",
-              "Screenshot": "https://i.imgur.com/wMRPpay.gif"
+              "screenshot": "https://i.imgur.com/wMRPpay.gif"
             }
           },
           {
@@ -5802,7 +5802,7 @@
               "upgrade": "Disintegrator Segment",
               "cost": "100",
               "time": "0:00",
-              "Screenshot": "https://i.imgur.com/FpAvt5o.gif"
+              "screenshot": "https://i.imgur.com/FpAvt5o.gif"
             }
           }
         ]
@@ -6182,7 +6182,7 @@
         "name": "Reconstruction Drones",
         "structure requirement": "Warp Sphere",
         "cost": "1500",
-        "Screenshot": "https://i.imgur.com/3NsXhYo.png"
+        "screenshot": "https://i.imgur.com/3NsXhYo.png"
       },
       "Tiberium Vibration Scan": {
         "faction": "T59",
@@ -6190,7 +6190,7 @@
         "name": "Tiberium Vibration Scan",
         "structure requirement": "Nerve Center",
         "cost": "300",
-        "Screenshot": "https://i.imgur.com/JpzSPqB.png"
+        "screenshot": "https://i.imgur.com/JpzSPqB.png"
       },
       "The Swarm": {
         "faction": "T59",
@@ -6198,7 +6198,7 @@
         "name": "The Swarm",
         "structure requirement": "Nerve Center",
         "cost": "1500",
-        "Screenshot": "https://i.imgur.com/kstwL8v.png"
+        "screenshot": "https://i.imgur.com/kstwL8v.png"
       },
       "Ichor Seed": {
         "faction": "T59",
@@ -6206,7 +6206,7 @@
         "name": "Ichor Seed",
         "structure requirement": "Nerve Center",
         "cost": "1000",
-        "Screenshot": "https://i.imgur.com/bjnmZat.png"
+        "screenshot": "https://i.imgur.com/bjnmZat.png"
       },
       "Lightning Spike": {
         "faction": "T59",
@@ -6214,7 +6214,7 @@
         "name": "Lightning Spike",
         "structure requirement": "Nerve Center",
         "cost": "1500",
-        "Screenshot": "https://i.imgur.com/pZPmZa2.png"
+        "screenshot": "https://i.imgur.com/pZPmZa2.png"
       },
       "Infestation": {
         "faction": "T59",
@@ -6222,7 +6222,7 @@
         "name": "Infestation",
         "structure requirement": "Nerve Center",
         "cost": "1000",
-        "Screenshot": "https://i.imgur.com/1jR2gQc.png"
+        "screenshot": "https://i.imgur.com/1jR2gQc.png"
       },
       "Phase Field": {
         "faction": "T59",
@@ -6230,7 +6230,7 @@
         "name": "Phase Field",
         "structure requirement": "Technology Assembler",
         "cost": "1500",
-        "Screenshot": "https://i.imgur.com/mD2m5CK.png"
+        "screenshot": "https://i.imgur.com/mD2m5CK.png"
       },
       "Wormhole": {
         "faction": "T59",
@@ -6238,7 +6238,7 @@
         "name": "Wormhole",
         "structure requirement": "Signal Transmitter",
         "cost": "2000",
-        "Screenshot": "https://i.imgur.com/7MLZzxW.png"
+        "screenshot": "https://i.imgur.com/7MLZzxW.png"
       },
       "Mothership": {
         "faction": "T59",
@@ -6246,7 +6246,7 @@
         "name": "Mothership",
         "structure requirement": "Signal Transmitter",
         "cost": "5000",
-        "Screenshot": "https://i.imgur.com/2bVz8wL.png"
+        "screenshot": "https://i.imgur.com/2bVz8wL.png"
       },
       "Overlord's Wrath": {
         "faction": "T59",
@@ -6254,7 +6254,7 @@
         "name": "Overlord's Wrath",
         "structure requirement": "Signal Transmitter",
         "cost": "4000",
-        "Screenshot": "https://i.imgur.com/iBYY47d.png"
+        "screenshot": "https://i.imgur.com/iBYY47d.png"
       },
       "Temporal Wormhole": {
         "faction": "T59",
@@ -6262,7 +6262,7 @@
         "name": "Temporal Wormhole",
         "structure requirement": "Stasis Chamber",
         "cost": "1200",
-        "Screenshot": "https://i.imgur.com/Lno1Tp8.png"
+        "screenshot": "https://i.imgur.com/Lno1Tp8.png"
       }
     },
     "infantry": {
@@ -6519,7 +6519,7 @@
               "upgrade": "Shard Segment",
               "cost": "100",
               "time": "0:00",
-              "Screenshot": "https://i.imgur.com/GKBrS9E.gif"
+              "screenshot": "https://i.imgur.com/GKBrS9E.gif"
             }
           },
           {
@@ -6529,7 +6529,7 @@
               "upgrade": "Toxin Segment",
               "cost": "100",
               "time": "0:00",
-              "Screenshot": "https://i.imgur.com/xmbqX4L.gif"
+              "screenshot": "https://i.imgur.com/xmbqX4L.gif"
             }
           },
           {
@@ -6539,7 +6539,7 @@
               "upgrade": "Disc Segment",
               "cost": "100",
               "time": "0:00",
-              "Screenshot": "https://i.imgur.com/wMRPpay.gif"
+              "screenshot": "https://i.imgur.com/wMRPpay.gif"
             }
           },
           {
@@ -6549,7 +6549,7 @@
               "upgrade": "Disintegrator Segment",
               "cost": "100",
               "time": "0:00",
-              "Screenshot": "https://i.imgur.com/FpAvt5o.gif"
+              "screenshot": "https://i.imgur.com/FpAvt5o.gif"
             }
           }
         ]
@@ -6944,7 +6944,7 @@
         "name": "Reconstruction Drones",
         "structure requirement": "Warp Sphere",
         "cost": "1500",
-        "Screenshot": "https://i.imgur.com/3NsXhYo.png"
+        "screenshot": "https://i.imgur.com/3NsXhYo.png"
       },
       "Tiberium Vibration Scan": {
         "faction": "R17",
@@ -6952,7 +6952,7 @@
         "name": "Tiberium Vibration Scan",
         "structure requirement": "Nerve Center",
         "cost": "0",
-        "Screenshot": "https://i.imgur.com/JpzSPqB.png"
+        "screenshot": "https://i.imgur.com/JpzSPqB.png"
       },
       "The Swarm": {
         "faction": "R17",
@@ -6960,7 +6960,7 @@
         "name": "The Swarm",
         "structure requirement": "Nerve Center",
         "cost": "1500",
-        "Screenshot": "https://i.imgur.com/kstwL8v.png"
+        "screenshot": "https://i.imgur.com/kstwL8v.png"
       },
       "Ichor Seed": {
         "faction": "R17",
@@ -6968,7 +6968,7 @@
         "name": "Ichor Seed",
         "structure requirement": "Nerve Center",
         "cost": "1000",
-        "Screenshot": "https://i.imgur.com/bjnmZat.png"
+        "screenshot": "https://i.imgur.com/bjnmZat.png"
       },
       "Lightning Spike": {
         "faction": "R17",
@@ -6976,7 +6976,7 @@
         "name": "Lightning Spike",
         "structure requirement": "Nerve Center",
         "cost": "1500",
-        "Screenshot": "https://i.imgur.com/pZPmZa2.png"
+        "screenshot": "https://i.imgur.com/pZPmZa2.png"
       },
       "Infestation": {
         "faction": "R17",
@@ -6984,7 +6984,7 @@
         "name": "Infestation",
         "structure requirement": "Nerve Center",
         "cost": "1000",
-        "Screenshot": "https://i.imgur.com/1jR2gQc.png"
+        "screenshot": "https://i.imgur.com/1jR2gQc.png"
       },
       "Phase Field": {
         "faction": "R17",
@@ -6992,7 +6992,7 @@
         "name": "Phase Field",
         "structure requirement": "Technology Assembler",
         "cost": "1500",
-        "Screenshot": "https://i.imgur.com/mD2m5CK.png"
+        "screenshot": "https://i.imgur.com/mD2m5CK.png"
       },
       "Mothership": {
         "faction": "R17",
@@ -7000,7 +7000,7 @@
         "name": "Mothership",
         "structure requirement": "Signal Transmitter",
         "cost": "5000",
-        "Screenshot": "https://i.imgur.com/2bVz8wL.png"
+        "screenshot": "https://i.imgur.com/2bVz8wL.png"
       },
       "Overlord's Wrath": {
         "faction": "R17",
@@ -7008,7 +7008,7 @@
         "name": "Overlord's Wrath",
         "structure requirement": "Signal Transmitter",
         "cost": "4000",
-        "Screenshot": "https://i.imgur.com/iBYY47d.png"
+        "screenshot": "https://i.imgur.com/iBYY47d.png"
       },
       "Shock Pods": {
         "faction": "R17",
@@ -7016,7 +7016,7 @@
         "name": "Shock Pods",
         "structure requirement": "Signal Transmitter",
         "cost": "3000",
-        "Screenshot": "https://i.imgur.com/vZC120I.png"
+        "screenshot": "https://i.imgur.com/vZC120I.png"
       },
       "Stasis Shield": {
         "faction": "R17",
@@ -7024,7 +7024,7 @@
         "name": "Stasis Shield",
         "structure requirement": "Stasis Chamber",
         "cost": "2000",
-        "Screenshot": "https://i.imgur.com/MXr9bYv.png"
+        "screenshot": "https://i.imgur.com/MXr9bYv.png"
       }
     },
     "infantry": {
@@ -7256,7 +7256,7 @@
               "upgrade": "Shard Segment",
               "cost": "100",
               "time": "0:00",
-              "Screenshot": "https://i.imgur.com/GKBrS9E.gif"
+              "screenshot": "https://i.imgur.com/GKBrS9E.gif"
             }
           },
           {
@@ -7266,7 +7266,7 @@
               "upgrade": "Toxin Segment",
               "cost": "100",
               "time": "0:00",
-              "Screenshot": "https://i.imgur.com/xmbqX4L.gif"
+              "screenshot": "https://i.imgur.com/xmbqX4L.gif"
             }
           },
           {
@@ -7276,7 +7276,7 @@
               "upgrade": "Disc Segment",
               "cost": "100",
               "time": "0:00",
-              "Screenshot": "https://i.imgur.com/wMRPpay.gif"
+              "screenshot": "https://i.imgur.com/wMRPpay.gif"
             }
           },
           {
@@ -7286,7 +7286,7 @@
               "upgrade": "Disintegrator Segment",
               "cost": "100",
               "time": "0:00",
-              "Screenshot": "https://i.imgur.com/FpAvt5o.gif"
+              "screenshot": "https://i.imgur.com/FpAvt5o.gif"
             }
           }
         ]
