@@ -1,6 +1,6 @@
 {
   "GDI": {
-    "structures": {
+    "structure": {
       "Crane": {
         "faction": "GDI",
         "category": "structure",
@@ -248,7 +248,7 @@
         "abilities": []
       }
     },
-    "defenses": {
+    "defense": {
       "Support Airfield": {
         "faction": "GDI",
         "category": "defense",
@@ -338,7 +338,7 @@
         "screenshot": "https://i.imgur.com/2U8fULT.gif"
       }
     },
-    "supportPowers": {
+    "support power": {
       "Radar Scan": {
         "faction": "GDI",
         "category": "support power",
@@ -923,7 +923,7 @@
     }
   },
   "Zocom": {
-    "structures": {
+    "structure": {
       "Crane": {
         "faction": "Zocom",
         "category": "structure",
@@ -1164,7 +1164,7 @@
         "abilities": []
       }
     },
-    "defenses": {
+    "defense": {
       "Support Airfield": {
         "faction": "Zocom",
         "category": "defense",
@@ -1254,7 +1254,7 @@
         "screenshot": "https://i.imgur.com/2U8fULT.gif"
       }
     },
-    "supportPowers": {
+    "support power": {
       "Radar Scan": {
         "faction": "Zocom",
         "category": "support power",
@@ -1826,7 +1826,7 @@
     }
   },
   "ST": {
-    "structures": {
+    "structure": {
       "Crane": {
         "faction": "ST",
         "category": "structure",
@@ -2046,7 +2046,7 @@
         "abilities": []
       }
     },
-    "defenses": {
+    "defense": {
       "Support Airfield": {
         "faction": "ST",
         "category": "defense",
@@ -2125,7 +2125,7 @@
         "screenshot": "https://i.imgur.com/2U8fULT.gif"
       }
     },
-    "supportPowers": {
+    "support power": {
       "Radar Scan": {
         "faction": "ST",
         "category": "support power",
@@ -2631,7 +2631,7 @@
     }
   },
   "NOD": {
-    "structures": {
+    "structure": {
       "Crane": {
         "faction": "NOD",
         "category": "structure",
@@ -2858,7 +2858,7 @@
         "abilities": []
       }
     },
-    "defenses": {
+    "defense": {
       "Shredder Turret": {
         "faction": "NOD",
         "category": "defense",
@@ -2978,7 +2978,7 @@
         "screenshot": "https://i.imgur.com/jZo70lk.gif"
       }
     },
-    "supportPowers": {
+    "support power": {
       "Shadow Strike Team": {
         "faction": "NOD",
         "category": "support power",
@@ -3392,7 +3392,7 @@
         "screenshot": "https://i.imgur.com/tkHYGCJ.gif",
         "abilities": [
           {
-            "Charge Defenses": {
+            "Charge defense": {
               "cost": "0",
               "screenshot": "https://i.imgur.com/jM1RRIv.gif"
             }
@@ -3535,7 +3535,7 @@
     }
   },
   "MOK": {
-    "structures": {
+    "structure": {
       "Crane": {
         "faction": "MOK",
         "category": "structure",
@@ -3762,7 +3762,7 @@
         "abilities": []
       }
     },
-    "defenses": {
+    "defense": {
       "Shredder Turret": {
         "faction": "MOK",
         "category": "defense",
@@ -3882,7 +3882,7 @@
         "screenshot": "https://i.imgur.com/jZo70lk.gif"
       }
     },
-    "supportPowers": {
+    "support power": {
       "Shadow Strike Team": {
         "faction": "MOK",
         "category": "support power",
@@ -4319,7 +4319,7 @@
         "screenshot": "https://i.imgur.com/tkHYGCJ.gif",
         "abilities": [
           {
-            "Charge Defenses": {
+            "Charge defense": {
               "cost": "0",
               "screenshot": "https://i.imgur.com/jM1RRIv.gif"
             }
@@ -4462,7 +4462,7 @@
     }
   },
   "BH": {
-    "structures": {
+    "structure": {
       "Crane": {
         "faction": "BH",
         "category": "structure",
@@ -4654,7 +4654,7 @@
         "abilities": []
       }
     },
-    "defenses": {
+    "defense": {
       "Shredder Turret": {
         "faction": "BH",
         "category": "defense",
@@ -4752,7 +4752,7 @@
         "screenshot": "https://i.imgur.com/jZo70lk.gif"
       }
     },
-    "supportPowers": {
+    "support power": {
       "Decoy Army": {
         "faction": "BH",
         "category": "support power",
@@ -5059,7 +5059,7 @@
         "screenshot": "https://i.imgur.com/tkHYGCJ.gif",
         "abilities": [
           {
-            "Charge Defenses": {
+            "Charge defense": {
               "cost": "0",
               "screenshot": "https://i.imgur.com/jM1RRIv.gif"
             }
@@ -5150,7 +5150,7 @@
     }
   },
   "Scrin": {
-    "structures": {
+    "structure": {
       "Foundry": {
         "faction": "Scrin",
         "category": "structure",
@@ -5355,7 +5355,7 @@
         "abilities": []
       }
     },
-    "defenses": {
+    "defense": {
       "Buzzer Hive": {
         "faction": "Scrin",
         "category": "defense",
@@ -5434,7 +5434,7 @@
         "screenshot": "https://i.imgur.com/iFHlueT.gif"
       }
     },
-    "supportPowers": {
+    "support power": {
       "Reconstruction Drones": {
         "faction": "Scrin",
         "category": "support power",
@@ -5899,7 +5899,7 @@
     }
   },
   "T59": {
-    "structures": {
+    "structure": {
       "Foundry": {
         "faction": "T59",
         "category": "structure",
@@ -6096,7 +6096,7 @@
         "abilities": []
       }
     },
-    "defenses": {
+    "defense": {
       "Buzzer Hive": {
         "faction": "T59",
         "category": "defense",
@@ -6175,7 +6175,7 @@
         "screenshot": "https://i.imgur.com/iFHlueT.gif"
       }
     },
-    "supportPowers": {
+    "support power": {
       "Reconstruction Drones": {
         "faction": "T59",
         "category": "support power",
@@ -6646,7 +6646,7 @@
     }
   },
   "R17": {
-    "structures": {
+    "structure": {
       "Foundry": {
         "faction": "R17",
         "category": "structure",
@@ -6858,7 +6858,7 @@
         "abilities": []
       }
     },
-    "defenses": {
+    "defense": {
       "Buzzer Hive": {
         "faction": "R17",
         "category": "defense",
@@ -6937,7 +6937,7 @@
         "screenshot": "https://i.imgur.com/iFHlueT.gif"
       }
     },
-    "supportPowers": {
+    "support power": {
       "Reconstruction Drones": {
         "faction": "R17",
         "category": "support power",
